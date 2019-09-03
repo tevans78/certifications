@@ -1,0 +1,43 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Dummy Test Spec.
+
+== Open Liberty 19.0.0.8 Dummy Test Spec Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://openliberty.io/download[Open Liberty]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/dummy-test/x.0[Jakarta EE Dummy Test x.0]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://download.eclipse.org/jakartaee/dummy-test/x.0/eclipse-dummy-test-tck-x.0.0.zip[Jakarta EE Dummy Test TCK x.0], SHA-256: `not a hash`
+
+* Public URL of TCK Results Summary:
++
+link:TCK-Results.html[TCK results summary]
+
+* Any Additional Specification Certification Requirements:
++
+Jakarta Contexts and Dependency Injection
++
+https://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[cdi-tck-2.0.6-dist.zip], SHA-256:
+  `not a hash`<br/>
+
+* Java runtime used to run the implementation:
++
+OpenJDK 8 + HotSpot (jdk8u222-b10)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Apache Derby, Linux, Ubuntu 16.04
+
+Test results:
+
+----
+No test results available. This is a dummy page
+----
