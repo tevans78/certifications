@@ -11,7 +11,7 @@ https://openliberty.io/downloads[Open Liberty 19.0.0.6]
 
 * Specification Name, Version and download URL:
 +
-https://jakarta.ee/specifications/[Jakarta EE Platform 8]
+https://jakarta.ee/specifications/platform/8[Jakarta EE Platform 8]
 
 * TCK Version, digital SHA-256 fingerprint and download URL:
 +
@@ -44,6 +44,10 @@ OpenJDK 8 + HotSpot (jdk8u222-b10)
 +
 Apache Derby, Linux, Ubuntu 18.04
 
+* Challenges
++
+https://github.com/eclipse-ee4j/faces-api/issues/1474[JSF Signature Test Challenge (signaturetest)]
+
 Test Results:
 
 ----
@@ -55,7 +59,7 @@ Stage Name: appclient
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: assembly
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 30 tests.
@@ -79,7 +83,7 @@ Stage Name: concurrency/api
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: concurrency/spec/ContextService
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -87,7 +91,7 @@ Stage Name: concurrency/spec/ContextService
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: concurrency/spec/ManagedExecutorService
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 15 tests.
@@ -127,7 +131,7 @@ Stage Name: ejb30/assembly/appres/appclientejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/appres/warejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -135,7 +139,7 @@ Stage Name: ejb30/assembly/appres/warejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/appres/warmbean
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -143,7 +147,7 @@ Stage Name: ejb30/assembly/appres/warmbean
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/initorder/appclientejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -151,7 +155,7 @@ Stage Name: ejb30/assembly/initorder/appclientejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/initorder/ejbwar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -159,7 +163,7 @@ Stage Name: ejb30/assembly/initorder/ejbwar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/initorder/warejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -167,7 +171,7 @@ Stage Name: ejb30/assembly/initorder/warejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/librarydirectory/custom
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -175,7 +179,7 @@ Stage Name: ejb30/assembly/librarydirectory/custom
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/librarydirectory/defaultname
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -183,7 +187,7 @@ Stage Name: ejb30/assembly/librarydirectory/defaultname
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/librarydirectory/disable
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -191,7 +195,7 @@ Stage Name: ejb30/assembly/librarydirectory/disable
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/mbean/appclient
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -199,7 +203,7 @@ Stage Name: ejb30/assembly/mbean/appclient
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/metainf/appclientejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -207,7 +211,7 @@ Stage Name: ejb30/assembly/metainf/appclientejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/assembly/metainfandlibdir
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -223,7 +227,7 @@ Stage Name: ejb30/bb/async
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/localaccess
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 50 tests.
@@ -231,7 +235,7 @@ Stage Name: ejb30/bb/localaccess
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -239,7 +243,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/complement
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -247,7 +251,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/complement
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -255,7 +259,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/override
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -263,7 +267,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectorauto/override
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -271,7 +275,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/complement
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -279,7 +283,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/complement
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -287,7 +291,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/override
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -295,7 +299,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/queue/selectordups/override
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -303,7 +307,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/complement
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -311,7 +315,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/complemen
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -319,7 +323,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/descripto
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/override
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -327,7 +331,7 @@ Stage Name: ejb30/bb/mdb/activationconfig/topic/selectordupsnondurable/override
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/callback/listener/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -335,7 +339,7 @@ Stage Name: ejb30/bb/mdb/callback/listener/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/callback/listener/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -343,7 +347,7 @@ Stage Name: ejb30/bb/mdb/callback/listener/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/callback/method/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -351,7 +355,7 @@ Stage Name: ejb30/bb/mdb/callback/method/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/callback/method/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -359,7 +363,7 @@ Stage Name: ejb30/bb/mdb/callback/method/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/callback/method/ejbcreate
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -367,7 +371,7 @@ Stage Name: ejb30/bb/mdb/callback/method/ejbcreate
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/customlistener
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -375,7 +379,7 @@ Stage Name: ejb30/bb/mdb/customlistener
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/fullpath
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -383,7 +387,7 @@ Stage Name: ejb30/bb/mdb/dest/fullpath
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/jarwar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -391,7 +395,7 @@ Stage Name: ejb30/bb/mdb/dest/jarwar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/onejar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -399,7 +403,7 @@ Stage Name: ejb30/bb/mdb/dest/onejar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/optional
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -415,7 +419,7 @@ Stage Name: ejb30/bb/mdb/dest/optional2
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/topic/fullpath
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -423,7 +427,7 @@ Stage Name: ejb30/bb/mdb/dest/topic/fullpath
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/topic/jarwar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -431,7 +435,7 @@ Stage Name: ejb30/bb/mdb/dest/topic/jarwar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/topic/onejar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -447,7 +451,7 @@ Stage Name: ejb30/bb/mdb/dest/topic/twojars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/dest/twojars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -455,7 +459,7 @@ Stage Name: ejb30/bb/mdb/dest/twojars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/interceptor/listener/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 7 tests.
@@ -463,7 +467,7 @@ Stage Name: ejb30/bb/mdb/interceptor/listener/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/interceptor/listener/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 7 tests.
@@ -471,7 +475,7 @@ Stage Name: ejb30/bb/mdb/interceptor/listener/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/interceptor/method/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -479,7 +483,7 @@ Stage Name: ejb30/bb/mdb/interceptor/method/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/interceptor/method/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -487,7 +491,7 @@ Stage Name: ejb30/bb/mdb/interceptor/method/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/listenerintf/implementing/externalizable
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -495,7 +499,7 @@ Stage Name: ejb30/bb/mdb/listenerintf/implementing/externalizable
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/mdb/listenerintf/implementing/serializable
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -503,7 +507,7 @@ Stage Name: ejb30/bb/mdb/listenerintf/implementing/serializable
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/session/stateful
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 350 tests.
@@ -511,7 +515,7 @@ Stage Name: ejb30/bb/session/stateful
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/bb/session/stateless
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 397 tests.
@@ -527,7 +531,7 @@ Stage Name: ejb30/lite/appexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/async
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 300 tests.
@@ -535,7 +539,7 @@ Stage Name: ejb30/lite/async
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/basic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 84 tests.
@@ -543,7 +547,7 @@ Stage Name: ejb30/lite/basic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/ejbcontext
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 40 tests.
@@ -551,7 +555,7 @@ Stage Name: ejb30/lite/ejbcontext
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/enventry
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -559,7 +563,7 @@ Stage Name: ejb30/lite/enventry
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/interceptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 140 tests.
@@ -567,7 +571,7 @@ Stage Name: ejb30/lite/interceptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/lookup
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -575,7 +579,7 @@ Stage Name: ejb30/lite/lookup
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/naming
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 44 tests.
@@ -583,7 +587,7 @@ Stage Name: ejb30/lite/naming
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/nointerface
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 48 tests.
@@ -591,7 +595,7 @@ Stage Name: ejb30/lite/nointerface
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/packaging
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 203 tests.
@@ -607,7 +611,7 @@ Stage Name: ejb30/lite/singleton
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/stateful/concurrency
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 68 tests.
@@ -615,7 +619,7 @@ Stage Name: ejb30/lite/stateful/concurrency
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/stateful/timeout
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 22 tests.
@@ -623,7 +627,7 @@ Stage Name: ejb30/lite/stateful/timeout
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/tx
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 300 tests.
@@ -631,7 +635,7 @@ Stage Name: ejb30/lite/tx
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/view
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 76 tests.
@@ -639,7 +643,7 @@ Stage Name: ejb30/lite/view
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/lite/xmloverride
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -655,7 +659,7 @@ Stage Name: ejb30/misc/datasource/appclientejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/datasource/twojars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -663,7 +667,7 @@ Stage Name: ejb30/misc/datasource/twojars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/datasource/twowars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -671,7 +675,7 @@ Stage Name: ejb30/misc/datasource/twowars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/getresource/appclient
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -679,7 +683,7 @@ Stage Name: ejb30/misc/getresource/appclient
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/getresource/warejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 20 tests.
@@ -687,7 +691,7 @@ Stage Name: ejb30/misc/getresource/warejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/jndi/earjar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -695,7 +699,7 @@ Stage Name: ejb30/misc/jndi/earjar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/jndi/earwar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 7 tests.
@@ -703,7 +707,7 @@ Stage Name: ejb30/misc/jndi/earwar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/jndi/earwarjar
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -711,7 +715,7 @@ Stage Name: ejb30/misc/jndi/earwarjar
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/metadataComplete/appclient2ejbjars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -719,7 +723,7 @@ Stage Name: ejb30/misc/metadataComplete/appclient2ejbjars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/metadataComplete/appclientejbjars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -727,7 +731,7 @@ Stage Name: ejb30/misc/metadataComplete/appclientejbjars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/metadataComplete/warejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 9 tests.
@@ -735,7 +739,7 @@ Stage Name: ejb30/misc/metadataComplete/warejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/moduleName/appclientejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -743,7 +747,7 @@ Stage Name: ejb30/misc/moduleName/appclientejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/moduleName/conflict
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -751,7 +755,7 @@ Stage Name: ejb30/misc/moduleName/conflict
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/moduleName/twojars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -759,7 +763,7 @@ Stage Name: ejb30/misc/moduleName/twojars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/moduleName/twowars
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -767,7 +771,7 @@ Stage Name: ejb30/misc/moduleName/twowars
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/nomethodbean
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -775,7 +779,7 @@ Stage Name: ejb30/misc/nomethodbean
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/sameejbclass
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -783,7 +787,7 @@ Stage Name: ejb30/misc/sameejbclass
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/threebeans
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -791,7 +795,7 @@ Stage Name: ejb30/misc/threebeans
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/misc/xmloverride/ejbref
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -807,7 +811,7 @@ Stage Name: ejb30/sec/permsxml
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateful/lsecp
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -815,7 +819,7 @@ Stage Name: ejb30/sec/stateful/lsecp
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateful/lsecr
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -823,7 +827,7 @@ Stage Name: ejb30/sec/stateful/lsecr
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateful/sec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -831,7 +835,7 @@ Stage Name: ejb30/sec/stateful/sec
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateful/secpropagation
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -839,7 +843,7 @@ Stage Name: ejb30/sec/stateful/secpropagation
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateful/secrunaspropagation
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -847,7 +851,7 @@ Stage Name: ejb30/sec/stateful/secrunaspropagation
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateless/lsecp
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -855,7 +859,7 @@ Stage Name: ejb30/sec/stateless/lsecp
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateless/lsecr
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -863,7 +867,7 @@ Stage Name: ejb30/sec/stateless/lsecr
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateless/sec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -871,7 +875,7 @@ Stage Name: ejb30/sec/stateless/sec
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateless/secpropagation
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -879,7 +883,7 @@ Stage Name: ejb30/sec/stateless/secpropagation
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/sec/stateless/secrunaspropagation
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -903,7 +907,7 @@ Stage Name: ejb30/tx
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/webservice/clientview
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -911,7 +915,7 @@ Stage Name: ejb30/webservice/clientview
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/webservice/interceptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -919,7 +923,7 @@ Stage Name: ejb30/webservice/interceptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb30/webservice/wscontext
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -935,7 +939,7 @@ Stage Name: ejb30/zombie
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: ejb32
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 704 tests.
@@ -1063,7 +1067,7 @@ Stage name: interop/csiv2/ew/ssl/sslr/upn/upid
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: interop/ejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 112 tests.
@@ -1071,7 +1075,7 @@ Stage Name: interop/ejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: interop/integration
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -1079,7 +1083,7 @@ Stage Name: interop/integration
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: interop/security
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 82 tests.
@@ -1087,7 +1091,7 @@ Stage Name: interop/security
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: interop/tx
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 46 tests.
@@ -1103,7 +1107,7 @@ Stage Name: j2eetools
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jacc
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 40 tests.
@@ -1111,7 +1115,7 @@ Stage Name: jacc
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaspic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 61 tests.
@@ -1135,7 +1139,7 @@ Stage Name: jaxrs/api/client
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/bindingpriority
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -1159,7 +1163,7 @@ Stage Name: jaxrs/api/rs/clienterrorexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/abstractmultivaluedmap
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -1167,7 +1171,7 @@ Stage Name: jaxrs/api/rs/core/abstractmultivaluedmap
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/cachecontrol
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -1175,7 +1179,7 @@ Stage Name: jaxrs/api/rs/core/cachecontrol
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/configurable
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -1183,7 +1187,7 @@ Stage Name: jaxrs/api/rs/core/configurable
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/configuration
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 17 tests.
@@ -1191,7 +1195,7 @@ Stage Name: jaxrs/api/rs/core/configuration
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/cookie
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -1199,7 +1203,7 @@ Stage Name: jaxrs/api/rs/core/cookie
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/entitytag
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -1207,7 +1211,7 @@ Stage Name: jaxrs/api/rs/core/entitytag
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/form
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -1215,7 +1219,7 @@ Stage Name: jaxrs/api/rs/core/form
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/genericentity
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -1223,7 +1227,7 @@ Stage Name: jaxrs/api/rs/core/genericentity
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/generictype
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -1231,7 +1235,7 @@ Stage Name: jaxrs/api/rs/core/generictype
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/link
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -1239,7 +1243,7 @@ Stage Name: jaxrs/api/rs/core/link
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/linkbuilder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 29 tests.
@@ -1247,7 +1251,7 @@ Stage Name: jaxrs/api/rs/core/linkbuilder
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/linkjaxbadapter
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -1255,7 +1259,7 @@ Stage Name: jaxrs/api/rs/core/linkjaxbadapter
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/linkjaxblink
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -1263,7 +1267,7 @@ Stage Name: jaxrs/api/rs/core/linkjaxblink
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/mediatype
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 20 tests.
@@ -1271,7 +1275,7 @@ Stage Name: jaxrs/api/rs/core/mediatype
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/multivaluedhashmap
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -1279,7 +1283,7 @@ Stage Name: jaxrs/api/rs/core/multivaluedhashmap
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/multivaluedmap
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 17 tests.
@@ -1287,7 +1291,7 @@ Stage Name: jaxrs/api/rs/core/multivaluedmap
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/newcookie
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 31 tests.
@@ -1295,7 +1299,7 @@ Stage Name: jaxrs/api/rs/core/newcookie
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/nocontentexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -1303,7 +1307,7 @@ Stage Name: jaxrs/api/rs/core/nocontentexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/responsebuilder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 15 tests.
@@ -1311,7 +1315,7 @@ Stage Name: jaxrs/api/rs/core/responsebuilder
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/responseclient
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 85 tests.
@@ -1319,7 +1323,7 @@ Stage Name: jaxrs/api/rs/core/responseclient
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/responsestatustype
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -1327,7 +1331,7 @@ Stage Name: jaxrs/api/rs/core/responsestatustype
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/uribuilder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 125 tests.
@@ -1335,7 +1339,7 @@ Stage Name: jaxrs/api/rs/core/uribuilder
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/variant
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -1343,7 +1347,7 @@ Stage Name: jaxrs/api/rs/core/variant
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/core/variantlistbuilder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -1351,7 +1355,7 @@ Stage Name: jaxrs/api/rs/core/variantlistbuilder
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/ext
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 38 tests.
@@ -1359,7 +1363,7 @@ Stage Name: jaxrs/api/rs/ext
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/forbiddenexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1367,7 +1371,7 @@ Stage Name: jaxrs/api/rs/forbiddenexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/internalservererrorexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1375,7 +1379,7 @@ Stage Name: jaxrs/api/rs/internalservererrorexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/notacceptableexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1383,7 +1387,7 @@ Stage Name: jaxrs/api/rs/notacceptableexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/notallowedexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 20 tests.
@@ -1391,7 +1395,7 @@ Stage Name: jaxrs/api/rs/notallowedexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/notauthorizedexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -1399,7 +1403,7 @@ Stage Name: jaxrs/api/rs/notauthorizedexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/notfoundexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1407,7 +1411,7 @@ Stage Name: jaxrs/api/rs/notfoundexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/notsupportedexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1415,7 +1419,7 @@ Stage Name: jaxrs/api/rs/notsupportedexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/processingexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -1423,7 +1427,7 @@ Stage Name: jaxrs/api/rs/processingexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/redirectexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -1431,7 +1435,7 @@ Stage Name: jaxrs/api/rs/redirectexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/runtimetype
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -1439,7 +1443,7 @@ Stage Name: jaxrs/api/rs/runtimetype
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/servererrorexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -1447,7 +1451,7 @@ Stage Name: jaxrs/api/rs/servererrorexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/serviceunavailableexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
@@ -1455,7 +1459,7 @@ Stage Name: jaxrs/api/rs/serviceunavailableexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/api/rs/webapplicationexceptiontest
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -1463,7 +1467,7 @@ Stage Name: jaxrs/api/rs/webapplicationexceptiontest
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/ee
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1174 tests.
@@ -1471,7 +1475,7 @@ Stage Name: jaxrs/ee
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/jaxrs21
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 184 tests.
@@ -1495,7 +1499,7 @@ Stage Name: jaxrs/servlet3
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jaxrs/spec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 319 tests.
@@ -1511,7 +1515,7 @@ Stage Name: jbatch
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/batchUpdate
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 68 tests.
@@ -1519,7 +1523,7 @@ Stage Name: jdbc/ee/batchUpdate
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/callStmt
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1592 tests.
@@ -1527,7 +1531,7 @@ Stage Name: jdbc/ee/callStmt
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/connection
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 36 tests.
@@ -1535,7 +1539,7 @@ Stage Name: jdbc/ee/connection
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/dateTime
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 152 tests.
@@ -1543,7 +1547,7 @@ Stage Name: jdbc/ee/dateTime
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/dbMeta
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 940 tests.
@@ -1551,7 +1555,7 @@ Stage Name: jdbc/ee/dbMeta
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/escapeSyntax
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 324 tests.
@@ -1559,7 +1563,7 @@ Stage Name: jdbc/ee/escapeSyntax
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/exception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -1567,7 +1571,7 @@ Stage Name: jdbc/ee/exception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/prepStmt
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1084 tests.
@@ -1575,7 +1579,7 @@ Stage Name: jdbc/ee/prepStmt
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/resultSet
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 456 tests.
@@ -1583,7 +1587,7 @@ Stage Name: jdbc/ee/resultSet
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/rsMeta
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 84 tests.
@@ -1591,7 +1595,7 @@ Stage Name: jdbc/ee/rsMeta
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jdbc/ee/stmt
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 132 tests.
@@ -1607,7 +1611,7 @@ Stage Name: jms/core/appclient
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/bytesMsgQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1615,7 +1619,7 @@ Stage Name: jms/core/bytesMsgQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/bytesMsgTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1623,7 +1627,7 @@ Stage Name: jms/core/bytesMsgTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedQueueConnection
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 188 tests.
@@ -1631,7 +1635,7 @@ Stage Name: jms/core/closedQueueConnection
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedQueueReceiver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -1639,7 +1643,7 @@ Stage Name: jms/core/closedQueueReceiver
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedQueueSender
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 64 tests.
@@ -1647,7 +1651,7 @@ Stage Name: jms/core/closedQueueSender
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedQueueSession
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 172 tests.
@@ -1655,7 +1659,7 @@ Stage Name: jms/core/closedQueueSession
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedTopicConnection
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 176 tests.
@@ -1663,7 +1667,7 @@ Stage Name: jms/core/closedTopicConnection
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedTopicPublisher
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -1671,7 +1675,7 @@ Stage Name: jms/core/closedTopicPublisher
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedTopicSession
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 168 tests.
@@ -1679,7 +1683,7 @@ Stage Name: jms/core/closedTopicSession
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/closedTopicSubscriber
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 28 tests.
@@ -1687,7 +1691,7 @@ Stage Name: jms/core/closedTopicSubscriber
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/exceptionQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 84 tests.
@@ -1695,7 +1699,7 @@ Stage Name: jms/core/exceptionQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/exceptiontests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 104 tests.
@@ -1711,7 +1715,7 @@ Stage Name: jms/core/exceptionTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/foreignMsgQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 44 tests.
@@ -1719,7 +1723,7 @@ Stage Name: jms/core/foreignMsgQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/foreignMsgTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 44 tests.
@@ -1727,7 +1731,7 @@ Stage Name: jms/core/foreignMsgTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/mapMsgQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -1735,7 +1739,7 @@ Stage Name: jms/core/mapMsgQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/mapMsgTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -1743,7 +1747,7 @@ Stage Name: jms/core/mapMsgTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/messageProducer
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -1751,7 +1755,7 @@ Stage Name: jms/core/messageProducer
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/messageQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -1759,7 +1763,7 @@ Stage Name: jms/core/messageQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/messageTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -1767,7 +1771,7 @@ Stage Name: jms/core/messageTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/objectMsgQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -1775,7 +1779,7 @@ Stage Name: jms/core/objectMsgQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/objectMsgTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -1783,7 +1787,7 @@ Stage Name: jms/core/objectMsgTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/queueConnection
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -1791,7 +1795,7 @@ Stage Name: jms/core/queueConnection
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/queueMsgHeaders
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 40 tests.
@@ -1799,7 +1803,7 @@ Stage Name: jms/core/queueMsgHeaders
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/queueMsgProperties
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1807,7 +1811,7 @@ Stage Name: jms/core/queueMsgProperties
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/queuetests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 52 tests.
@@ -1815,7 +1819,7 @@ Stage Name: jms/core/queuetests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/selectorQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 436 tests.
@@ -1823,7 +1827,7 @@ Stage Name: jms/core/selectorQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/selectorTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 72 tests.
@@ -1831,7 +1835,7 @@ Stage Name: jms/core/selectorTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/sessiontests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -1839,7 +1843,7 @@ Stage Name: jms/core/sessiontests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/streamMsgQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -1847,7 +1851,7 @@ Stage Name: jms/core/streamMsgQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/streamMsgTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -1855,7 +1859,7 @@ Stage Name: jms/core/streamMsgTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/topicConnection
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -1863,7 +1867,7 @@ Stage Name: jms/core/topicConnection
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/topicMsgHeaders
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 36 tests.
@@ -1871,7 +1875,7 @@ Stage Name: jms/core/topicMsgHeaders
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/topicMsgProperties
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -1879,7 +1883,7 @@ Stage Name: jms/core/topicMsgProperties
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core/topictests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 68 tests.
@@ -1895,7 +1899,7 @@ Stage Name: jms/core20/appclient
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/connectionfactorytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -1903,7 +1907,7 @@ Stage Name: jms/core20/connectionfactorytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/jmsconsumertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 40 tests.
@@ -1911,7 +1915,7 @@ Stage Name: jms/core20/jmsconsumertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/jmscontextqueuetests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 48 tests.
@@ -1919,7 +1923,7 @@ Stage Name: jms/core20/jmscontextqueuetests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/jmscontexttopictests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 96 tests.
@@ -1927,7 +1931,7 @@ Stage Name: jms/core20/jmscontexttopictests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/jmsproducerqueuetests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 120 tests.
@@ -1935,7 +1939,7 @@ Stage Name: jms/core20/jmsproducerqueuetests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/jmsproducertopictests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 120 tests.
@@ -1943,7 +1947,7 @@ Stage Name: jms/core20/jmsproducertopictests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/messageproducertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 104 tests.
@@ -1951,7 +1955,7 @@ Stage Name: jms/core20/messageproducertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/runtimeexceptiontests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 132 tests.
@@ -1959,7 +1963,7 @@ Stage Name: jms/core20/runtimeexceptiontests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/core20/sessiontests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 96 tests.
@@ -1982,7 +1986,7 @@ Stage Name: jms/ee/ejb/sessionQtests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/ejbweb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 30 tests.
@@ -1990,7 +1994,7 @@ Stage Name: jms/ee/ejbweb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_exceptQ
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -1998,7 +2002,7 @@ Stage Name: jms/ee/mdb/mdb_exceptQ
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_exceptT
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 11 tests.
@@ -2006,7 +2010,7 @@ Stage Name: jms/ee/mdb/mdb_exceptT
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgHdrQ
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 13 tests.
@@ -2014,7 +2018,7 @@ Stage Name: jms/ee/mdb/mdb_msgHdrQ
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgHdrT
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 13 tests.
@@ -2022,7 +2026,7 @@ Stage Name: jms/ee/mdb/mdb_msgHdrT
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgPropsQ
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -2030,7 +2034,7 @@ Stage Name: jms/ee/mdb/mdb_msgPropsQ
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgPropsT
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -2038,7 +2042,7 @@ Stage Name: jms/ee/mdb/mdb_msgPropsT
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgTypesQ1
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -2046,7 +2050,7 @@ Stage Name: jms/ee/mdb/mdb_msgTypesQ1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgTypesQ2
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -2054,7 +2058,7 @@ Stage Name: jms/ee/mdb/mdb_msgTypesQ2
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgTypesQ3
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -2062,7 +2066,7 @@ Stage Name: jms/ee/mdb/mdb_msgTypesQ3
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgTypesT1
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -2070,7 +2074,7 @@ Stage Name: jms/ee/mdb/mdb_msgTypesT1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgTypesT2
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -2078,7 +2082,7 @@ Stage Name: jms/ee/mdb/mdb_msgTypesT2
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_msgTypesT3
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -2086,7 +2090,7 @@ Stage Name: jms/ee/mdb/mdb_msgTypesT3
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_rec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -2094,7 +2098,7 @@ Stage Name: jms/ee/mdb/mdb_rec
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_sndQ
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -2102,7 +2106,7 @@ Stage Name: jms/ee/mdb/mdb_sndQ
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_sndToQueue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -2110,7 +2114,7 @@ Stage Name: jms/ee/mdb/mdb_sndToQueue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_sndToTopic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -2118,7 +2122,7 @@ Stage Name: jms/ee/mdb/mdb_sndToTopic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/mdb_synchrec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -2126,7 +2130,7 @@ Stage Name: jms/ee/mdb/mdb_synchrec
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee/mdb/xa
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -2142,7 +2146,7 @@ Stage Name: jms/ee20/cditests/ejbweb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/cditests/mdb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -2150,7 +2154,7 @@ Stage Name: jms/ee20/cditests/mdb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/cditests/usecases
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
@@ -2158,7 +2162,7 @@ Stage Name: jms/ee20/cditests/usecases
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/queue/selectorauto/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2166,7 +2170,7 @@ Stage Name: jms/ee20/ra/activationconfig/queue/selectorauto/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/queue/selectorauto/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2174,7 +2178,7 @@ Stage Name: jms/ee20/ra/activationconfig/queue/selectorauto/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/queue/selectordups/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2182,7 +2186,7 @@ Stage Name: jms/ee20/ra/activationconfig/queue/selectordups/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/queue/selectordups/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2190,7 +2194,7 @@ Stage Name: jms/ee20/ra/activationconfig/queue/selectordups/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/topic/noselnocidautodurable/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -2198,7 +2202,7 @@ Stage Name: jms/ee20/ra/activationconfig/topic/noselnocidautodurable/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/topic/noselnocidautodurable/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -2206,7 +2210,7 @@ Stage Name: jms/ee20/ra/activationconfig/topic/noselnocidautodurable/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/topic/selectorautociddurable/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2214,7 +2218,7 @@ Stage Name: jms/ee20/ra/activationconfig/topic/selectorautociddurable/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/topic/selectorautociddurable/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2222,7 +2226,7 @@ Stage Name: jms/ee20/ra/activationconfig/topic/selectorautociddurable/descriptor
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/topic/selectordupsnondurable/annotated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2230,7 +2234,7 @@ Stage Name: jms/ee20/ra/activationconfig/topic/selectordupsnondurable/annotated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jms/ee20/ra/activationconfig/topic/selectordupsnondurable/descriptor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -2246,7 +2250,7 @@ Stage Name: jpa/core/annotations/access
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/assocoverride
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2254,7 +2258,7 @@ Stage Name: jpa/core/annotations/assocoverride
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/basic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 66 tests.
@@ -2262,7 +2266,7 @@ Stage Name: jpa/core/annotations/basic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/collectiontable
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2270,7 +2274,7 @@ Stage Name: jpa/core/annotations/collectiontable
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/convert
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -2278,7 +2282,7 @@ Stage Name: jpa/core/annotations/convert
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/discriminatorValue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -2286,7 +2290,7 @@ Stage Name: jpa/core/annotations/discriminatorValue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/elementcollection
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
@@ -2294,7 +2298,7 @@ Stage Name: jpa/core/annotations/elementcollection
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/embeddable
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2302,7 +2306,7 @@ Stage Name: jpa/core/annotations/embeddable
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/embeddableMapValue
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2310,7 +2314,7 @@ Stage Name: jpa/core/annotations/embeddableMapValue
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/entity
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -2318,7 +2322,7 @@ Stage Name: jpa/core/annotations/entity
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/id
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 84 tests.
@@ -2326,7 +2330,7 @@ Stage Name: jpa/core/annotations/id
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/lob
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2334,7 +2338,7 @@ Stage Name: jpa/core/annotations/lob
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapkey
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 36 tests.
@@ -2342,7 +2346,7 @@ Stage Name: jpa/core/annotations/mapkey
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapkeyclass
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2350,7 +2354,7 @@ Stage Name: jpa/core/annotations/mapkeyclass
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapkeycolumn
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -2358,7 +2362,7 @@ Stage Name: jpa/core/annotations/mapkeycolumn
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapkeyenumerated
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 22 tests.
@@ -2366,7 +2370,7 @@ Stage Name: jpa/core/annotations/mapkeyenumerated
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapkeyjoincolumn
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2374,7 +2378,7 @@ Stage Name: jpa/core/annotations/mapkeyjoincolumn
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapkeytemporal
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -2382,7 +2386,7 @@ Stage Name: jpa/core/annotations/mapkeytemporal
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/mapsid
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2390,7 +2394,7 @@ Stage Name: jpa/core/annotations/mapsid
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/nativequery
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 76 tests.
@@ -2398,7 +2402,7 @@ Stage Name: jpa/core/annotations/nativequery
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/onexmanyuni
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2406,7 +2410,7 @@ Stage Name: jpa/core/annotations/onexmanyuni
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/orderby
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 48 tests.
@@ -2414,7 +2418,7 @@ Stage Name: jpa/core/annotations/orderby
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/ordercolumn
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
@@ -2422,7 +2426,7 @@ Stage Name: jpa/core/annotations/ordercolumn
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/tableGenerator
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -2430,7 +2434,7 @@ Stage Name: jpa/core/annotations/tableGenerator
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/temporal
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 36 tests.
@@ -2438,7 +2442,7 @@ Stage Name: jpa/core/annotations/temporal
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/annotations/version
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 84 tests.
@@ -2446,7 +2450,7 @@ Stage Name: jpa/core/annotations/version
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/basic
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -2454,7 +2458,7 @@ Stage Name: jpa/core/basic
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/cache
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 20 tests.
@@ -2462,7 +2466,7 @@ Stage Name: jpa/core/cache
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/callback
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 396 tests.
@@ -2470,7 +2474,7 @@ Stage Name: jpa/core/callback
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/CriteriaBuilder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 930 tests.
@@ -2478,7 +2482,7 @@ Stage Name: jpa/core/criteriaapi/CriteriaBuilder
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/CriteriaDelete
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 42 tests.
@@ -2486,7 +2490,7 @@ Stage Name: jpa/core/criteriaapi/CriteriaDelete
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/CriteriaQuery
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 228 tests.
@@ -2494,7 +2498,7 @@ Stage Name: jpa/core/criteriaapi/CriteriaQuery
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/CriteriaUpdate
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 60 tests.
@@ -2502,7 +2506,7 @@ Stage Name: jpa/core/criteriaapi/CriteriaUpdate
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/From
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 174 tests.
@@ -2510,7 +2514,7 @@ Stage Name: jpa/core/criteriaapi/From
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/Join
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 210 tests.
@@ -2526,7 +2530,7 @@ Stage Name: jpa/core/criteriaapi/metamodelquery
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/misc
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 204 tests.
@@ -2534,7 +2538,7 @@ Stage Name: jpa/core/criteriaapi/misc
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/parameter
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 48 tests.
@@ -2550,7 +2554,7 @@ Stage Name: jpa/core/criteriaapi/Root
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/criteriaapi/strquery
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 774 tests.
@@ -2558,7 +2562,7 @@ Stage Name: jpa/core/criteriaapi/strquery
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/derivedid
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 72 tests.
@@ -2574,7 +2578,7 @@ Stage Name: jpa/core/EntityGraph
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/entityManager
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 193 tests.
@@ -2582,7 +2586,7 @@ Stage Name: jpa/core/entityManager
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/entityManager2
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 132 tests.
@@ -2590,7 +2594,7 @@ Stage Name: jpa/core/entityManager2
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/entityManagerFactory
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 36 tests.
@@ -2598,7 +2602,7 @@ Stage Name: jpa/core/entityManagerFactory
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/entityManagerFactoryCloseExceptions.1
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2606,7 +2610,7 @@ Stage Name: jpa/core/entityManagerFactoryCloseExceptions.1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/entitytest
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1000 tests.
@@ -2614,7 +2618,7 @@ Stage Name: jpa/core/entitytest
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/entitytest/detach/oneXone
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -2630,7 +2634,7 @@ Stage Name: jpa/core/entityTransaction
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/enums
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 317 tests.
@@ -2638,7 +2642,7 @@ Stage Name: jpa/core/enums
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/exceptions
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 34 tests.
@@ -2646,7 +2650,7 @@ Stage Name: jpa/core/exceptions
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/inheritance
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 60 tests.
@@ -2654,7 +2658,7 @@ Stage Name: jpa/core/inheritance
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/lock
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 34 tests.
@@ -2662,7 +2666,7 @@ Stage Name: jpa/core/lock
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/metamodelapi
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1554 tests.
@@ -2670,7 +2674,7 @@ Stage Name: jpa/core/metamodelapi
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/nestedembedding
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
@@ -2678,7 +2682,7 @@ Stage Name: jpa/core/nestedembedding
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/override.1
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 156 tests.
@@ -2686,7 +2690,7 @@ Stage Name: jpa/core/override.1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/persistenceUtil
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2694,7 +2698,7 @@ Stage Name: jpa/core/persistenceUtil
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/persistenceUtilUtil
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
@@ -2702,7 +2706,7 @@ Stage Name: jpa/core/persistenceUtilUtil
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/query
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1220 tests.
@@ -2710,7 +2714,7 @@ Stage Name: jpa/core/query
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/relationship
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 198 tests.
@@ -2726,7 +2730,7 @@ Stage Name: jpa/core/StoredProcedureQuery
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/types
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 300 tests.
@@ -2734,7 +2738,7 @@ Stage Name: jpa/core/types
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/core/versioning
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
@@ -2742,7 +2746,7 @@ Stage Name: jpa/core/versioning
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jpa/ee
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 181 tests.
@@ -2766,7 +2770,7 @@ Stage Name: jsf/api/javax_faces/application
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/component
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4359 tests.
@@ -2774,7 +2778,7 @@ Stage Name: jsf/api/javax_faces/component
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/context
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 120 tests.
@@ -2782,7 +2786,7 @@ Stage Name: jsf/api/javax_faces/context
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/convert
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 124 tests.
@@ -2790,7 +2794,7 @@ Stage Name: jsf/api/javax_faces/convert
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/el
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 47 tests.
@@ -2798,7 +2802,7 @@ Stage Name: jsf/api/javax_faces/el
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/event
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 136 tests.
@@ -2806,7 +2810,7 @@ Stage Name: jsf/api/javax_faces/event
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/facesexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
@@ -2814,7 +2818,7 @@ Stage Name: jsf/api/javax_faces/facesexception
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/factoryfinder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -2822,7 +2826,7 @@ Stage Name: jsf/api/javax_faces/factoryfinder
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/factoryfinderrelease
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -2830,7 +2834,7 @@ Stage Name: jsf/api/javax_faces/factoryfinderrelease
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/flow
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -2838,7 +2842,7 @@ Stage Name: jsf/api/javax_faces/flow
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/lifecycle
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -2846,7 +2850,7 @@ Stage Name: jsf/api/javax_faces/lifecycle
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/model
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 111 tests.
@@ -2854,7 +2858,7 @@ Stage Name: jsf/api/javax_faces/model
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/render
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -2862,7 +2866,7 @@ Stage Name: jsf/api/javax_faces/render
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/validator
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 66 tests.
@@ -2870,7 +2874,7 @@ Stage Name: jsf/api/javax_faces/validator
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/api/javax_faces/view
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 29 tests.
@@ -2878,7 +2882,7 @@ Stage Name: jsf/api/javax_faces/view
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/spec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 221 tests.
@@ -2886,7 +2890,7 @@ Stage Name: jsf/spec
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsf/spec/flows
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 9 tests.
@@ -2902,7 +2906,7 @@ Stage Name: jsonb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/collectortests.1
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -2910,7 +2914,7 @@ Stage Name: jsonp/api/collectortests.1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/exceptiontests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -2918,7 +2922,7 @@ Stage Name: jsonp/api/exceptiontests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonarraytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 44 tests.
@@ -2926,7 +2930,7 @@ Stage Name: jsonp/api/jsonarraytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonbuilderfactorytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -2934,7 +2938,7 @@ Stage Name: jsonp/api/jsonbuilderfactorytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsoncoding
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -2942,7 +2946,7 @@ Stage Name: jsonp/api/jsoncoding
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsongeneratorfactorytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -2950,7 +2954,7 @@ Stage Name: jsonp/api/jsongeneratorfactorytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsongeneratortests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 76 tests.
@@ -2958,7 +2962,7 @@ Stage Name: jsonp/api/jsongeneratortests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonnumbertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -2966,7 +2970,7 @@ Stage Name: jsonp/api/jsonnumbertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonobjecttests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -2974,7 +2978,7 @@ Stage Name: jsonp/api/jsonobjecttests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonparsereventtests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
@@ -2982,7 +2986,7 @@ Stage Name: jsonp/api/jsonparsereventtests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonparserfactorytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 28 tests.
@@ -2990,7 +2994,7 @@ Stage Name: jsonp/api/jsonparserfactorytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonparsertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 88 tests.
@@ -2998,7 +3002,7 @@ Stage Name: jsonp/api/jsonparsertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonreaderfactorytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -3006,7 +3010,7 @@ Stage Name: jsonp/api/jsonreaderfactorytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonreadertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 116 tests.
@@ -3014,7 +3018,7 @@ Stage Name: jsonp/api/jsonreadertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonstreamingtests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -3022,7 +3026,7 @@ Stage Name: jsonp/api/jsonstreamingtests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonstringtests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -3030,7 +3034,7 @@ Stage Name: jsonp/api/jsonstringtests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonvaluetests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
@@ -3038,7 +3042,7 @@ Stage Name: jsonp/api/jsonvaluetests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonwriterfactorytests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -3046,7 +3050,7 @@ Stage Name: jsonp/api/jsonwriterfactorytests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/jsonwritertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 56 tests.
@@ -3054,7 +3058,7 @@ Stage Name: jsonp/api/jsonwritertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/mergetests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 20 tests.
@@ -3062,7 +3066,7 @@ Stage Name: jsonp/api/mergetests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/patchtests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 32 tests.
@@ -3070,7 +3074,7 @@ Stage Name: jsonp/api/patchtests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/api/pointertests
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
@@ -3078,7 +3082,7 @@ Stage Name: jsonp/api/pointertests
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jsonp/pluggability
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 72 tests.
@@ -3094,7 +3098,7 @@ Stage Name: jsp
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jstl
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 541 tests.
@@ -3102,7 +3106,7 @@ Stage Name: jstl
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: jta
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 195 tests.
@@ -3110,7 +3114,7 @@ Stage Name: jta
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage name: rmiiiop
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 129 tests.
@@ -3118,7 +3122,7 @@ Stage name: rmiiiop
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: samples
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 13 tests.
@@ -3126,7 +3130,7 @@ Stage Name: samples
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: securityapi
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 84 tests.
@@ -3149,7 +3153,7 @@ Stage Name: servlet/api.1
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/compat
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -3157,7 +3161,7 @@ Stage Name: servlet/compat
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/ee/platform
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
@@ -3165,7 +3169,7 @@ Stage Name: servlet/ee/platform
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/ee/spec/crosscontext
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -3173,7 +3177,7 @@ Stage Name: servlet/ee/spec/crosscontext
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/ee/spec/security/permissiondd
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
@@ -3181,7 +3185,7 @@ Stage Name: servlet/ee/spec/security/permissiondd
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/ee/spec/security/runAs
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
@@ -3189,7 +3193,7 @@ Stage Name: servlet/ee/spec/security/runAs
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/pluggability
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 633 tests.
@@ -3197,7 +3201,7 @@ Stage Name: servlet/pluggability
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: servlet/spec
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 208 tests.
@@ -3221,7 +3225,7 @@ Stage Name: webservices12/deploy
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/ejb
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 40 tests.
@@ -3229,7 +3233,7 @@ Stage Name: webservices12/ejb
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/narrow
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -3237,7 +3241,7 @@ Stage Name: webservices12/narrow
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/annotations/ejb/basicauth
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -3245,7 +3249,7 @@ Stage Name: webservices12/sec/annotations/ejb/basicauth
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/annotations/ejb/basicauthssl
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
@@ -3253,7 +3257,7 @@ Stage Name: webservices12/sec/annotations/ejb/basicauthssl
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/annotations/ejb/clientcert
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 3 tests.
@@ -3261,7 +3265,7 @@ Stage Name: webservices12/sec/annotations/ejb/clientcert
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/descriptors/ejb/basicSSL
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -3269,7 +3273,7 @@ Stage Name: webservices12/sec/descriptors/ejb/basicSSL
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/descriptors/ejb/certificate
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -3277,7 +3281,7 @@ Stage Name: webservices12/sec/descriptors/ejb/certificate
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/descriptors/servlet/basicSSL
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
@@ -3285,7 +3289,7 @@ Stage Name: webservices12/sec/descriptors/servlet/basicSSL
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/sec/descriptors/servlet/certificate
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
@@ -3293,7 +3297,7 @@ Stage Name: webservices12/sec/descriptors/servlet/certificate
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/servlet
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 57 tests.
@@ -3301,7 +3305,7 @@ Stage Name: webservices12/servlet
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/specialcases
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 9 tests.
@@ -3309,7 +3313,7 @@ Stage Name: webservices12/specialcases
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices12/wsdlImport
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 92 tests.
@@ -3317,7 +3321,7 @@ Stage Name: webservices12/wsdlImport
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: webservices13
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 53 tests.
@@ -3325,7 +3329,7 @@ Stage Name: webservices13
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: websocket
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 745 tests.
@@ -3333,7 +3337,7 @@ Stage Name: websocket
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
- 
+
 Stage Name: xa
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 66 tests.
@@ -3345,7 +3349,7 @@ Stage Name: xa
 
 Stage Name: Direct Injection TCK
 [INFO] Results:
-[INFO] 
+[INFO]
 [INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
 
 
@@ -3370,4 +3374,3 @@ Tests run: 1043, Failures: 0, Errors: 0, Skipped: 0
 
 
 ----
-
