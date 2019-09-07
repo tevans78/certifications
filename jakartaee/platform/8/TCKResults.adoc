@@ -11,7 +11,7 @@ https://openliberty.io/downloads[Open Liberty 19.0.0.6]
 
 * Specification Name, Version and download URL:
 +
-https://jakarta.ee/specifications/platform/8[Jakarta EE Platform 8]
+https://jakarta.ee/specifications/[Jakarta EE Platform 8]
 
 * TCK Version, digital SHA-256 fingerprint and download URL:
 +
