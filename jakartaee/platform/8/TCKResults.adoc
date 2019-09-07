@@ -26,15 +26,15 @@ link:TCKResults.html[TCK results summary]
 +
 Jakarta Contexts and Dependency Injection
 https://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[cdi-tck-2.0.6-dist.zip], SHA-256:
-  `75e969a7a3b3c77332154a2008309aad821a923d8684139242048a7640762808`<br/>
+  `75e969a7a3b3c77332154a2008309aad821a923d8684139242048a7640762808`
 +
 Jakarta Bean Validation
 http://download.eclipse.org/ee4j/bean-validation/beanvalidation-tck-dist-2.0.5.tar.gz[beanvalidation-tck-dist-2.0.5.tar.gz], SHA-256:
-  `05afb564efaa6d893dbeb32fb614d6e2bd18f09cf76244386f3b377d725b14b8`<br/>
+  `05afb564efaa6d893dbeb32fb614d6e2bd18f09cf76244386f3b377d725b14b8`
 +
 Direct Injection
 http://download.eclipse.org/ee4j/cdi/jakarta.inject-tck-1.0-bin.zip[jakarta.inject-tck-1.0-bin.zip], SHA-256:
-  `b679bac9b1057df894753892a880ba6ade530607dd811157106ed767aa26481f`<br/>
+  `b679bac9b1057df894753892a880ba6ade530607dd811157106ed767aa26481f`
 
 * Java runtime used to run the implementation:
 +
@@ -3370,3 +3370,4 @@ Tests run: 1043, Failures: 0, Errors: 0, Skipped: 0
 
 
 ----
+
