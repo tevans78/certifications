@@ -42,7 +42,7 @@ OpenJDK 8 + HotSpot (jdk8u222-b10)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
-Apache Derby, Linux, Ubuntu 16.04
+Apache Derby, Linux, Ubuntu 18.04
 
 Test Results:
 
