@@ -1,0 +1,390 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Web Profile 8.
+
+== Open Liberty 19.0.0.6 Jakarta EE Web Profile 8 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://openliberty.io/downloads[Open Liberty 19.0.0.6]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/webprofile/8[Jakarta EE Web Profile 8]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+http://download.eclipse.org/ee4j/jakartaee-tck/jakartaee8-eftl/staged-801/eclipse-jakartaeetck-8.0.1.zip[Jakarta EE Platform TCK 8.0.1],
+SHA-256: `3026f2b2fc7a2f1e802aed6cf1671d486dc90d1b03fd3519367577aa9f6545fa`
+
+* Public URL of TCK Results Summary:
++
+link:TCKResults.html[TCK results summary]
+
+* Any Additional Specification Certification Requirements:
++
+Jakarta Contexts and Dependency Injection
+https://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[cdi-tck-2.0.6-dist.zip], SHA-256:
+  `75e969a7a3b3c77332154a2008309aad821a923d8684139242048a7640762808`
++
+Jakarta Bean Validation
+http://download.eclipse.org/ee4j/bean-validation/beanvalidation-tck-dist-2.0.5.tar.gz[beanvalidation-tck-dist-2.0.5.tar.gz], SHA-256:
+  `05afb564efaa6d893dbeb32fb614d6e2bd18f09cf76244386f3b377d725b14b8`
++
+Direct Injection
+http://download.eclipse.org/ee4j/cdi/jakarta.inject-tck-1.0-bin.zip[jakarta.inject-tck-1.0-bin.zip], SHA-256:
+  `b679bac9b1057df894753892a880ba6ade530607dd811157106ed767aa26481f`
+
+
+* Java runtime used to run the implementation:
++
+OpenJDK 8 + HotSpot (jdk8u222-b10)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Apache Derby, Linux, Ubuntu 18.04
+
+Test results:
+
+----
+Stage Name: ejb30/lite/appexception
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 292 tests.
+[javatest.batch] Number of Tests Passed      = 292
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/async
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/basic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/ejbcontext
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 40 tests.
+[javatest.batch] Number of Tests Passed      = 40
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/enventry
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/interceptor
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 140 tests.
+[javatest.batch] Number of Tests Passed      = 140
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/lookup
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/naming
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 44 tests.
+[javatest.batch] Number of Tests Passed      = 44
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/nointerface
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 48 tests.
+[javatest.batch] Number of Tests Passed      = 48
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/packaging
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 203 tests.
+[javatest.batch] Number of Tests Passed      = 203
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/singleton
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 184 tests.
+[javatest.batch] Number of Tests Passed      = 184
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/stateful
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 90 tests.
+[javatest.batch] Number of Tests Passed      = 90
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+
+Stage Name: ejb30/lite/tx
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/view 
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 76 tests.
+[javatest.batch] Number of Tests Passed      = 76
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb30/lite/xmloverride 
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: ejb32
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 456 tests.
+[javatest.batch] Number of Tests Passed      = 456
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: el
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 667 tests.
+[javatest.batch] Number of Tests Passed      = 664
+[javatest.batch] Number of Tests Failed      = 3
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: el
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaspic
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 61 tests.
+[javatest.batch] Number of Tests Passed      = 61
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: javamail
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 56 tests.
+[javatest.batch] Number of Tests Passed      = 54
+[javatest.batch] Number of Tests Failed      = 2
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: javamail
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jaxrs
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 976 tests.
+[javatest.batch] Number of Tests Passed      = 973
+[javatest.batch] Number of Tests Failed      = 3
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jaxrs
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jdbc
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2462 tests.
+[javatest.batch] Number of Tests Passed      = 2462
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jpa
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1896 tests.
+[javatest.batch] Number of Tests Passed      = 1895
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jpa
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jsf
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5526 tests.
+[javatest.batch] Number of Tests Passed      = 5526
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jsonb
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 532 tests.
+[javatest.batch] Number of Tests Passed      = 532
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jsonp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 372 tests.
+[javatest.batch] Number of Tests Passed      = 370
+[javatest.batch] Number of Tests Failed      = 2
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsonp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+Stage Name: jsonp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jsp
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 721 tests.
+[javatest.batch] Number of Tests Passed      = 721
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jstl
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 541 tests.
+[javatest.batch] Number of Tests Passed      = 541
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: jta
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 154 tests.
+[javatest.batch] Number of Tests Passed      = 154
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: samples
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 5 tests.
+[javatest.batch] Number of Tests Passed      = 5
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: securityapi
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 83
+[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: securityapi/idstore/idstorepermission
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: servlet
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1643 tests.
+[javatest.batch] Number of Tests Passed      = 1643
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: signaturetest
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 0
+[javatest.batch] Number of Tests Failed      = 2
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: websocket
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 745 tests.
+[javatest.batch] Number of Tests Passed      = 745
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
+Stage Name: Direct Injection TCK
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: CDI TCK
+Tests run: 1800, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4,840.407 sec - in TestSuite
+
+Results :
+Tests run: 1800, Failures: 0, Errors: 0, Skipped: 0
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.586 sec - in TestSuite
+
+Results :
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: BeanValidation TCK
+Tests run: 1043, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 864.982 sec - in TestSuite
+
+Results :
+
+Tests run: 1043, Failures: 0, Errors: 0, Skipped: 0
+----
