@@ -45,6 +45,10 @@ OpenJDK 8 + HotSpot (jdk8u222-b10)
 +
 Apache Derby, Linux, Ubuntu 18.04
 
+* Challenges
++
+https://github.com/eclipse-ee4j/faces-api/issues/1474[JSF Signature Test Challenge (signaturetest)]
+
 Test results:
 
 ----
@@ -153,7 +157,7 @@ Stage Name: ejb30/lite/tx
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: ejb30/lite/view 
+Stage Name: ejb30/lite/view
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 76 tests.
 [javatest.batch] Number of Tests Passed      = 76
@@ -161,7 +165,7 @@ Stage Name: ejb30/lite/view
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: ejb30/lite/xmloverride 
+Stage Name: ejb30/lite/xmloverride
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 24 tests.
 [javatest.batch] Number of Tests Passed      = 24
