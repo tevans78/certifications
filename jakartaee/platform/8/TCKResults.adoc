@@ -15,7 +15,7 @@ https://jakarta.ee/specifications/platform/8[Jakarta EE Platform 8]
 
 * TCK Version, digital SHA-256 fingerprint and download URL:
 +
-http://download.eclipse.org/ee4j/jakartaee-tck/jakartaee8-eftl/staged-801/eclipse-jakartaeetck-8.0.1.zip[Jakarta EE Platform TCK 8.0.1],
+http://download.eclipse.org/jakartaee/platform/8/eclipse-jakartaeetck-8.0.1.zip[Jakarta EE Platform TCK 8.0.1],
 SHA-256: `3026f2b2fc7a2f1e802aed6cf1671d486dc90d1b03fd3519367577aa9f6545fa`
 
 * Public URL of TCK Results Summary:
