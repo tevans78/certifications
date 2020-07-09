@@ -71,7 +71,7 @@ These steps are completed by the admins of this repo. They might ask questions o
    
 2. Approve the PR and merge it into `staging` branch.
 
-4. Request a build of the [staging openliberty.io site from Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io).
+4. Request a build of the [staging openliberty.io site from Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io).  The process is exactly the same as described in the previous section for building the draft site (Trigger custom build of `master` branch).
 
 5. When the build has finished, check to make sure the page renders correctly on the [staging site](https://staging-openlibertyio.mybluemix.net/). 
 
