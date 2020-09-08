@@ -40,7 +40,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
 
 6. Request a build of the [draft openliberty.io site](https://draft-openlibertyio.mybluemix.net/):
     1. Sign in to [Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io) with your GitHub account.
-    2. Click **More Options > Trigger Build**. Make sure the `master` branch is selected, then click **Trigger custom build**.
+    2. Click **More Options > Trigger Build**. Make sure the `draft` branch is selected, then click **Trigger custom build**.
     
           The draft site build starts running.
 
@@ -71,7 +71,7 @@ These steps are completed by the admins of this repo. They might ask questions o
    
 2. Approve the PR and merge it into `staging` branch.
 
-4. Request a build of the [staging openliberty.io site from Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io).  The process is exactly the same as described in the previous section for building the draft site (Trigger custom build of `master` branch).
+4. Request a build of the [staging openliberty.io site from Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io).  The process is exactly the same as described in the previous section for building the draft site (Trigger custom build of `staging` branch).
 
 5. When the build has finished, check to make sure the page renders correctly on the [staging site](https://staging-openlibertyio.mybluemix.net/). 
 
