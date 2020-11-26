@@ -1,0 +1,294 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Metrics 3.0.
+
+== Open Liberty 21.0.0.1 - cl210120201126-1100 MicroProfile Metrics 3.0 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://openliberty.io/download[Open Liberty]
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/nightly/2020-11-26_1100/openliberty-21.0.0.1-cl210120201126-1100.zip[Open Liberty 21.0.0.1 - cl210120201126-1100]
+
+* Specification Name, Version and download URL:
++
+MicroProfile Metrics 3.0
+
+* Public URL of TCK Results Summary:
++
+link:TCK-Results.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8 and Java 11
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+macOS
+
+Test results:
+
+----
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.MetricFilterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.016 sec - in org.eclipse.microprofile.metrics.tck.MetricFilterTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.MetricIDTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.335 sec - in org.eclipse.microprofile.metrics.tck.MetricIDTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.MetricRegistryTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.914 sec - in org.eclipse.microprofile.metrics.tck.MetricRegistryTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.381 sec - in org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.446 sec - in org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.cdi.MeterInjectionBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.396 sec - in org.eclipse.microprofile.metrics.tck.cdi.MeterInjectionBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.cdi.SimpleTimerInjectionBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.011 sec - in org.eclipse.microprofile.metrics.tck.cdi.SimpleTimerInjectionBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.375 sec - in org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.384 sec - in org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.427 sec - in org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.inheritance.InheritedSimplyTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.507 sec - in org.eclipse.microprofile.metrics.tck.inheritance.InheritedSimplyTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.946 sec - in org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.inheritance.VisibilitySimplyTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.898 sec - in org.eclipse.microprofile.metrics.tck.inheritance.VisibilitySimplyTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.905 sec - in org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.416 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.923 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 118.524 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeFunctionalTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.476 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedClassBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.977 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedClassBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedConstructorBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.475 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedConstructorBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.476 sec - in org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.891 sec - in org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.918 sec - in org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.496 sec - in org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.92 sec - in org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.CounterTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.459 sec - in org.eclipse.microprofile.metrics.tck.metrics.CounterTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.DefaultNameMetricMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.386 sec - in org.eclipse.microprofile.metrics.tck.metrics.DefaultNameMetricMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.917 sec - in org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.GaugeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.417 sec - in org.eclipse.microprofile.metrics.tck.metrics.GaugeTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.98 sec - in org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.HistogramTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.483 sec - in org.eclipse.microprofile.metrics.tck.metrics.HistogramTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.MeterTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 78.807 sec - in org.eclipse.microprofile.metrics.tck.metrics.MeterTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.MeteredClassBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.912 sec - in org.eclipse.microprofile.metrics.tck.metrics.MeteredClassBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.MeteredConstructorBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.331 sec - in org.eclipse.microprofile.metrics.tck.metrics.MeteredConstructorBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.MeteredMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.003 sec - in org.eclipse.microprofile.metrics.tck.metrics.MeteredMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsConstructorBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.943 sec - in org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsConstructorBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.882 sec - in org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.374 sec - in org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.389 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 105.1 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFunctionalTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.93 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedClassBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.936 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedClassBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedConstructorBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.426 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedConstructorBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanLookupTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.962 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanLookupTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.964 sec - in org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.861 sec - in org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.TimedConstructorBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.957 sec - in org.eclipse.microprofile.metrics.tck.metrics.TimedConstructorBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.426 sec - in org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.995 sec - in org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.TimerFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.37 sec - in org.eclipse.microprofile.metrics.tck.metrics.TimerFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.metrics.TimerTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 79.818 sec - in org.eclipse.microprofile.metrics.tck.metrics.TimerTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.463 sec - in org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.499 sec - in org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.463 sec - in org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.MeteredTagMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.74 sec - in org.eclipse.microprofile.metrics.tck.tags.MeteredTagMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.SimplerTimerTagFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.866 sec - in org.eclipse.microprofile.metrics.tck.tags.SimplerTimerTagFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.SimplyTimedTagMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.416 sec - in org.eclipse.microprofile.metrics.tck.tags.SimplyTimedTagMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.TagsTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.361 sec - in org.eclipse.microprofile.metrics.tck.tags.TagsTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.TimedTagMethodBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.365 sec - in org.eclipse.microprofile.metrics.tck.tags.TimedTagMethodBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.tck.tags.TimerTagFieldBeanTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.419 sec - in org.eclipse.microprofile.metrics.tck.tags.TimerTagFieldBeanTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.test.MpMetricTest
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.98 sec - in org.eclipse.microprofile.metrics.test.MpMetricTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.test.ReusedMetricsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.534 sec - in org.eclipse.microprofile.metrics.test.ReusedMetricsTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.294 sec - in org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest
+-------------------------------------------------------------------------------
+Test set: org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.091 sec - in org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest
+
+Results :
+
+Tests run: 233, Failures: 0, Errors: 0, Skipped: 0
+
+----
