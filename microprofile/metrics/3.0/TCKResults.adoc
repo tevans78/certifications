@@ -9,7 +9,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 +
 https://openliberty.io/download[Open Liberty]
 +
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/nightly/2020-11-26_1100/openliberty-21.0.0.1-cl210120201126-1100.zip[Open Liberty 21.0.0.1 - cl210120201126-1100]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/nightly/2020-11-26_1100/openliberty-21.0.0.1-cl210120201126-1100.zip[Open Liberty development build - cl210120201126-1100]
 
 * Specification Name, Version and download URL:
 +
