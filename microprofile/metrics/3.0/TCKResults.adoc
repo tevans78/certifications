@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Metrics 3.0.
 
-== Open Liberty 21.0.0.1 - cl210120201126-1100 MicroProfile Metrics 3.0 Certification Summary
+== Open Liberty development build - cl210120201126-1100 MicroProfile Metrics 3.0 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
