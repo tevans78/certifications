@@ -3,11 +3,11 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Metrics 3.0.
 
-== Open Liberty development build - cl210120201126-1100 MicroProfile Metrics 3.0 Certification Summary
+== Open Liberty TCK build - cl210120201202-1100 MicroProfile Metrics 3.0 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
-http://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2020-12-02_1100/openliberty-all-21.0.0.1-cl210120201202-1100.zip[Open Liberty development build - cl210120201126-1100]
+http://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2020-12-02_1100/openliberty-all-21.0.0.1-cl210120201202-1100.zip[Open Liberty TCK build - cl210120201202-1100]
 
 * Specification Name, Version and download URL:
 +
@@ -15,7 +15,7 @@ MicroProfile Metrics 3.0
 
 * Public URL of TCK Results Summary:
 +
-link:TCK-Results.html[TCK results summary]
+link:TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
