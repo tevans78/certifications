@@ -19,7 +19,7 @@ link:TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
-Java 11
+Java 8 and 11
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
