@@ -38,7 +38,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
 
 5. Push the file to GitHub, then create a pull request (PR) into the `draft` branch.
 
-6. Currently, Travis is no longer building our non-prod sites. All the builds and deployments of non-prod sites have been moved to IBM Cloud and now build automatically whenever the a PR is merged into their respective branch. These builds are private and, therefore, their detailed build/deploy progress can't be tracked. However, if you have access to the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01GXGW1DGQ), you can at least track when the builds start and finish.  
+6. Currently, Travis is no longer building our non-prod sites. All the builds and deployments of non-prod sites have been moved to IBM Cloud and now build automatically whenever the a PR is merged into their respective branch. These builds are private and, therefore, their detailed build/deploy progress can't be tracked. However, if you have access to the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01G7N292RH), you can at least track when the builds start and finish.  
    ~~Request a build of the [draft openliberty.io site](https://draft-openlibertyio.mybluemix.net/):~~
     1. ~~Sign in to [Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io/branches) with your GitHub account.~~
     2. ~~Click **More Options > Trigger Build**. Type `draft` in the **Branch** field, then click **Trigger custom build**.~~
@@ -76,7 +76,7 @@ These steps are completed by the admins of this repo. They might ask questions o
    
 2. Approve the PR and merge it into `staging` branch.
 
-4. IBM Cloud will automatically rebuild the [certifications-staging site](https://certifications-staging-openlibertyio.mybluemix.net/) and [staging site](https://staging-openlibertyio.mybluemix.net/). If you have access, you can track the progress in the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01GXGW1DGQ).  
+4. IBM Cloud will automatically rebuild the [certifications-staging site](https://certifications-staging-openlibertyio.mybluemix.net/) and [staging site](https://staging-openlibertyio.mybluemix.net/). If you have access, you can track the progress in the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01G7N292RH).  
 ~~Request a build of the [staging openliberty.io site from Travis CI](https://travis-ci.com/github/OpenLiberty/openliberty.io/branches) (type `staging` in the **Branch** field of the dialog).~~
 
 5. When the build has finished, check to make sure the page render correctly on the [certifications-staging site](https://certifications-staging-openlibertyio.mybluemix.net/) or [staging site](https://staging-openlibertyio.mybluemix.net/). The latter includes the entire site, while the former just has the /certifications/ content.  If you need to verify links to other parts of the site (outside of the /certifications/ content) then you'll need to wait for the full [staging site](https://staging-openlibertyio.mybluemix.net/) to build.  
