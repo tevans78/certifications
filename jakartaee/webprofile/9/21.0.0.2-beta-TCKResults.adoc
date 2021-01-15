@@ -52,6 +52,7 @@ Apache Derby, Linux, Ubuntu 18.04
 * Challenges
 +
 https://github.com/eclipse-ee4j/faces-api/issues/1474[JSF Signature Test Challenge (signaturetest)]
++
 link:21.0.0.2-beta-signaturetest_results.log[Signature Test Results]
 
 
