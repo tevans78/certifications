@@ -7,7 +7,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 * Product Name, Version and download URL (if applicable):
 +
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/2021-01-13_1459/openliberty-jakartaee9-21.0.0.2-beta.zip[Open Liberty 21.0.0.2-beta]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2021-01-13_1459/openliberty-jakartaee9-21.0.0.2-beta.zip[Open Liberty 21.0.0.2-beta]
 
 * Specification Name, Version and download URL:
 +
@@ -1827,9 +1827,9 @@ Stage Name: CDI TCK
 
 
 Stage Name: BeanValidation TCK
-[INFO] Tests run: 1046, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,199.335 sec - in TestSuite
+[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,199.335 sec - in TestSuite
 [INFO]
 [INFO] Results :
 [INFO]
-[INFO] Tests run: 1046, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
 ----
