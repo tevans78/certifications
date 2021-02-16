@@ -1827,9 +1827,9 @@ Stage Name: CDI TCK
 
 
 Stage Name: BeanValidation TCK
-[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,199.335 sec - in TestSuite
+[INFO] Tests run: 1046, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,199.335 sec - in TestSuite
 [INFO]
 [INFO] Results :
 [INFO]
-[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 1046, Failures: 0, Errors: 0, Skipped: 0
 ----
