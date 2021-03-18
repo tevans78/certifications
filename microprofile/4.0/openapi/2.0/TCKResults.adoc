@@ -1,0 +1,311 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Open API 2.0.
+
+== Open Liberty 21.0.0.3 - MicroProfile Open API 2.0 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-03-09_1101/openliberty-all-21.0.0.3-cl210320210309-1101.zip[Open Liberty 21.0.0.3]
+
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-open-api-2.0/microprofile-openapi-spec-2.0.html[MicroProfile Open API 2.0]
+
+* Public URL of TCK Results Summary:
++
+link:TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8 and 11
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+RHEL 8
+
+Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="1" name="AirlinesAppTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="94" time="19.000" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExampleObject" time="0.181" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationUserResource" time="0.320" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExampleObject" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testHeaderInAPIResponse" time="0.300" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testHeaderInComponents" time="0.136" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationAirlinesResource" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testLicense" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testHeaderInComponents" time="0.222" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testParameter" time="0.823" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testTagsInOperations" time="0.271" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRefHeaderInEncoding" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testLink" time="0.142" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testStaticFileDefinitions" time="0.331" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentInAPIResponse" time="0.307" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExternalDocumentation" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOAuthScope" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testComponents" time="0.426" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testVersion" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testLicense" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationAvailabilityResource" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationReviewResource" time="0.219" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSchemaProperty" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testHeaderInEncoding" time="0.153" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testEncodingRequestBody" time="0.172" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExceptionMappers" time="0.194" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testTagsInOperations" time="0.388" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testEncodingRequestBody" time="0.191" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testAPIResponses" time="0.486" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSecuritySchemes" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRefHeaderInEncoding" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testInfo" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSecurityRequirement" time="0.325" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExplode" time="0.131" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRefHeaderInAPIResponse" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExternalDocumentation" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentExampleAttribute" time="0.206" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOAuthFlow" time="0.104" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testAPIResponses" time="0.312" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExplode" time="0.155" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationReviewResource" time="0.365" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testAPIResponse" time="0.270" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testLinkParameter" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testAPIResponse" time="0.256" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testParameter" time="0.776" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testHeaderInEncoding" time="0.144" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationBookingResource" time="0.144" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOAuthFlows" time="0.101" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSecuritySchemes" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSecurityScheme" time="0.118" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRequestBodyAnnotations" time="0.174" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOAuthFlows" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSchema" time="0.242" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOAuthScope" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationAirlinesResource" time="0.124" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationUserResource" time="0.311" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContact" time="0.150" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testLink" time="0.151" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationAvailabilityResource" time="0.099" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContact" time="0.105" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRequestBodyAnnotations" time="0.196" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRestClientNotPickedUp" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSchema" time="0.227" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOAuthFlow" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentExampleAttribute" time="0.151" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExtensionParsing" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testInfo" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testOperationBookingResource" time="0.175" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testCallbackAnnotations" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testVersion" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentInRequestBody" time="0.154" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentInParameter" time="0.211" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testEncodingResponses" time="0.260" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testTagDeclarations" time="0.146" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testEncodingResponses" time="0.305" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRefHeaderInAPIResponse" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExceptionMappers" time="0.181" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testStaticFileDefinitions" time="0.424" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSecurityRequirement" time="0.209" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testServer" time="0.458" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSecurityScheme" time="0.272" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testCallbackOperationAnnotations" time="0.368" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testServer" time="0.485" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testHeaderInAPIResponse" time="0.278" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentInRequestBody" time="0.162" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testExtensionParsing" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentInParameter" time="0.193" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testSchemaProperty" time="0.115" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testCallbackAnnotations" time="0.235" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testLinkParameter" time="0.175" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testContentInAPIResponse" time="0.337" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testRestClientNotPickedUp" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testComponents" time="0.486" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testTagDeclarations" time="0.180" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.AirlinesAppTest" name="testCallbackOperationAnnotations" time="0.405" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="2" name="FilterTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="28" time="9.322" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterSchema" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterPathItemAddOperation" time="0.140" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterOperation" time="0.168" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterAPIResponse" time="0.803" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterServer" time="0.458" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterHeader" time="0.263" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterSecurityScheme" time="0.189" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterAPIResponse" time="3.575" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterLink" time="0.186" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterHeader" time="0.305" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterOperation" time="0.148" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterRequestBody" time="0.105" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterPathItemEnsureOrder" time="0.154" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterSecurityScheme" time="0.105" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterPathItemAddOperation" time="0.166" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterSchema" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterParameter" time="0.238" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterTag" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterCallback" time="0.144" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterRequestBody" time="0.107" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterOpenAPI" time="0.135" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterCallback" time="0.185" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterParameter" time="0.459" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterOpenAPI" time="0.160" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterLink" time="0.172" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterServer" time="0.476" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterPathItemEnsureOrder" time="0.150" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.FilterTest" name="testFilterTag" time="0.094" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="3" name="ModelConstructionTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="30" time="2.588" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="discriminatorTest" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="apiResponseTest" time="0.789" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="schemaTest" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="contentTest" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="pathItemTest" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="mediaTypeTest" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="serverTest" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="externalDocumentationTest" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="encodingTest" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="contactTest" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="securitySchemeTest" time="0.117" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="operationTest" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="apiResponsesTest" time="0.116" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="oAuthFlowTest" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="securityRequirementTest" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="oAuthFlowsTest" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="openAPITest" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="componentsTest" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="xmlTest" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="infoTest" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="linkTest" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="pathsTest" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="serverVariableTest" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="exampleTest" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="licenseTest" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="tagTest" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="parameterTest" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="headerTest" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="callbackTest" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelConstructionTest" name="requestBodyTest" time="0.043" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="4" name="ModelReaderAppTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="42" time="6.238" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testExampleObject" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testTagDeclarations" time="0.182" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testLicense" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSecuritySchemes" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testOperationBookingResource" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSecurityScheme" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testInfo" time="0.093" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testOperationAvailabilityResource" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSecurityRequirement" time="0.133" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testServer" time="0.212" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testAPIResponse" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testExampleObject" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testVersion" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testServer" time="0.237" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testHeaderInComponents" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testAvailabilityGetParameter" time="0.799" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSchema" time="0.187" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSchema" time="0.137" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testComponents" time="0.252" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testOperationAirlinesResource" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testAPIResponse" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testHeaderInComponents" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testAvailabilityGetParameter" time="0.862" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testContentInAPIResponse" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSecuritySchemes" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSecurityRequirement" time="0.139" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testTagsInOperations" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testTagsInOperations" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testExternalDocumentation" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testOperationAvailabilityResource" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testComponents" time="0.327" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testOperationAirlinesResource" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testTagDeclarations" time="0.198" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testContact" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testLicense" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testExternalDocumentation" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testVersion" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testContact" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testOperationBookingResource" time="0.126" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testInfo" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testSecurityScheme" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.ModelReaderAppTest" name="testContentInAPIResponse" time="0.124" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="5" name="OASConfigExcludeClassTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.493" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigExcludeClassTest" name="testExcludedClass" time="0.248" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigExcludeClassTest" name="testExcludedClass" time="0.245" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="6" name="OASConfigExcludeClassesTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.316" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigExcludeClassesTest" name="testExcludedClasses" time="0.147" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigExcludeClassesTest" name="testExcludedClasses" time="0.169" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="7" name="OASConfigExcludePackageTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.205" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigExcludePackageTest" name="testExcludePackage" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigExcludePackageTest" name="testExcludePackage" time="0.108" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="8" name="OASConfigScanClassTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.337" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanClassTest" name="testScanClass" time="0.185" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanClassTest" name="testScanClass" time="0.152" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="9" name="OASConfigScanClassesTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.589" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanClassesTest" name="testScanClasses" time="0.306" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanClassesTest" name="testScanClasses" time="0.283" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="10" name="OASConfigScanDisableTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.409" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanDisableTest" name="testScanDisable" time="0.169" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanDisableTest" name="testScanDisable" time="0.240" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="11" name="OASConfigScanPackageTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.227" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanPackageTest" name="testScanPackage" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigScanPackageTest" name="testScanPackage" time="0.114" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="12" name="OASConfigSchemaTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.137" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigSchemaTest" name="testSchemaConfigApplied" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigSchemaTest" name="testSchemaConfigApplied" time="0.077" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="13" name="OASConfigServersTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.637" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigServersTest" name="testServer" time="0.341" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigServersTest" name="testServer" time="0.296" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="14" name="OASConfigWebInfTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="0.418" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigWebInfTest" name="testScanClass" time="0.153" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASConfigWebInfTest" name="testScanClass" time="0.265" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="15" name="OASFactoryErrorTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="6" time="0.997" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest" name="nullValueTest" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest" name="extendedBaseInterfaceTest" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest" name="baseInterfaceTest" time="0.653" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest" name="extendedInterfaceTest" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest" name="customClassTest" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest" name="customAbstractClassTest" time="0.056" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="16" name="PetStoreAppTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="20" time="3.179" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSecuritySchemes" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testOAuthFlow" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSecurityRequirement" time="0.202" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSchema" time="0.180" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSecuritySchemes" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testJsonResponseTypeWithQueryParameter" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testAPIResponseSchema" time="0.148" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testAPIResponseSchemaDefaultResponseCode" time="0.240" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testRequestBodySchema" time="0.150" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSchema" time="0.238" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSecurityScheme" time="0.225" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testAPIResponseSchemaDefaultResponseCode" time="0.241" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testOAuthFlows" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testRequestBodySchema" time="0.195" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testOAuthFlows" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSecurityRequirement" time="0.205" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testOAuthFlow" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testDefaultResponseType" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testAPIResponseSchema" time="0.413" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.PetStoreAppTest" name="testSecurityScheme" time="0.213" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh0935mcdesu3-n.fyre.ibm.com" id="17" name="StaticDocumentTest" package="org.eclipse.microprofile.openapi.tck" skipped="0" tests="2" time="2.324" timestamp="17 Mar 2021 08:33:40 GMT">
+      <testcase classname="org.eclipse.microprofile.openapi.tck.StaticDocumentTest" name="testStaticDocument" time="1.290" />
+      <testcase classname="org.eclipse.microprofile.openapi.tck.StaticDocumentTest" name="testStaticDocument" time="1.034" />
+  </testsuite>
+</testsuites>
+----
