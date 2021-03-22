@@ -25,9 +25,98 @@ Java 8 and 11
 +
 RHEL 8
 
+Java 8 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs2352mcdbibf-n.fyre.ibm.com" id="1" name="ClientRegistrarTests" package="org.eclipse.microprofile.opentracing.tck" tests="4" time="0.531" timestamp="17 Mar 2021 09:21:22 GMT">
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests" name="testClientRegistrar" time="0.135" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests" name="testClientRegistrarExecutorAsync" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests" name="testClientRegistrarExecutor" time="0.130" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests" name="testClientRegistrarAsync" time="0.186" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs2352mcdbibf-n.fyre.ibm.com" id="2" name="OpenTracingClassMethodNameClientTests" package="org.eclipse.microprofile.opentracing.tck" tests="15" time="11.537" timestamp="17 Mar 2021 09:21:22 GMT">
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testNestedSpansWithClientFailure" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testError" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testLocalSpanHasParent" time="0.138" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testAsyncLocalSpan" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testOperationName" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testClassAndMethodOperationName" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testClassOperationName" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testMultithreadedNestedSpansAsync" time="5.155" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testNotTraced" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testNestedSpans" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testAnnotationException" time="0.165" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testMultithreadedNestedSpans" time="5.352" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testStandardTags" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testException" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests" name="testAnnotations" time="0.070" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs2352mcdbibf-n.fyre.ibm.com" id="3" name="OpenTracingDefaultClientTests" package="org.eclipse.microprofile.opentracing.tck" tests="15" time="19.970" timestamp="17 Mar 2021 09:21:22 GMT">
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testError" time="0.161" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testNestedSpans" time="0.144" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testOperationName" time="0.098" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testNestedSpansWithClientFailure" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testAsyncLocalSpan" time="0.201" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testLocalSpanHasParent" time="0.115" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testNotTraced" time="0.124" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testException" time="0.336" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testMultithreadedNestedSpans" time="8.374" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testClassOperationName" time="0.235" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testAnnotationException" time="0.949" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testAnnotations" time="2.495" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testMultithreadedNestedSpansAsync" time="6.465" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testClassAndMethodOperationName" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests" name="testStandardTags" time="0.061" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs2352mcdbibf-n.fyre.ibm.com" id="4" name="OpenTracingHTTPPathNameTests" package="org.eclipse.microprofile.opentracing.tck" tests="17" time="9.587" timestamp="17 Mar 2021 09:21:22 GMT">
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testStandardTags" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testClassOperationName" time="0.165" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testAnnotations" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testOperationName" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testError" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testWildcard" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testNestedSpansWithClientFailure" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testAnnotationException" time="0.157" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testAsyncLocalSpan" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testLocalSpanHasParent" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testNestedSpans" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testClassAndMethodOperationName" time="0.206" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testMultithreadedNestedSpansAsync" time="3.754" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testTwoSameParams" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testMultithreadedNestedSpans" time="4.489" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testNotTraced" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests" name="testException" time="0.075" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs2352mcdbibf-n.fyre.ibm.com" id="5" name="OpenTracingSkipPatternTests" package="org.eclipse.microprofile.opentracing.tck" tests="10" time="1.195" timestamp="17 Mar 2021 09:21:22 GMT">
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testOpenAPINotTraced" time="0.169" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testSkipFooBar" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testMetricsVendorNotTraced" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testMetricsNotTraced" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testMetricsBaseNotTraced" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testHealthNotTraced" time="0.264" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testSkipSimple" time="0.251" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testMetricsApplicationNotTraced" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testSkipFoo" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests" name="testExplicitlyTraced" time="0.093" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs2352mcdbibf-n.fyre.ibm.com" id="6" name="OpenTracingMpRestClientTests" package="org.eclipse.microprofile.opentracing.tck.rest.client" tests="5" time="21.556" timestamp="17 Mar 2021 09:22:16 GMT">
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests" name="testClientNotTraced" time="3.353" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests" name="testMultithreadedNestedSpans" time="9.879" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests" name="testMultithreadedNestedSpansAsync" time="7.950" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests" name="testMethodNotTraced" time="0.232" />
+      <testcase classname="org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests" name="testNestedSpans" time="0.142" />
+  </testsuite>
+</testsuites>
+
+----
+
+
 Java 11 Test results:
 
-
+[source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
