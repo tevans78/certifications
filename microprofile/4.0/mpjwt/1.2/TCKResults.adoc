@@ -1,9 +1,9 @@
 :page-layout: certification
 = TCK Results
 
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile JWT 1.2.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Interoperable JWT RBAC 1.2.
 
-== Open Liberty 21.0.0.3 - MicroProfile JWT 1.2 Certification Summary
+== Open Liberty 21.0.0.3 - MicroProfile Interoperable JWT RBAC 1.2 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release
 
 * Specification Name, Version and download URL:
 +
-link:https://github.com/eclipse/microprofile-jwt-auth/blob/master/spec/src/main/asciidoc/microprofile-jwt-auth-spec.asciidoc[MicroProfile JWT 1.2]
+link:https://download.eclipse.org/microprofile/microprofile-jwt-auth-1.2/microprofile-jwt-auth-spec-1.2.html[MicroProfile Interoperable JWT RBAC 1.2]
 
 * Public URL of TCK Results Summary:
 +
