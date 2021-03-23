@@ -1,0 +1,948 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Rest Client 2.0.
+
+== Open Liberty 21.0.0.3 - MicroProfile Rest Client 2.0 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-03-09_1101/openliberty-all-21.0.0.3-cl210320210309-1101.zip[Open Liberty 21.0.0.3]
+
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-rest-client-2.0/microprofile-rest-client-spec-2.0.html[MicroProfile Rest Client 2.0]
+
+* Public URL of TCK Results Summary:
++
+link:TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8 and 11
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+RHEL 8
+
+Java 8 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="0" name="AdditionalRegistrationTest" package="org.eclipse.microprofile.rest.client.tck" tests="8" time="0.874" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterInstance" time="0.050" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderClass" time="0.474" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderInstanceWithPriorities" time="0.061" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderInstance" time="0.116" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterProvidersWithPriority" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderClassWithPriorities" time="0.047" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterInstanceWithPriority" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="testPropertiesRegistered" time="0.044" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="1" name="BeanParamTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.521" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.BeanParamTest" name="sendsParamsSpecifiedInBeanParam" time="0.521" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="2" name="CallMultipleMappersTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.493" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest" name="testCallsTwoProvidersWithTwoRegisteredProvider" time="1.493" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="3" name="ClientHeaderParamTest" package="org.eclipse.microprofile.rest.client.tck" tests="14" time="3.417" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testComputedClientHeaderParamOnInterface" time="1.571" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testComputedClientHeaderParamOnMethod" time="0.151" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testMultivaluedHeaderSentWhenInvokingComputeMethodFromSeparateClass" time="0.159" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExplicitClientHeaderParamOnMethod" time="0.093" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExceptionInRequiredComputeMethodThrowsClientErrorException" time="0.117" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testMultivaluedHeaderInterfaceExplicit" time="0.141" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesComputedClientHeaderParamOnMethod" time="0.144" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesExplicitClientHeaderParamOnMethod" time="0.147" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExplicitClientHeaderParamOnInterface" time="0.156" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderNotSentWhenExceptionThrownAndRequiredIsFalse" time="0.094" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExplicitClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface" time="0.144" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesExplicitClientHeaderParamOnInterface" time="0.184" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testComputedClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface" time="0.132" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesComputedClientHeaderParamOnInterface" time="0.184" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="4" name="ClientHeadersFactoryTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.428" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest" name="testClientHeadersFactoryInvoked" time="0.428" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="5" name="ClientReuseTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.560" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientReuseTest" name="shouldReuseClientAfterFailure" time="1.560" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="6" name="CloseTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="0.626" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsAutoCloseable" time="0.083" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterCloseableClose" time="0.069" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsCloseable" time="0.061" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterAutoCloseableClose" time="0.413" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="7" name="CustomHttpMethodTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.517" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest" name="invokesUserDefinedHttpMethod" time="0.517" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="8" name="DefaultExceptionMapperConfigTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.381" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest" name="testNoExceptionThrownWhenDisabledDuringBuild" time="1.381" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="9" name="DefaultExceptionMapperTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="1.773" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testExceptionThrownWhenPropertySetToFalse" time="1.431" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testLowerPriorityMapperTakesPrecedenceFromDefault" time="0.113" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testPropagationOfResponseDetailsFromDefaultMapper" time="0.108" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testNoExceptionThrownWhenDisabledDuringBuild" time="0.121" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="10" name="DefaultMIMETypeTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="0.559" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest" name="testDefaultMIMETypeIsApplicationJson_ContentType" time="0.045" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest" name="testDefaultMIMETypeIsApplicationJson_Accept" time="0.514" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="11" name="ExceptionMapperTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.711" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest" name="testWithOneRegisteredProvider" time="1.563" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest" name="testWithTwoRegisteredProviders" time="0.148" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="12" name="FATSuite" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="652.377" timestamp="2021-03-17T10:13:59">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.RestClientTckPackageTest" name="testRestClientTck" time="649.55" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="13" name="FeatureRegistrationTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.128" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest" name="testFeatureRegistrationViaCDI" time="0.137" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest" name="testFeatureRegistrationViaBuilder" time="0.991" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="14" name="FollowRedirectsTest" package="org.eclipse.microprofile.rest.client.tck" tests="8" time="2.798" timestamp="17 Mar 2021 10:24:48 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test307Follows" time="0.148" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test303Default" time="0.209" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test302Follows" time="0.153" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test303Follows" time="0.136" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test301Default" time="1.700" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test301Follows" time="0.162" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test302Default" time="0.150" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test307Default" time="0.140" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="15" name="InheritanceTest" package="org.eclipse.microprofile.rest.client.tck" tests="3" time="0.644" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InheritanceTest" name="canInvokeMethodOnBaseInterface" time="0.483" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InheritanceTest" name="canInvokeMethodOnChildInterface" time="0.091" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InheritanceTest" name="canInvokeOverriddenMethodOnChildInterface" time="0.070" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="16" name="InvalidInterfaceTest" package="org.eclipse.microprofile.rest.client.tck" tests="11" time="0.973" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMissingMethod" time="0.057" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtTypeLevel" time="0.046" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnMethod" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnMethod" time="0.050" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithPathParamAnnotationButNoURITemplate" time="0.058" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnInterface" time="0.068" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMismatchedPathParameter" time="0.062" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtMethodLevel" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMultipleHTTPMethodAnnotations" time="0.053" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMethodWithInvalidSignature" time="0.388" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnInterface" time="0.047" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="17" name="InvokeSimpleGetOperationTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.572" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest" name="testGetExecutionWithBuiltClient" time="1.572" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="18" name="InvokeWithBuiltProvidersTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.594" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest" name="testInvokesPutOperationWithRegisteredProviders" time="0.184" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest" name="testInvokesPostOperationWithRegisteredProviders" time="1.410" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="19" name="InvokeWithJsonPProviderTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="2.203" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testGetExecutesForBothClients" time="1.581" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testPostExecutes" time="0.230" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testGetSingleExecutesForBothClients" time="0.199" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testPutExecutes" time="0.193" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="20" name="InvokeWithRegisteredProvidersTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.635" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest" name="testInvokesPostOperationWithAnnotatedProviders" time="1.574" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest" name="testInvokesPutOperationWithAnnotatedProviders" time="0.061" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="21" name="InvokedMethodTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.433" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokedMethodTest" name="testRequestFilterReturnsMethodInvoked" time="0.433" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="22" name="MultiRegisteredTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.544" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest" name="testOverrideProviderAnnotationOnBuilder" time="0.137" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest" name="testOverrideInterfaceAndProviderAnnotationOnBuilder" time="1.407" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="23" name="ProducesConsumesTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="0.418" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest" name="testProducesConsumesAnnotationOnMethod" time="0.031" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest" name="testProducesConsumesAnnotationOnInterface" time="0.387" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="24" name="ProvidesRestClientBuilderTest" package="org.eclipse.microprofile.rest.client.tck" tests="3" time="0.960" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest" name="testIllegalStateExceptionThrownWhenNoBaseUriOrUrlSpecified" time="0.091" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest" name="testLastBaseUriOrBaseUrlCallWins" time="0.172" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest" name="testCanCallStaticLoader" time="0.697" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="25" name="ProxyServerTest" package="org.eclipse.microprofile.rest.client.tck" tests="5" time="3.399" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testInvalidPortNumber" time="0.961" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testNullHostName" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testInvalidPortNumber1" time="0.078" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testInvalidPortNumber2" time="0.163" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testProxy" time="2.125" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="26" name="QueryParamStyleTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="0.682" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="commaSeparated" time="0.075" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="explicitMultiPair" time="0.070" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="arrayPairs" time="0.485" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="defaultStyleIsMultiPair" time="0.052" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="27" name="RestClientBuilderListenerTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.476" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest" name="testRegistrarInvoked" time="0.476" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="28" name="RestClientListenerTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.517" timestamp="17 Mar 2021 10:24:48 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.RestClientListenerTest" name="testRestClientListenerInvoked" time="0.517" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="29" name="SubResourceTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.373" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.SubResourceTest" name="canInvokeMethodOnSubResourceInterface" time="0.373" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="30" name="AsyncMethodTest" package="org.eclipse.microprofile.rest.client.tck.asynctests" tests="4" time="1.824" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testExecutorService" time="0.145" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testAsyncInvocationInterceptorProvider" time="1.487" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testInterfaceMethodWithCompletionStageObjectReturnIsInvokedAsynchronously" time="0.114" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testNullExecutorServiceThrowsIllegalArgumentException" time="0.078" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="31" name="CDIInvokeAsyncSimpleGetOperationTest" package="org.eclipse.microprofile.rest.client.tck.asynctests" tests="2" time="1.865" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest" name="testHasDependentScopedByDefault" time="0.907" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest" name="testInvokesGetOperationWithCDIBean" time="0.958" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="32" name="CDIClientHeadersFactoryTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="1" time="0.949" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest" name="testClientHeadersFactoryInvoked" time="0.949" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="33" name="CDIFollowRedirectsTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="8" time="2.881" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test301Follows" time="0.179" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test307Default" time="0.169" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test302Default" time="0.184" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test303Default" time="0.124" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test302Follows" time="0.146" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test301Default" time="1.702" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test303Follows" time="0.169" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test307Follows" time="0.208" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="34" name="CDIInterceptorTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="2" time="0.578" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest" name="testInterceptorNotInvokedWhenNoAnnotationApplied" time="0.086" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest" name="testInterceptorInvoked" time="0.492" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="35" name="CDIInvokeSimpleGetOperationTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="2" time="2.735" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest" name="testHasDependentScopedByDefault" time="1.149" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest" name="testInvokesGetOperationWithCDIBean" time="1.586" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="36" name="CDIInvokeWithRegisteredProvidersTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="6" time="2.399" timestamp="17 Mar 2021 10:24:48 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPutOperation_viaAnnotation" time="0.169" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPutOperation_viaMPConfig" time="0.262" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPostOperation_viaAnnotation" time="1.464" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPostOperation_viaMPConfigWithConfigKey" time="0.179" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPutOperation_viaMPConfigWithConfigKey" time="0.163" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPostOperation_viaMPConfig" time="0.162" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="37" name="CDIManagedProviderTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="4" time="0.731" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testCDIProviderSpecifiedInMPConfig" time="0.515" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testCDIProviderSpecifiedViaRestClientBuilder" time="0.069" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testCDIProviderSpecifiedViaAnnotation" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testInstanceProviderSpecifiedViaRestClientBuilderDoesNotUseCDIManagedProvider" time="0.075" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="38" name="CDIProxyServerTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="1" time="1.899" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest" name="testProxy" time="1.899" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="39" name="CDIQueryParamStyleTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="4" time="0.819" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="explicitMultiPair" time="0.113" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="arrayPairs" time="0.463" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="commaSeparated" time="0.140" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="defaultStyleIsMultiPair" time="0.103" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="40" name="CDIURIvsURLConfigTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="1.595" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest" name="testURItakesPrecedenceOverURL" time="0.708" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest" name="testMPConfigURIOverridesBaseUriInRegisterRestClientAnnotation" time="0.055" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest" name="testBaseUriInRegisterRestClientAnnotation" time="0.832" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="41" name="ConfigKeyForMultipleInterfacesTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="1" time="0.447" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest" name="testConfigKeyUsedForUri" time="0.447" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="42" name="ConfigKeyTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="2" time="0.633" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest" name="testFullyQualifiedClassnamePropTakesPrecedenceOverConfigKey" time="0.082" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest" name="testConfigKeyUsedForUri" time="0.551" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="43" name="HasAppScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.683" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest" name="testHasApplicationScopedWhenAnnotated" time="0.055" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest" name="testHasApplicationScopedFromConfigKey" time="0.067" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest" name="testHasApplicationScoped" time="0.561" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="44" name="HasConversationScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.593" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest" name="testHasConversationScopedWhenAnnotated" time="0.077" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest" name="testHasConversationScopedFromConfigKey" time="0.066" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest" name="testHasConversationScoped" time="0.450" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="45" name="HasRequestScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.598" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest" name="testHasRequestScopedWhenAnnotated" time="0.063" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest" name="testHasRequestScopedFromConfigKey" time="0.074" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest" name="testHasRequestScoped" time="0.461" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="46" name="HasSessionScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.476" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest" name="testHasSingletonScoped" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest" name="testHasSessionScopedWhenAnnotated" time="0.062" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest" name="testHasSessionScopedFromConfigKey" time="0.373" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="47" name="HasSingletonScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.648" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest" name="testHasSingletonScopedFromConfigKey" time="0.070" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest" name="testHasSingletonScopedWhenAnnotated" time="0.047" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest" name="testHasSingletonScoped" time="0.531" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="48" name="InvokeWithJsonBProviderTest" package="org.eclipse.microprofile.rest.client.tck.jsonb" tests="2" time="4.054" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest" name="testGetExecutesForBothClients" time="0.306" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest" name="testCanSeePrivatePropertiesViaContextResolver" time="3.748" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="49" name="TimeoutBuilderIndependentOfMPConfigTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="11.553" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest" name="testReadTimeout" time="5.704" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest" name="testConnectTimeout" time="5.849" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="50" name="TimeoutTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="12.831" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest" name="testReadTimeout" time="5.597" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest" name="testConnectTimeout" time="7.234" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="51" name="TimeoutViaMPConfigTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="15.734" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest" name="testConnectTimeout" time="7.948" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest" name="testReadTimeout" time="7.786" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs0922mcdc6sm-n.fyre.ibm.com" id="52" name="TimeoutViaMPConfigWithConfigKeyTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="15.756" timestamp="17 Mar 2021 10:24:49 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest" name="testConnectTimeout" time="8.014" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest" name="testReadTimeout" time="7.742" />
+
+  </testsuite>
+</testsuites>
+
+----
+
+
+Java 11 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="0" name="AdditionalRegistrationTest" package="org.eclipse.microprofile.rest.client.tck" tests="8" time="0.898" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderClassWithPriorities" time="0.048" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="testPropertiesRegistered" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderClass" time="0.434" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderInstance" time="0.044" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterInstance" time="0.052" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterInstanceWithPriority" time="0.051" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterAMultiTypedProviderInstanceWithPriorities" time="0.043" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest" name="shouldRegisterProvidersWithPriority" time="0.154" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="1" name="BeanParamTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.404" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.BeanParamTest" name="sendsParamsSpecifiedInBeanParam" time="0.404" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="2" name="CallMultipleMappersTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.494" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest" name="testCallsTwoProvidersWithTwoRegisteredProvider" time="1.494" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="3" name="ClientHeaderParamTest" package="org.eclipse.microprofile.rest.client.tck" tests="14" time="3.441" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testComputedClientHeaderParamOnInterface" time="1.967" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesExplicitClientHeaderParamOnInterface" time="0.145" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testMultivaluedHeaderSentWhenInvokingComputeMethodFromSeparateClass" time="0.108" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testComputedClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface" time="0.099" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExplicitClientHeaderParamOnInterface" time="0.190" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExplicitClientHeaderParamOnMethod" time="0.110" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesComputedClientHeaderParamOnMethod" time="0.112" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExplicitClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface" time="0.086" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testExceptionInRequiredComputeMethodThrowsClientErrorException" time="0.082" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderNotSentWhenExceptionThrownAndRequiredIsFalse" time="0.069" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesExplicitClientHeaderParamOnMethod" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testComputedClientHeaderParamOnMethod" time="0.162" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testMultivaluedHeaderInterfaceExplicit" time="0.122" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest" name="testHeaderParamOverridesComputedClientHeaderParamOnInterface" time="0.117" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="4" name="ClientHeadersFactoryTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.430" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest" name="testClientHeadersFactoryInvoked" time="0.430" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="5" name="ClientReuseTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.382" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ClientReuseTest" name="shouldReuseClientAfterFailure" time="1.382" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="6" name="CloseTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="0.610" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsAutoCloseable" time="0.061" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsCloseable" time="0.058" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterAutoCloseableClose" time="0.432" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CloseTest" name="expectIllegalStateExceptionAfterCloseableClose" time="0.059" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="7" name="CustomHttpMethodTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.529" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest" name="invokesUserDefinedHttpMethod" time="0.529" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="8" name="DefaultExceptionMapperConfigTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.207" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest" name="testNoExceptionThrownWhenDisabledDuringBuild" time="1.207" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="9" name="DefaultExceptionMapperTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="1.839" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testPropagationOfResponseDetailsFromDefaultMapper" time="0.105" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testNoExceptionThrownWhenDisabledDuringBuild" time="0.114" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testLowerPriorityMapperTakesPrecedenceFromDefault" time="0.146" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest" name="testExceptionThrownWhenPropertySetToFalse" time="1.474" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="10" name="DefaultMIMETypeTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="0.361" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest" name="testDefaultMIMETypeIsApplicationJson_ContentType" time="0.026" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest" name="testDefaultMIMETypeIsApplicationJson_Accept" time="0.335" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="11" name="ExceptionMapperTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.780" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest" name="testWithTwoRegisteredProviders" time="0.095" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest" name="testWithOneRegisteredProvider" time="1.685" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="12" name="FATSuite" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="776.178" timestamp="2021-03-17T07:49:15">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.RestClientTckPackageTest" name="testRestClientTck" time="773.621" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="13" name="FeatureRegistrationTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="0.787" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest" name="testFeatureRegistrationViaBuilder" time="0.754" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest" name="testFeatureRegistrationViaCDI" time="0.033" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="14" name="FollowRedirectsTest" package="org.eclipse.microprofile.rest.client.tck" tests="8" time="2.604" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test303Default" time="0.110" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test302Follows" time="0.202" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test301Default" time="1.664" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test302Default" time="0.147" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test307Follows" time="0.110" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test303Follows" time="0.106" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test301Follows" time="0.152" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest" name="test307Default" time="0.113" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="15" name="InheritanceTest" package="org.eclipse.microprofile.rest.client.tck" tests="3" time="0.626" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InheritanceTest" name="canInvokeOverriddenMethodOnChildInterface" time="0.071" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InheritanceTest" name="canInvokeMethodOnChildInterface" time="0.097" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InheritanceTest" name="canInvokeMethodOnBaseInterface" time="0.458" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="16" name="InvalidInterfaceTest" package="org.eclipse.microprofile.rest.client.tck" tests="11" time="1.397" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnInterface" time="0.108" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnInterface" time="0.098" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithPathParamAnnotationButNoURITemplate" time="0.073" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnMethod" time="0.064" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtMethodLevel" time="0.097" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMethodWithInvalidSignature" time="0.487" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMultipleHTTPMethodAnnotations" time="0.060" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnMethod" time="0.155" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtTypeLevel" time="0.090" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenInterfaceHasMethodWithMismatchedPathParameter" time="0.102" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest" name="testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMissingMethod" time="0.063" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="17" name="InvokeSimpleGetOperationTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="1.259" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest" name="testGetExecutionWithBuiltClient" time="1.259" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="18" name="InvokeWithBuiltProvidersTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.354" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest" name="testInvokesPostOperationWithRegisteredProviders" time="1.273" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest" name="testInvokesPutOperationWithRegisteredProviders" time="0.081" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="19" name="InvokeWithJsonPProviderTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="1.617" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testPutExecutes" time="0.076" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testGetExecutesForBothClients" time="1.304" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testPostExecutes" time="0.163" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest" name="testGetSingleExecutesForBothClients" time="0.074" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="20" name="InvokeWithRegisteredProvidersTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.427" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest" name="testInvokesPutOperationWithAnnotatedProviders" time="0.053" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest" name="testInvokesPostOperationWithAnnotatedProviders" time="1.374" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="21" name="InvokedMethodTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.509" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.InvokedMethodTest" name="testRequestFilterReturnsMethodInvoked" time="0.509" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="22" name="MultiRegisteredTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="1.424" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest" name="testOverrideInterfaceAndProviderAnnotationOnBuilder" time="1.311" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest" name="testOverrideProviderAnnotationOnBuilder" time="0.113" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="23" name="ProducesConsumesTest" package="org.eclipse.microprofile.rest.client.tck" tests="2" time="0.569" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest" name="testProducesConsumesAnnotationOnInterface" time="0.487" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest" name="testProducesConsumesAnnotationOnMethod" time="0.082" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="24" name="ProvidesRestClientBuilderTest" package="org.eclipse.microprofile.rest.client.tck" tests="3" time="0.539" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest" name="testIllegalStateExceptionThrownWhenNoBaseUriOrUrlSpecified" time="0.050" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest" name="testCanCallStaticLoader" time="0.401" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest" name="testLastBaseUriOrBaseUrlCallWins" time="0.088" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="25" name="ProxyServerTest" package="org.eclipse.microprofile.rest.client.tck" tests="5" time="2.019" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testInvalidPortNumber1" time="0.067" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testInvalidPortNumber2" time="0.054" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testInvalidPortNumber" time="0.968" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testProxy" time="0.854" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ProxyServerTest" name="testNullHostName" time="0.076" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="26" name="QueryParamStyleTest" package="org.eclipse.microprofile.rest.client.tck" tests="4" time="0.453" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="explicitMultiPair" time="0.024" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="commaSeparated" time="0.021" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="arrayPairs" time="0.373" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest" name="defaultStyleIsMultiPair" time="0.035" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="27" name="RestClientBuilderListenerTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.822" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest" name="testRegistrarInvoked" time="0.822" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="28" name="RestClientListenerTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.450" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.RestClientListenerTest" name="testRestClientListenerInvoked" time="0.450" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="29" name="SubResourceTest" package="org.eclipse.microprofile.rest.client.tck" tests="1" time="0.423" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.SubResourceTest" name="canInvokeMethodOnSubResourceInterface" time="0.423" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="30" name="AsyncMethodTest" package="org.eclipse.microprofile.rest.client.tck.asynctests" tests="4" time="1.620" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testNullExecutorServiceThrowsIllegalArgumentException" time="0.082" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testExecutorService" time="0.089" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testAsyncInvocationInterceptorProvider" time="1.351" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest" name="testInterfaceMethodWithCompletionStageObjectReturnIsInvokedAsynchronously" time="0.098" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="31" name="CDIInvokeAsyncSimpleGetOperationTest" package="org.eclipse.microprofile.rest.client.tck.asynctests" tests="2" time="1.689" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest" name="testHasDependentScopedByDefault" time="0.741" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest" name="testInvokesGetOperationWithCDIBean" time="0.948" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="32" name="CDIClientHeadersFactoryTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="1" time="0.437" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest" name="testClientHeadersFactoryInvoked" time="0.437" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="33" name="CDIFollowRedirectsTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="8" time="2.628" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test302Follows" time="0.141" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test303Follows" time="0.141" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test303Default" time="0.119" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test302Default" time="0.168" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test301Follows" time="0.215" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test307Follows" time="0.170" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test307Default" time="0.125" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest" name="test301Default" time="1.549" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="34" name="CDIInterceptorTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="2" time="0.715" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest" name="testInterceptorNotInvokedWhenNoAnnotationApplied" time="0.208" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest" name="testInterceptorInvoked" time="0.507" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="35" name="CDIInvokeSimpleGetOperationTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="2" time="1.683" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest" name="testHasDependentScopedByDefault" time="0.926" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest" name="testInvokesGetOperationWithCDIBean" time="0.757" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="36" name="CDIInvokeWithRegisteredProvidersTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="6" time="2.291" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPutOperation_viaMPConfig" time="0.167" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPostOperation_viaMPConfig" time="0.162" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPostOperation_viaAnnotation" time="1.427" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPostOperation_viaMPConfigWithConfigKey" time="0.193" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPutOperation_viaMPConfigWithConfigKey" time="0.166" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest" name="testInvokesPutOperation_viaAnnotation" time="0.176" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="37" name="CDIManagedProviderTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="4" time="0.747" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testCDIProviderSpecifiedInMPConfig" time="0.483" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testCDIProviderSpecifiedViaRestClientBuilder" time="0.083" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testCDIProviderSpecifiedViaAnnotation" time="0.078" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest" name="testInstanceProviderSpecifiedViaRestClientBuilderDoesNotUseCDIManagedProvider" time="0.103" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="38" name="CDIProxyServerTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="1" time="1.773" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest" name="testProxy" time="1.773" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="39" name="CDIQueryParamStyleTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="4" time="0.854" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="arrayPairs" time="0.467" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="explicitMultiPair" time="0.136" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="commaSeparated" time="0.158" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest" name="defaultStyleIsMultiPair" time="0.093" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="40" name="CDIURIvsURLConfigTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="1.450" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest" name="testURItakesPrecedenceOverURL" time="0.605" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest" name="testMPConfigURIOverridesBaseUriInRegisterRestClientAnnotation" time="0.035" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest" name="testBaseUriInRegisterRestClientAnnotation" time="0.810" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="41" name="ConfigKeyForMultipleInterfacesTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="1" time="0.436" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest" name="testConfigKeyUsedForUri" time="0.436" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="42" name="ConfigKeyTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="2" time="0.471" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest" name="testConfigKeyUsedForUri" time="0.397" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest" name="testFullyQualifiedClassnamePropTakesPrecedenceOverConfigKey" time="0.074" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="43" name="HasAppScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.517" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest" name="testHasApplicationScoped" time="0.397" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest" name="testHasApplicationScopedFromConfigKey" time="0.051" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest" name="testHasApplicationScopedWhenAnnotated" time="0.069" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="44" name="HasConversationScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.630" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest" name="testHasConversationScoped" time="0.480" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest" name="testHasConversationScopedFromConfigKey" time="0.053" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest" name="testHasConversationScopedWhenAnnotated" time="0.097" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="45" name="HasRequestScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.499" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest" name="testHasRequestScoped" time="0.378" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest" name="testHasRequestScopedWhenAnnotated" time="0.068" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest" name="testHasRequestScopedFromConfigKey" time="0.053" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="46" name="HasSessionScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="0.792" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest" name="testHasSessionScopedWhenAnnotated" time="0.122" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest" name="testHasSingletonScoped" time="0.073" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest" name="testHasSessionScopedFromConfigKey" time="0.597" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="47" name="HasSingletonScopeTest" package="org.eclipse.microprofile.rest.client.tck.cditests" tests="3" time="1.345" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest" name="testHasSingletonScopedFromConfigKey" time="0.065" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest" name="testHasSingletonScopedWhenAnnotated" time="0.045" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest" name="testHasSingletonScoped" time="1.235" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="48" name="InvokeWithJsonBProviderTest" package="org.eclipse.microprofile.rest.client.tck.jsonb" tests="2" time="1.908" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest" name="testCanSeePrivatePropertiesViaContextResolver" time="1.629" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest" name="testGetExecutesForBothClients" time="0.279" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="49" name="SslContextTest" package="org.eclipse.microprofile.rest.client.tck.ssl" tests="2" time="1.484" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest" name="shouldFailedMutualSslWithoutSslContext" time="0.498" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest" name="shouldSucceedMutualSslWithValidSslContext" time="0.986" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="50" name="SslHostnameVerifierTest" package="org.eclipse.microprofile.rest.client.tck.ssl" tests="7" time="3.235" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldPassSslSessionAndHostnameToHostnameVerifier" time="0.472" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldFailWithRejectingHostnameVerifierCDI" time="0.313" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldPassSslSessionAndHostnameToHostnameVerifierCDI" time="0.372" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldFailWithoutHostnameAndNoVerifier" time="0.404" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldSucceedWithAcceptingHostnameVerifier" time="0.390" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldFailWithRejectingHostnameVerifier" time="1.089" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest" name="shouldSucceedWithAcceptingHostnameVerifierCDI" time="0.195" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="51" name="SslMutualTest" package="org.eclipse.microprofile.rest.client.tck.ssl" tests="7" time="8.594" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldFailWithInvalidClientSignature" time="1.759" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldFailWithNoClientSignature" time="1.096" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldWorkWithClientSignatureCDI" time="1.072" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldWorkWithClientSignature" time="1.413" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldFailWithNoClientSignatureCDI" time="1.073" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldWorkWithClientSignatureFromClasspathCDI" time="1.101" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest" name="shouldFailWithInvalidClientSignatureCDI" time="1.080" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="52" name="SslTrustStoreTest" package="org.eclipse.microprofile.rest.client.tck.ssl" tests="7" time="3.864" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldFailWithSelfSignedKeystore" time="0.559" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldFailWithSelfSignedKeystoreCDI" time="0.420" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldFailWithNonMatchingKeystore" time="0.948" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldSucceedWithRegisteredSelfSignedKeystore" time="0.517" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldFailWithNonMatchingKeystoreCDI" time="0.439" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldSucceedWithRegisteredSelfSignedKeystoreCDI" time="0.571" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest" name="shouldSucceedWithRegisteredSelfSignedKeystoreFromResourceCDI" time="0.410" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="53" name="TimeoutBuilderIndependentOfMPConfigTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="11.419" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest" name="testReadTimeout" time="5.643" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest" name="testConnectTimeout" time="5.776" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="54" name="TimeoutTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="11.429" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest" name="testConnectTimeout" time="5.838" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest" name="testReadTimeout" time="5.591" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="55" name="TimeoutViaMPConfigTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="15.606" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest" name="testReadTimeout" time="7.688" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest" name="testConnectTimeout" time="7.918" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprh1039mcdg0ff-n.fyre.ibm.com" id="56" name="TimeoutViaMPConfigWithConfigKeyTest" package="org.eclipse.microprofile.rest.client.tck.timeout" tests="2" time="15.840" timestamp="17 Mar 2021 08:02:10 GMT">
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest" name="testConnectTimeout" time="8.000" />
+
+      <testcase classname="org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest" name="testReadTimeout" time="7.840" />
+
+  </testsuite>
+</testsuites>
+
+----
