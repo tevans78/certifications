@@ -47,9 +47,11 @@ https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee9-eftl/promoted/jakarta
 
 * Java runtime used to run the implementation:
 +
+----
 openjdk version "11.0.5" 2019-10-15
 OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.5+10)
 OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)
+----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
