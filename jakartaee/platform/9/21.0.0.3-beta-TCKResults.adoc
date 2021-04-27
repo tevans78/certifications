@@ -500,7 +500,7 @@ Stage Name: ejb32
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/arrayelresolver
+Stage Name: el/api/jakarta_el/arrayelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
 [javatest.batch] Number of Tests Passed      = 14
@@ -508,7 +508,7 @@ Stage Name: el/api/javax_el/arrayelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/beanelresolver
+Stage Name: el/api/jakarta_el/beanelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
 [javatest.batch] Number of Tests Passed      = 14
@@ -516,7 +516,7 @@ Stage Name: el/api/javax_el/beanelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/beannameelresolver
+Stage Name: el/api/jakarta_el/beannameelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 14 tests.
 [javatest.batch] Number of Tests Passed      = 14
@@ -524,7 +524,7 @@ Stage Name: el/api/javax_el/beannameelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/compositeelresolver
+Stage Name: el/api/jakarta_el/compositeelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
 [javatest.batch] Number of Tests Passed      = 12
@@ -532,7 +532,7 @@ Stage Name: el/api/javax_el/compositeelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/elcontext
+Stage Name: el/api/jakarta_el/elcontext
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
 [javatest.batch] Number of Tests Passed      = 12
@@ -540,7 +540,7 @@ Stage Name: el/api/javax_el/elcontext
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/elprocessor
+Stage Name: el/api/jakarta_el/elprocessor
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
 [javatest.batch] Number of Tests Passed      = 6
@@ -548,7 +548,7 @@ Stage Name: el/api/javax_el/elprocessor
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/elresolver
+Stage Name: el/api/jakarta_el/elresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
 [javatest.batch] Number of Tests Passed      = 8
@@ -556,7 +556,7 @@ Stage Name: el/api/javax_el/elresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/expression
+Stage Name: el/api/jakarta_el/expression
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
 [javatest.batch] Number of Tests Passed      = 4
@@ -564,7 +564,7 @@ Stage Name: el/api/javax_el/expression
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/expressionfactory
+Stage Name: el/api/jakarta_el/expressionfactory
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 18 tests.
 [javatest.batch] Number of Tests Passed      = 18
@@ -572,7 +572,7 @@ Stage Name: el/api/javax_el/expressionfactory
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/functionmapper
+Stage Name: el/api/jakarta_el/functionmapper
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
 [javatest.batch] Number of Tests Passed      = 2
@@ -580,7 +580,7 @@ Stage Name: el/api/javax_el/functionmapper
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/lambdaexpression
+Stage Name: el/api/jakarta_el/lambdaexpression
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4 tests.
 [javatest.batch] Number of Tests Passed      = 4
@@ -588,7 +588,7 @@ Stage Name: el/api/javax_el/lambdaexpression
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/listelresolver
+Stage Name: el/api/jakarta_el/listelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
 [javatest.batch] Number of Tests Passed      = 10
@@ -596,7 +596,7 @@ Stage Name: el/api/javax_el/listelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/mapelresolver
+Stage Name: el/api/jakarta_el/mapelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
 [javatest.batch] Number of Tests Passed      = 6
@@ -604,7 +604,7 @@ Stage Name: el/api/javax_el/mapelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/methodexpression
+Stage Name: el/api/jakarta_el/methodexpression
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
 [javatest.batch] Number of Tests Passed      = 6
@@ -612,7 +612,7 @@ Stage Name: el/api/javax_el/methodexpression
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/methodinfo
+Stage Name: el/api/jakarta_el/methodinfo
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 2 tests.
 [javatest.batch] Number of Tests Passed      = 2
@@ -620,7 +620,7 @@ Stage Name: el/api/javax_el/methodinfo
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/resourcebundleelresolver
+Stage Name: el/api/jakarta_el/resourcebundleelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 6 tests.
 [javatest.batch] Number of Tests Passed      = 6
@@ -628,7 +628,7 @@ Stage Name: el/api/javax_el/resourcebundleelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/staticfieldelresolver
+Stage Name: el/api/jakarta_el/staticfieldelresolver
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 10 tests.
 [javatest.batch] Number of Tests Passed      = 10
@@ -636,7 +636,7 @@ Stage Name: el/api/javax_el/staticfieldelresolver
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/valueexpression
+Stage Name: el/api/jakarta_el/valueexpression
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
 [javatest.batch] Number of Tests Passed      = 8
@@ -644,7 +644,7 @@ Stage Name: el/api/javax_el/valueexpression
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: el/api/javax_el/variablemapper
+Stage Name: el/api/jakarta_el/variablemapper
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
 [javatest.batch] Number of Tests Passed      = 1
@@ -2388,7 +2388,7 @@ Stage Name: jpa/jpa22
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/application
+Stage Name: jsf/api/jakarta_faces/application
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 255 tests.
 [javatest.batch] Number of Tests Passed      = 255
@@ -2396,7 +2396,7 @@ Stage Name: jsf/api/javax_faces/application
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/component
+Stage Name: jsf/api/jakarta_faces/component
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 4359 tests.
 [javatest.batch] Number of Tests Passed      = 4359
@@ -2404,7 +2404,7 @@ Stage Name: jsf/api/javax_faces/component
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/context
+Stage Name: jsf/api/jakarta_faces/context
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 120 tests.
 [javatest.batch] Number of Tests Passed      = 120
@@ -2412,7 +2412,7 @@ Stage Name: jsf/api/javax_faces/context
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/convert
+Stage Name: jsf/api/jakarta_faces/convert
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 124 tests.
 [javatest.batch] Number of Tests Passed      = 124
@@ -2420,7 +2420,7 @@ Stage Name: jsf/api/javax_faces/convert
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/el
+Stage Name: jsf/api/jakarta_faces/el
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 47 tests.
 [javatest.batch] Number of Tests Passed      = 47
@@ -2428,7 +2428,7 @@ Stage Name: jsf/api/javax_faces/el
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/event
+Stage Name: jsf/api/jakarta_faces/event
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 136 tests.
 [javatest.batch] Number of Tests Passed      = 136
@@ -2436,7 +2436,7 @@ Stage Name: jsf/api/javax_faces/event
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/facesexception
+Stage Name: jsf/api/jakarta_faces/facesexception
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 5 tests.
 [javatest.batch] Number of Tests Passed      = 5
@@ -2444,7 +2444,7 @@ Stage Name: jsf/api/javax_faces/facesexception
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/factoryfinder
+Stage Name: jsf/api/jakarta_faces/factoryfinder
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 12 tests.
 [javatest.batch] Number of Tests Passed      = 12
@@ -2452,7 +2452,7 @@ Stage Name: jsf/api/javax_faces/factoryfinder
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/factoryfinderrelease
+Stage Name: jsf/api/jakarta_faces/factoryfinderrelease
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 1 tests.
 [javatest.batch] Number of Tests Passed      = 1
@@ -2460,7 +2460,7 @@ Stage Name: jsf/api/javax_faces/factoryfinderrelease
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/flow
+Stage Name: jsf/api/jakarta_faces/flow
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 8 tests.
 [javatest.batch] Number of Tests Passed      = 8
@@ -2468,7 +2468,7 @@ Stage Name: jsf/api/javax_faces/flow
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/lifecycle
+Stage Name: jsf/api/jakarta_faces/lifecycle
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
 [javatest.batch] Number of Tests Passed      = 16
@@ -2476,7 +2476,7 @@ Stage Name: jsf/api/javax_faces/lifecycle
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/model
+Stage Name: jsf/api/jakarta_faces/model
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 111 tests.
 [javatest.batch] Number of Tests Passed      = 111
@@ -2484,7 +2484,7 @@ Stage Name: jsf/api/javax_faces/model
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/render
+Stage Name: jsf/api/jakarta_faces/render
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 16 tests.
 [javatest.batch] Number of Tests Passed      = 16
@@ -2492,7 +2492,7 @@ Stage Name: jsf/api/javax_faces/render
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/validator
+Stage Name: jsf/api/jakarta_faces/validator
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 66 tests.
 [javatest.batch] Number of Tests Passed      = 66
@@ -2500,7 +2500,7 @@ Stage Name: jsf/api/javax_faces/validator
 [javatest.batch] Number of Tests with Errors = 0
 [javatest.batch] ********************************************************************************
 
-Stage Name: jsf/api/javax_faces/view
+Stage Name: jsf/api/jakarta_faces/view
 [javatest.batch] ********************************************************************************
 [javatest.batch] Completed running 29 tests.
 [javatest.batch] Number of Tests Passed      = 29
@@ -3060,9 +3060,9 @@ Stage Name: CDI TCK
 
 
 Stage Name: BeanValidation TCK
-[INFO] Tests run: 1046, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,222.99 sec - in TestSuite
+[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,222.99 s - in TestSuite
 [INFO]
 [INFO] Results :
 [INFO]
-[INFO] Tests run: 1046, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
 ----
