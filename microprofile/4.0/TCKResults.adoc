@@ -1,0 +1,63 @@
+:page-layout: certification
+= MicroProfile 4.0 TCK Results Summary
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for releases of MicroProfile 4.0.
+
+== Open Liberty 20.0.0.3 MicroProfile 4.0 Certification Summary
+
+MicroProfile 4.0 consists of 8 MicroProfile Specifications and 4 Jakarta EE 8 specfications. 
+* MicroProfile Config 2.0
+
+* MicroProfile Fault Tolerance 3.0
+
+* MicroProfile Health 3.0
+
+* MicroProfile JWT Authentication 1.2
+
+* MicroProfile Metrics 3.0
+
+* MicroProfile OpenAPI 2.0
+
+* MicroProfile OpenTracing 2.0
+
+* MicroProfile Rest Client 2.0
+
+* Jakarta Contexts and Dependency Injection 2.0
+
+* Jakarta RESTful Web Services 2.1
+
+* Jakarta JSON Binding 1.0
+
+* Jakarta JSON Processing 1.1
+
+
+Below are the TCK summaries for each specification.
+
+
+=== MicroProfile Component Sepecification Certification Summary
+* link:https://openliberty.io/certifications/microprofile/4.0/config/2.0/TCKResults.html[MicroProfile Config 2.0 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/faulttolerance/3.0/TCKResults.html[MicroProfile Fault Tolerance 3.0 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/health/3.0/TCKResults.html[MicroProfile Health 3.0 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/mpjwt/1.2/TCKResults.html[MicroProfile JWT Authentication 1.2 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/metrics/3.0/TCKResults.html[MicroProfile Metrics 3.0 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/openapi/2.0/TCKResults.html[MicroProfile OpenAPI 2.0 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/opentracing/2.0/TCKResults.html[MicroProfile OpenTracing 2.0 TCK Result]
+
+* link:https://openliberty.io/certifications/microprofile/4.0/restclient/2.0/TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
+
+=== Four Jakarta EE 8 Sepecification Certification Summary
+This link:https://openliberty.io/certifications/jakartaee/webprofile/8/20.0.0.3-TCKResults.html[Jakarta EE 8 TCK Summary] lists the TCK Results for the following 4 Jakarta EE 8 specifications.
+
+* Jakarta Contexts and Dependency Injection 2.0
+
+* Jakarta RESTful Web Services 2.1
+
+* Jakarta JSON Binding 1.0
+
+* Jakarta JSON Processing 1.1
