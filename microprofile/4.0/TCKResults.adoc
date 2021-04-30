@@ -5,7 +5,8 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 == Open Liberty 20.0.0.3 MicroProfile 4.0 Certification Summary
 
-MicroProfile 4.0 consists of 8 MicroProfile Specifications and 4 Jakarta EE 8 specfications. 
+MicroProfile 4.0 consists of 8 MicroProfile Specifications and 4 Jakarta EE 8 specfications.  
+
 * MicroProfile Config 2.0
 
 * MicroProfile Fault Tolerance 3.0
