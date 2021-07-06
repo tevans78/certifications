@@ -3,11 +3,11 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Interoperable JWT RBAC 1.2.
 
-== Open Liberty 21.0.0.3 - MicroProfile Interoperable JWT RBAC 1.2 Certification Summary
+== Open Liberty 21.0.0.8-beta - MicroProfile Interoperable JWT RBAC 1.2 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
-https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/21.0.0.3/openliberty-runtime-21.0.0.3.zip[Open Liberty 21.0.0.3]
+https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/21.0.0.8-beta/openliberty-runtime-21.0.0.8-beta.zip[Open Liberty 21.0.0.8-beta]
 
 * Specification Name, Version and download URL:
 +
