@@ -30,7 +30,6 @@ Java 8 Test results:
 [source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8" ?>
-  </testsuite>
   <testsuite errors="0" failures="0" hostname="ebcprs2356mcdcuzh-n.fyre.ibm.com" id="1" name="CDIProducedProceduresTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.099" timestamp="17 Mar 2021 15:41:07 GMT">
       <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testFailureReadinessResponsePayload" time="0.052" />
       <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testSuccessfulLivenessResponsePayload" time="0.047" />
