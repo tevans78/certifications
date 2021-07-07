@@ -38,7 +38,7 @@ MicroProfile 4.1 consists of 8 MicroProfile Specifications and 5 Jakarta EE 8 sp
 https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/21.0.0.8-beta/openliberty-runtime-21.0.0.8-beta.zip[Open Liberty 21.0.0.8-beta]
 
 
-According to the requirement of MicroProfile 4.1, in order to certify against MicroProfile 4.1. The included eight MicroProfile component specifications must pass the corresponding TCK tests, while passing the included five Jakarta EE 8 specifications are optional. Below are the TCK summaries for the eight MicroProfile specifications.
+In order to certify against MicroProfile 4.1, an implementation must pass the TCK tests for the eight included MicroProfile component specifications. Passing the TCKs for the five included Jakarta EE 8 specifications is optional.
 
 === MicroProfile Component Sepecification Certification Summary
 * link:config/2.0/TCKResults.html[MicroProfile Config 2.0 TCK Result]
@@ -57,7 +57,7 @@ According to the requirement of MicroProfile 4.1, in order to certify against Mi
 
 * link:restclient/2.0/TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
 
-=== Optional: Five Jakarta EE 8 Sepecification Certification Summary
+=== Optional: Jakarta EE 8 Sepecification Certification Summary
 This link:../../jakartaee/webprofile/8/20.0.0.3-TCKResults.html[Jakarta EE 8 TCK Summary] lists the TCK Results for the following 5 Jakarta EE 8 specifications.
 
 * Jakarta Contexts and Dependency Injection 2.0
