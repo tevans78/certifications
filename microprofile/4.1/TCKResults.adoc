@@ -57,15 +57,3 @@ In order to certify against MicroProfile 4.1, an implementation must pass the TC
 
 * link:restclient/2.0/TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
 
-=== Optional: Jakarta EE 8 Sepecification Certification Summary
-This link:../../jakartaee/webprofile/8/20.0.0.3-TCKResults.html[Jakarta EE 8 TCK Summary] lists the TCK Results for the following 5 Jakarta EE 8 specifications.
-
-* Jakarta Contexts and Dependency Injection 2.0
-
-* Jakarta RESTful Web Services 2.1
-
-* Jakarta JSON Binding 1.0
-
-* Jakarta JSON Processing 1.1
-
-* Jakarta Annotations 1.3
