@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for releases of MicroProfile 4.1.
 
-== Open Liberty 20.0.0.8-beta MicroProfile 4.1 Certification Summary
+== Open Liberty 21.0.0.8-beta MicroProfile 4.1 Certification Summary
 
 MicroProfile 4.1 consists of 8 MicroProfile Specifications and 5 Jakarta EE 8 specfications.  
 
