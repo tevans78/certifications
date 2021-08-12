@@ -23,8 +23,8 @@ Java 8 and 11
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
-MacOS 11.4 for Java 8
-RHEL 8 for Java 11
+** MacOS 11.4 for Java 8
+** RHEL 8 for Java 11
 
 Java 8 Test results:
 
