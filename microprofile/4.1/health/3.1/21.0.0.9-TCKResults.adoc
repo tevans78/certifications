@@ -30,7 +30,76 @@ Java 8 Test results:
 [source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8" ?>
-COMING SOON
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="1" name="CDIProducedProceduresTest" package="org.eclipse.microprofile.health.tck" tests="3" time="0.091" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testSuccessfulLivenessResponsePayload" time="0.028" />
+      <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testSuccessStartupResponsePayload" time="0.030" />
+      <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testFailureReadinessResponsePayload" time="0.033" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="2" name="ConfigTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.020" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.ConfigTest" name="testEmptyReadinessWithConfig" time="0.020" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="3" name="DelayedCheckTest" package="org.eclipse.microprofile.health.tck" tests="1" time="6.099" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.DelayedCheckTest" name="testSuccessResponsePayload" time="6.099" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="4" name="DelegateHealthSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.200" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest" name="testSuccessfulDelegateInvocation" time="0.200" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="5" name="EnforceQualifierTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.034" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.EnforceQualifierTest" name="testFailureResponsePayload" time="0.034" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="6" name="HealthCheckResponseAttributesTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.051" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest" name="testSuccessResponsePayload" time="0.051" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="7" name="HealthCheckResponseValidationTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.179" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest" name="testValidateConcreteHealthCheckResponse" time="0.179" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="8" name="JsonSchemaValidationTest" package="org.eclipse.microprofile.health.tck" tests="1" time="2.610" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.JsonSchemaValidationTest" name="testPayloadJsonVerifiesWithTheSpecificationSchema" time="2.610" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="9" name="MultipleLivenessFailedTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.112" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest" name="testFailureLivenessResponsePayload" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest" name="testSuccessfulReadinessResponsePayload" time="0.043" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="10" name="MultipleProceduresFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.105" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest" name="testFailureResponsePayload" time="0.105" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="11" name="MultipleReadinessFailedTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.193" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest" name="testSuccessfulLivenessResponsePayload" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest" name="testFailureResponsePayload" time="0.130" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="12" name="MultipleStartupFailedTest" package="org.eclipse.microprofile.health.tck" tests="4" time="0.416" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testSuccessfulReadinessResponsePayload" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testSuccessfulLivenessResponsePayload" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testFailingHealthResponsePayload" time="0.172" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testFailingStartupResponsePayload" time="0.095" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="13" name="NoProcedureSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.058" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest" name="testSuccessResponsePayload" time="0.058" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="14" name="OnlySuccessfulProcedureTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.078" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest" name="testSuccessfulReadinessResponsePayload" time="0.029" />
+      <testcase classname="org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest" name="testSuccessfulLivenessResponsePayload" time="0.049" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="15" name="SingleLivenessFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.069" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleLivenessFailedTest" name="testFailureResponsePayload" time="0.069" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="16" name="SingleLivenessSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.094" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest" name="testSuccessResponsePayload" time="0.094" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="17" name="SingleReadinessFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.069" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleReadinessFailedTest" name="testFailureResponsePayload" time="0.069" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="18" name="SingleReadinessSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.079" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest" name="testSuccessResponsePayload" time="0.079" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="19" name="SingleStartupFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.050" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleStartupFailedTest" name="testFailedResponsePayload" time="0.050" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233855-n.fyre.ibm.com" id="20" name="SingleStartupSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.092" timestamp="28 Aug 2021 14:33:09 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest" name="testSuccessResponsePayload" time="0.092" />
+  </testsuite>
+</testsuites>
 ----
 
 Java 11 Test results:
@@ -38,5 +107,74 @@ Java 11 Test results:
 [source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8" ?>
-COMING SOON
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="1" name="CDIProducedProceduresTest" package="org.eclipse.microprofile.health.tck" tests="3" time="0.097" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testFailureReadinessResponsePayload" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testSuccessfulLivenessResponsePayload" time="0.026" />
+      <testcase classname="org.eclipse.microprofile.health.tck.CDIProducedProceduresTest" name="testSuccessStartupResponsePayload" time="0.031" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="2" name="ConfigTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.030" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.ConfigTest" name="testEmptyReadinessWithConfig" time="0.030" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="3" name="DelayedCheckTest" package="org.eclipse.microprofile.health.tck" tests="1" time="6.053" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.DelayedCheckTest" name="testSuccessResponsePayload" time="6.053" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="4" name="DelegateHealthSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.164" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest" name="testSuccessfulDelegateInvocation" time="0.164" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="5" name="EnforceQualifierTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.041" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.EnforceQualifierTest" name="testFailureResponsePayload" time="0.041" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="6" name="HealthCheckResponseAttributesTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.056" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest" name="testSuccessResponsePayload" time="0.056" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="7" name="HealthCheckResponseValidationTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.131" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest" name="testValidateConcreteHealthCheckResponse" time="0.131" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="8" name="JsonSchemaValidationTest" package="org.eclipse.microprofile.health.tck" tests="1" time="2.529" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.JsonSchemaValidationTest" name="testPayloadJsonVerifiesWithTheSpecificationSchema" time="2.529" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="9" name="MultipleLivenessFailedTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.161" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest" name="testSuccessfulReadinessResponsePayload" time="0.042" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest" name="testFailureLivenessResponsePayload" time="0.119" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="10" name="MultipleProceduresFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.114" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest" name="testFailureResponsePayload" time="0.114" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="11" name="MultipleReadinessFailedTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.262" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest" name="testSuccessfulLivenessResponsePayload" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest" name="testFailureResponsePayload" time="0.142" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="12" name="MultipleStartupFailedTest" package="org.eclipse.microprofile.health.tck" tests="4" time="0.330" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testFailingHealthResponsePayload" time="0.160" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testSuccessfulReadinessResponsePayload" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testFailingStartupResponsePayload" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.health.tck.MultipleStartupFailedTest" name="testSuccessfulLivenessResponsePayload" time="0.058" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="13" name="NoProcedureSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.021" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest" name="testSuccessResponsePayload" time="0.021" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="14" name="OnlySuccessfulProcedureTest" package="org.eclipse.microprofile.health.tck" tests="2" time="0.167" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest" name="testSuccessfulReadinessResponsePayload" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest" name="testSuccessfulLivenessResponsePayload" time="0.115" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="15" name="SingleLivenessFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.091" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleLivenessFailedTest" name="testFailureResponsePayload" time="0.091" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="16" name="SingleLivenessSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.092" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest" name="testSuccessResponsePayload" time="0.092" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="17" name="SingleReadinessFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.083" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleReadinessFailedTest" name="testFailureResponsePayload" time="0.083" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="18" name="SingleReadinessSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.153" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest" name="testSuccessResponsePayload" time="0.153" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="19" name="SingleStartupFailedTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.095" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleStartupFailedTest" name="testFailedResponsePayload" time="0.095" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233832-n.fyre.ibm.com" id="20" name="SingleStartupSuccessfulTest" package="org.eclipse.microprofile.health.tck" tests="1" time="0.089" timestamp="28 Aug 2021 14:16:31 GMT">
+      <testcase classname="org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest" name="testSuccessResponsePayload" time="0.089" />
+  </testsuite>
+</testsuites>
 ----

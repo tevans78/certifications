@@ -30,7 +30,442 @@ Java 8 Test results:
 [source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8" ?>
-COMING SOON
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="1" name="ArrayConverterTest" package="org.eclipse.microprofile.config.tck" tests="138" time="15.376" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriSetInjection_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDoubleArrayLookupProgrammatically_EE8_FEATURES" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlArrayInjection_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetUriArrayConverter_EE8_FEATURES" time="0.147" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testURLSetInjection_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanArrayInjection_EE8_FEATURES" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetOffsetTimeArrayConverter_EE8_FEATURES" time="0.134" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetBooleanArrayConverter_EE8_FEATURES" time="0.121" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDurationListLookupProgrammatically_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalDateArrayConverter_EE8_FEATURES" time="0.123" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetStringArrayConverter_EE8_FEATURES" time="0.117" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatArrayLookupProgrammatically_EE8_FEATURES" time="0.132" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleListLookupProgrammatically_EE8_FEATURES" time="0.166" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalInstantArrayLookupProgrammatically_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanListLookupProgrammatically_EE8_FEATURES" time="0.203" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatSetInjection_EE8_FEATURES" time="0.121" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetFloatArrayConverter_EE8_FEATURES" time="0.136" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeSetInjection_EE8_FEATURES" time="0.099" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetInstantArrayConverter_EE8_FEATURES" time="0.123" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanArrayInjection_EE8_FEATURES" time="0.733" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalTimeListLookupProgrammatically_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantSetInjection_EE8_FEATURES" time="0.122" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriListLookupProgrammatically_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlArrayLookupProgrammatically_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeListInjection_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalDateTimeArrayConverter_EE8_FEATURES" time="0.125" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantListInjection_EE8_FEATURES" time="0.115" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateListInjection_EE8_FEATURES" time="0.116" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetDurationArrayConverter_EE8_FEATURES" time="0.121" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeArrayLookupProgrammatically_EE8_FEATURES" time="0.273" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalInstantListLookupProgrammatically_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeArrayInjection_EE8_FEATURES" time="0.108" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalBooleanListLookupProgrammatically_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateListLookupProgrammatically_EE8_FEATURES" time="0.104" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeListInjection_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateArrayLookupProgrammatically_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLongArrayLookupProgrammatically_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testlongArrayInjection_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantListLookupProgrammatically_EE8_FEATURES" time="0.103" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeArrayInjection_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetCustomTypeArrayConverter_EE8_FEATURES" time="0.131" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantArrayInjection_EE8_FEATURES" time="0.115" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntegerArrayLookupProgrammatically_EE8_FEATURES" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanSetInjection_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetDoubleArrayConverter_EE8_FEATURES" time="0.127" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testintArrayInjection_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationArrayInjection_EE8_FEATURES" time="0.166" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetUrlArrayConverter_EE8_FEATURES" time="0.117" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringListInjection_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalCustomTypeListLookupProgrammatically_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongListInjection_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeArrayInjection_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalStringListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriArrayLookupProgrammatically_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetOffsetDateTimeArrayConverter_EE8_FEATURES" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleListInjection_EE8_FEATURES" time="0.166" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriListInjection_EE8_FEATURES" time="0.109" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeListLookupProgrammatically_EE8_FEATURES" time="0.203" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeListLookupProgrammatically_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalFloatListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeSetInjection_EE8_FEATURES" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalFloatArrayLookupProgrammatically_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeSetInjection_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUrlArrayLookupProgrammatically_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetbooleanArrayConverter_EE8_FEATURES" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateSetInjection_EE8_FEATURES" time="0.103" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testfloatArrayInjection_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeListInjection_EE8_FEATURES" time="0.216" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatListLookupProgrammatically_EE8_FEATURES" time="0.135" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.107" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUriArrayLookupProgrammatically_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntArrayInjection_EE8_FEATURES" time="0.104" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testURLListInjection_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalStringArrayLookupProgrammatically_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testdoubleArrayInjection_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleArrayInjection_EE8_FEATURES" time="0.183" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatArrayInjection_EE8_FEATURES" time="0.114" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateArrayInjection_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntSetInjection_EE8_FEATURES" time="0.102" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleArrayLookupProgrammatically_EE8_FEATURES" time="0.186" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateArrayLookupProgrammatically_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalCustomTypeArrayLookupProgrammatically_EE8_FEATURES" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLongListLookupProgrammatically_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeListInjection_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeArrayInjection_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDurationArrayLookupProgrammatically_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringArrayLookupProgrammatically_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeSetInjection_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeArrayInjection_EE8_FEATURES" time="0.215" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalTimeArrayConverter_EE8_FEATURES" time="0.114" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeSetInjection_EE8_FEATURES" time="0.185" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetIntegerArrayConverter_EE8_FEATURES" time="0.104" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalIntegerListLookupProgrammatically_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUriListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntListInjection_EE8_FEATURES" time="0.099" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongArrayLookupProgrammatically_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanArrayLookupProgrammatically_EE8_FEATURES" time="0.230" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongArrayInjection_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeListInjection_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanListInjection_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDoubleListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantArrayLookupProgrammatically_EE8_FEATURES" time="0.106" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetlongArrayCoverter_EE8_FEATURES" time="0.108" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringArrayInjection_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationSetInjection_EE8_FEATURES" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUrlListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetdoubleArrayConverter_EE8_FEATURES" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntegerListLookupProgrammatically_EE8_FEATURES" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriArrayInjection_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLongArrayCoverter_EE8_FEATURES" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetIntArrayConverter_EE8_FEATURES" time="0.112" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetfloatArrayConverter_EE8_FEATURES" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationArrayLookupProgrammatically_EE8_FEATURES" time="0.203" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongSetInjection_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalIntegerArrayLookupProgrammatically_EE8_FEATURES" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationListLookupProgrammatically_EE8_FEATURES" time="0.121" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringSetInjection_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleSetInjection_EE8_FEATURES" time="0.171" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatListInjection_EE8_FEATURES" time="0.138" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetTimeListLookupProgrammatically_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationListInjection_EE8_FEATURES" time="0.148" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalBooleanArrayLookupProgrammatically_EE8_FEATURES" time="0.102" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="2" name="AutoDiscoveredConfigSourceTest" package="org.eclipse.microprofile.config.tck" tests="3" time="0.487" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConverterNotAddedAutomatically_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConverterManuallyAdded_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConfigureSources_EE8_FEATURES" time="0.379" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="3" name="CDIPlainInjectionTest" package="org.eclipse.microprofile.config.tck" tests="4" time="0.801" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="injectedValuesAreEqualToProgrammaticValues_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectDynamicValuesViaCdiProvider_EE8_FEATURES" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectSimpleValuesWhenDefined_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectDefaultPropertyPath_EE8_FEATURES" time="0.541" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="4" name="CDIPropertyExpressionsTest" package="org.eclipse.microprofile.config.tck" tests="2" time="0.584" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" name="expression_EE8_FEATURES" time="0.537" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" name="expressionNoDefault_EE8_FEATURES" time="0.047" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="5" name="CDIPropertyNameMatchingTest" package="org.eclipse.microprofile.config.tck" tests="1" time="0.618" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyNameMatchingTest" name="testPropertyFromEnvironmentVariables_EE8_FEATURES" time="0.618" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="6" name="CdiOptionalInjectionTest" package="org.eclipse.microprofile.config.tck" tests="2" time="0.485" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" name="testOptionalInjectionWithNoDefaultValueOrElseIsReturned_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" name="testOptionalInjection_EE8_FEATURES" time="0.435" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="7" name="ClassConverterTest" package="org.eclipse.microprofile.config.tck" tests="3" time="0.503" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testConverterForClassLoadedInBean_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testClassConverterWithLookup_EE8_FEATURES" time="0.388" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testGetClassConverter_EE8_FEATURES" time="0.063" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="8" name="ConfigPropertiesTest" package="org.eclipse.microprofile.config.tck" tests="7" time="0.799" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesDefaultOnBean_EE8_FEATURES" time="0.456" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testNoConfigPropertiesAnnotationInjection_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesNoPrefixOnBean_EE8_FEATURES" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesNoPrefixOnBeanThenSupplyPrefix_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesWithoutPrefix_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesWithPrefix_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesPlainInjection_EE8_FEATURES" time="0.053" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="9" name="ConfigProviderTest" package="org.eclipse.microprofile.config.tck" tests="9" time="0.818" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testInjectedConfigSerializable_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testEnvironmentConfigSource_EE8_FEATURES" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testPropertyConfigSource_EE8_FEATURES" time="0.042" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testNonExistingConfigKey_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testDynamicValueInPropertyConfigSource_EE8_FEATURES" time="0.373" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testGetPropertyNames_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testJavaConfigPropertyFilesConfigSource_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testNonExistingConfigKeyGet_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testGetConfigSources_EE8_FEATURES" time="0.067" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="10" name="ConfigValueTest" package="org.eclipse.microprofile.config.tck" tests="3" time="0.543" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValueInjection_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValueEmpty_EE8_FEATURES" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValue_EE8_FEATURES" time="0.418" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="11" name="ConverterTest" package="org.eclipse.microprofile.config.tck" tests="92" time="6.940" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInt_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testZoneOffset_Broken_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testchar_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetInstantConverter_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetlongConverter_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldConversionWithMultipleLambdaConverters_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldConversionWithLambdaConverter_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetTime_Broken_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetTimeConverter_Broken_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetTime_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInteger_Broken_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLong_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDurationCoverter_EE8_FEATURES" time="0.123" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURIConverterBroken_EE8_FEATURES" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldNotConvertedByDefault_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDouble_EE8_FEATURES" time="0.122" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateConverter_EE8_FEATURES" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetZoneOffsetConverter_EE8_FEATURES" time="0.126" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDonaldConverterWithLambdaConverter_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testCustomConverter_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testByte_Broken_EE8_FEATURES" time="0.108" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDoubleConverter_Broken_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntConverter_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testChar_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetDateTime_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCharConverter_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetdoubleConverter_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCharConverter_Broken_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuckConversionWithMultipleConverters_EE8_FEATURES" time="0.134" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuration_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLongConverter_Broken_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetBooleanConverter_EE8_FEATURES" time="0.143" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetConverterSerialization_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetTimeConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDouble_Broken_EE8_FEATURES" time="0.133" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLongConverter_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testShort_Broken_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testdouble_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInstant_Broken_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDoubleConverter_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetDateTimeConverter_Broken_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateTimeConverter_Broken_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDate_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDate_Broken_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetShortConverter_Broken_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInteger_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURIConverter_EE8_FEATURES" time="0.036" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testConverterSerialization_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetbyteConverter_EE8_FEATURES" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDateTime_Broken_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetShortConverter_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetcharConverter_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetByteConverter_Broken_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetByteConverter_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDonaldConverterWithMultipleLambdaConverters_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testbyte_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testlong_EE8_FEATURES" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testfloat_EE8_FEATURES" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInstant_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetDateTime_Broken_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testChar_Broken_EE8_FEATURES" time="0.137" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testBoolean_EE8_FEATURES" time="0.486" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntegerConverter_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetFloatConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalTime_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testshort_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testShort_EE8_FEATURES" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalTimeConverter_Broken_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDuckConverterWithMultipleConverters_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateTimeConverter_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testNoDonaldConverterByDefault_EE8_FEATURES" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testZoneOffset_EE8_FEATURES" time="0.041" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testByte_EE8_FEATURES" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLong_Broken_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetZoneOffsetConverter_Broken_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURIConverterBroken_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testFloat_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDateTime_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURIConverter_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetDateTimeConverter_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetshortConverter_EE8_FEATURES" time="0.042" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntegerConverter_Broken_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetfloatConverter_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalTime_Broken_EE8_FEATURES" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalTimeConverter_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuration_Broken_EE8_FEATURES" time="0.152" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetInstantConverter_Broken_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testFloat_Broken_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDurationConverter_Broken_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCustomConverter_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetFloatConverter_Broken_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateConverter_Broken_EE8_FEATURES" time="0.060" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="12" name="CustomConfigSourceTest" package="org.eclipse.microprofile.config.tck" tests="1" time="0.502" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConfigSourceTest" name="testConfigSourceProvider_EE8_FEATURES" time="0.502" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="13" name="CustomConverterTest" package="org.eclipse.microprofile.config.tck" tests="20" time="1.902" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetCharPrimitiveConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testCharPrimitive_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testDouble_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetDoublePrimitiveConverter_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetIntegerConverter_EE8_FEATURES" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testLong_EE8_FEATURES" time="0.118" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetCharacterConverter_EE8_FEATURES" time="0.109" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testIntPrimitive_EE8_FEATURES" time="0.107" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetIntPrimitiveConverter_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetLongConverter_EE8_FEATURES" time="0.154" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testCharacter_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetBooleanConverter_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetDoubleConverter_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testBoolean_EE8_FEATURES" time="0.385" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetLongPrimitiveConverter_EE8_FEATURES" time="0.101" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testInteger_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testBooleanPrimitive_EE8_FEATURES" time="0.038" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testDoublePrimitive_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetBooleanPrimitiveConverter_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testLongPrimitive_EE8_FEATURES" time="0.045" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="14" name="ImplicitConverterTest" package="org.eclipse.microprofile.config.tck" tests="19" time="1.664" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParseJavaTime_EE8_FEATURES" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceParseBeforeConstructorConverter_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParse_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceOfBeforeValueOf_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterCharSequenceParseJavaTimeConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringValueOfConverter_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceValueOfBeforeParse_EE8_FEATURES" time="0.068" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringCt_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringValueOf_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParseJavaTimeInjection_EE8_FEATURES" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringOf_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringCtConverter_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterEnumValueOfConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterEnumValueOf_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceOfBeforeValueOfConverter_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceParseBeforeConstructor_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterCharSequenceParseConverter_EE8_FEATURES" time="0.431" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringOfConverter_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceValueOfBeforeParseConverter_EE8_FEATURES" time="0.057" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="15" name="PropertyExpressionsTest" package="org.eclipse.microprofile.config.tck" tests="16" time="1.471" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="withoutExpansion_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionComposedEmpty_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="multipleExpressions_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="noExpressionComposed_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="arrayEscapes_EE8_FEATURES" time="0.602" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="expressionMissing_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="composedExpressions_EE8_FEATURES" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="multipleExpansions_EE8_FEATURES" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="infiniteExpansion_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionEmpty_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpression_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="simpleExpression_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="escapeBraces_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionComposed_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="noExpression_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="escape_EE8_FEATURES" time="0.060" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="16" name="WarPropertiesLocationTest" package="org.eclipse.microprofile.config.tck" tests="1" time="0.459" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.WarPropertiesLocationTest" name="testReadPropertyInWar_EE8_FEATURES" time="0.459" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="17" name="ConfigPropertiesMissingPropertyInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.005" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.ConfigPropertiesMissingPropertyInjectionTest" name="test_EE8_FEATURES" time="0.005" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="18" name="MissingConverterOnInstanceInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.008" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingConverterOnInstanceInjectionTest" name="test_EE8_FEATURES" time="0.008" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="19" name="MissingValueOnInstanceInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.005" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingValueOnInstanceInjectionTest" name="test_EE8_FEATURES" time="0.005" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="20" name="MissingValueOnObserverMethodInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.002" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingValueOnObserverMethodInjectionTest" name="test_EE8_FEATURES" time="0.002" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="21" name="WrongConverterOnInstanceInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.017" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.WrongConverterOnInstanceInjectionTest" name="test_EE8_FEATURES" time="0.017" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="22" name="DefaultConfigSourceOrdinalTest" package="org.eclipse.microprofile.config.tck.configsources" tests="2" time="0.562" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" name="testOrdinalForSystemProps_EE8_FEATURES" time="0.039" />
+      <testcase classname="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" name="testOrdinalForEnv_EE8_FEATURES" time="0.523" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="23" name="NullConvertersTest" package="org.eclipse.microprofile.config.tck.converters" tests="1" time="0.909" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.NullConvertersTest" name="nulls_EE8_FEATURES" time="0.909" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="24" name="ConvertedNullValueBrokenInjectionTest" package="org.eclipse.microprofile.config.tck.converters.convertToNull" tests="1" time="0.014" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueBrokenInjectionTest" name="test_EE8_FEATURES" time="0.014" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="25" name="ConvertedNullValueTest" package="org.eclipse.microprofile.config.tck.converters.convertToNull" tests="3" time="1.147" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testGetValue_EE8_FEATURES" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testDefaultValueNotUsed_EE8_FEATURES" time="1.040" />
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testGetOptionalValue_EE8_FEATURES" time="0.056" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="26" name="EmptyValuesTestProgrammaticLookup" package="org.eclipse.microprofile.config.tck.emptyvalue" tests="28" time="2.563" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetValue_EE8_FEATURES" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetValueArray_EE8_FEATURES" time="0.102" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetValue_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetValue_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetOptionalValues_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetValueArray_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetValueArray_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetValueArray_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetValueArray_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetValueArray_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetOptionalValue_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetValue_EE8_FEATURES" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetOptionalValue_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetValue_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetValue_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetOptionalValue_EE8_FEATURES" time="0.641" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetValueArray_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetOptionalValues_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetValueArray_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetOptionalValues_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetOptionalValueAsArrayOrList_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetOptionalValues_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetOptionalValue_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetValueArray_EE8_FEATURES" time="0.068" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetOptionalValue_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetValue_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetValue_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetValue_EE8_FEATURES" time="0.074" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="27" name="EmptyValuesTest" package="org.eclipse.microprofile.config.tck.emptyvalue" tests="1" time="0.005" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTest" name="test_EE8_FEATURES" time="0.005" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="28" name="ConfigPropertyFileProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.317" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.317" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="29" name="DevConfigProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.502" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.DevConfigProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.502" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="30" name="InvalidConfigProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.407" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.InvalidConfigProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.407" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="31" name="ProdProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.458" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.ProdProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.458" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="32" name="TestConfigProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.464" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.TestConfigProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.464" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233850-n.fyre.ibm.com" id="33" name="TestCustomConfigProfile" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.500" timestamp="28 Aug 2021 19:04:39 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.TestCustomConfigProfile" name="testConfigProfileWithDev_EE8_FEATURES" time="0.500" />
+  </testsuite>
+</testsuites>
 ----
 
 Java 11 Test results:
@@ -38,5 +473,440 @@ Java 11 Test results:
 [source,xml]
 ----
 <?xml version="1.0" encoding="UTF-8" ?>
-COMING SOON
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="1" name="ArrayConverterTest" package="org.eclipse.microprofile.config.tck" tests="138" time="14.966" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeListLookupProgrammatically_EE8_FEATURES" time="0.196" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateListLookupProgrammatically_EE8_FEATURES" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringSetInjection_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetInstantArrayConverter_EE8_FEATURES" time="0.122" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanListLookupProgrammatically_EE8_FEATURES" time="0.196" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntegerListLookupProgrammatically_EE8_FEATURES" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationSetInjection_EE8_FEATURES" time="0.175" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlArrayLookupProgrammatically_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanArrayInjection_EE8_FEATURES" time="0.662" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeArrayInjection_EE8_FEATURES" time="0.219" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalCustomTypeListLookupProgrammatically_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUriListLookupProgrammatically_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalStringArrayLookupProgrammatically_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriArrayLookupProgrammatically_EE8_FEATURES" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongListLookupProgrammatically_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlArrayInjection_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantListLookupProgrammatically_EE8_FEATURES" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriSetInjection_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeArrayInjection_EE8_FEATURES" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeSetInjection_EE8_FEATURES" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatSetInjection_EE8_FEATURES" time="0.131" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatListInjection_EE8_FEATURES" time="0.174" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalIntegerArrayLookupProgrammatically_EE8_FEATURES" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetTimeListLookupProgrammatically_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantArrayLookupProgrammatically_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLongListLookupProgrammatically_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalInstantListLookupProgrammatically_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalBooleanListLookupProgrammatically_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatArrayLookupProgrammatically_EE8_FEATURES" time="0.142" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetDoubleArrayConverter_EE8_FEATURES" time="0.142" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalDateTimeArrayConverter_EE8_FEATURES" time="0.120" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatListLookupProgrammatically_EE8_FEATURES" time="0.135" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalBooleanArrayLookupProgrammatically_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntegerArrayLookupProgrammatically_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeSetInjection_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringArrayLookupProgrammatically_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateArrayLookupProgrammatically_EE8_FEATURES" time="0.195" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDoubleArrayLookupProgrammatically_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetStringArrayConverter_EE8_FEATURES" time="0.114" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntListInjection_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeListInjection_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetFloatArrayConverter_EE8_FEATURES" time="0.117" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetUrlArrayConverter_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateArrayLookupProgrammatically_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDurationListLookupProgrammatically_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetIntArrayConverter_EE8_FEATURES" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanArrayInjection_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetbooleanArrayConverter_EE8_FEATURES" time="0.118" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateArrayInjection_EE8_FEATURES" time="0.116" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetdoubleArrayConverter_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDurationArrayLookupProgrammatically_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationListLookupProgrammatically_EE8_FEATURES" time="0.123" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeArrayLookupProgrammatically_EE8_FEATURES" time="0.201" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationArrayLookupProgrammatically_EE8_FEATURES" time="0.152" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeListInjection_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalIntegerListLookupProgrammatically_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testdoubleArrayInjection_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalInstantArrayLookupProgrammatically_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetDurationArrayConverter_EE8_FEATURES" time="0.135" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalFloatListLookupProgrammatically_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlListLookupProgrammatically_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleArrayLookupProgrammatically_EE8_FEATURES" time="0.163" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantArrayInjection_EE8_FEATURES" time="0.112" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeListLookupProgrammatically_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUrlArrayLookupProgrammatically_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanListInjection_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalTimeArrayConverter_EE8_FEATURES" time="0.124" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetlongArrayCoverter_EE8_FEATURES" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleListInjection_EE8_FEATURES" time="0.174" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeArrayInjection_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleArrayInjection_EE8_FEATURES" time="0.197" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringArrayInjection_EE8_FEATURES" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatArrayInjection_EE8_FEATURES" time="0.185" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLongArrayCoverter_EE8_FEATURES" time="0.106" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testlongArrayInjection_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalCustomTypeArrayLookupProgrammatically_EE8_FEATURES" time="0.115" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalStringListLookupProgrammatically_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanArrayLookupProgrammatically_EE8_FEATURES" time="0.183" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriListInjection_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongArrayLookupProgrammatically_EE8_FEATURES" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeSetInjection_EE8_FEATURES" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongSetInjection_EE8_FEATURES" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalDateArrayConverter_EE8_FEATURES" time="0.142" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantSetInjection_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringListLookupProgrammatically_EE8_FEATURES" time="0.068" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeArrayInjection_EE8_FEATURES" time="0.093" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateListLookupProgrammatically_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testfloatArrayInjection_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationArrayInjection_EE8_FEATURES" time="0.166" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetCustomTypeArrayConverter_EE8_FEATURES" time="0.122" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testURLListInjection_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeArrayInjection_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateListInjection_EE8_FEATURES" time="0.169" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUriArrayLookupProgrammatically_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleSetInjection_EE8_FEATURES" time="0.169" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeSetInjection_EE8_FEATURES" time="0.173" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetfloatArrayConverter_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateSetInjection_EE8_FEATURES" time="0.091" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDoubleListLookupProgrammatically_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLongArrayLookupProgrammatically_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriListLookupProgrammatically_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeListInjection_EE8_FEATURES" time="0.250" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetOffsetDateTimeArrayConverter_EE8_FEATURES" time="0.114" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testintArrayInjection_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalTimeListLookupProgrammatically_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testURLSetInjection_EE8_FEATURES" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntArrayInjection_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantListInjection_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetUriArrayConverter_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetIntegerArrayConverter_EE8_FEATURES" time="0.128" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongArrayInjection_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeListInjection_EE8_FEATURES" time="0.176" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationListInjection_EE8_FEATURES" time="0.157" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriArrayInjection_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongListInjection_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetBooleanArrayConverter_EE8_FEATURES" time="0.134" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeSetInjection_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringListInjection_EE8_FEATURES" time="0.109" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeListInjection_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeListLookupProgrammatically_EE8_FEATURES" time="0.108" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeListLookupProgrammatically_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalFloatArrayLookupProgrammatically_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanSetInjection_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUrlListLookupProgrammatically_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetOffsetTimeArrayConverter_EE8_FEATURES" time="0.111" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntSetInjection_EE8_FEATURES" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeArrayLookupProgrammatically_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleListLookupProgrammatically_EE8_FEATURES" time="0.159" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="2" name="AutoDiscoveredConfigSourceTest" package="org.eclipse.microprofile.config.tck" tests="3" time="0.359" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConfigureSources_EE8_FEATURES" time="0.283" />
+      <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConverterNotAddedAutomatically_EE8_FEATURES" time="0.036" />
+      <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConverterManuallyAdded_EE8_FEATURES" time="0.040" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="3" name="CDIPlainInjectionTest" package="org.eclipse.microprofile.config.tck" tests="4" time="0.617" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="injectedValuesAreEqualToProgrammaticValues_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectSimpleValuesWhenDefined_EE8_FEATURES" time="0.093" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectDynamicValuesViaCdiProvider_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectDefaultPropertyPath_EE8_FEATURES" time="0.388" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="4" name="CDIPropertyExpressionsTest" package="org.eclipse.microprofile.config.tck" tests="2" time="0.564" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" name="expression_EE8_FEATURES" time="0.446" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" name="expressionNoDefault_EE8_FEATURES" time="0.118" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="5" name="CDIPropertyNameMatchingTest" package="org.eclipse.microprofile.config.tck" tests="1" time="0.681" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyNameMatchingTest" name="testPropertyFromEnvironmentVariables_EE8_FEATURES" time="0.681" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="6" name="CdiOptionalInjectionTest" package="org.eclipse.microprofile.config.tck" tests="2" time="0.322" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" name="testOptionalInjectionWithNoDefaultValueOrElseIsReturned_EE8_FEATURES" time="0.041" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" name="testOptionalInjection_EE8_FEATURES" time="0.281" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="7" name="ClassConverterTest" package="org.eclipse.microprofile.config.tck" tests="3" time="0.379" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testConverterForClassLoadedInBean_EE8_FEATURES" time="0.038" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testGetClassConverter_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testClassConverterWithLookup_EE8_FEATURES" time="0.285" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="8" name="ConfigPropertiesTest" package="org.eclipse.microprofile.config.tck" tests="7" time="0.642" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesNoPrefixOnBeanThenSupplyPrefix_EE8_FEATURES" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesWithoutPrefix_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testNoConfigPropertiesAnnotationInjection_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesDefaultOnBean_EE8_FEATURES" time="0.341" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesWithPrefix_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesNoPrefixOnBean_EE8_FEATURES" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesPlainInjection_EE8_FEATURES" time="0.049" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="9" name="ConfigProviderTest" package="org.eclipse.microprofile.config.tck" tests="9" time="0.716" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testEnvironmentConfigSource_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testInjectedConfigSerializable_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testNonExistingConfigKey_EE8_FEATURES" time="0.039" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testGetConfigSources_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testJavaConfigPropertyFilesConfigSource_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testGetPropertyNames_EE8_FEATURES" time="0.042" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testDynamicValueInPropertyConfigSource_EE8_FEATURES" time="0.348" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testPropertyConfigSource_EE8_FEATURES" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testNonExistingConfigKeyGet_EE8_FEATURES" time="0.039" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="10" name="ConfigValueTest" package="org.eclipse.microprofile.config.tck" tests="3" time="0.425" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValue_EE8_FEATURES" time="0.320" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValueInjection_EE8_FEATURES" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValueEmpty_EE8_FEATURES" time="0.059" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="11" name="ConverterTest" package="org.eclipse.microprofile.config.tck" tests="92" time="6.362" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testCustomConverter_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDuckConverterWithMultipleConverters_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testConverterSerialization_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalTimeConverter_Broken_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCustomConverter_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetZoneOffsetConverter_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDoubleConverter_Broken_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testShort_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetInstantConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetfloatConverter_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetByteConverter_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetbyteConverter_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testbyte_EE8_FEATURES" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDurationCoverter_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntConverter_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCharConverter_Broken_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalTime_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testByte_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetdoubleConverter_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInteger_Broken_EE8_FEATURES" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDouble_Broken_EE8_FEATURES" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInt_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLong_Broken_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetShortConverter_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalTimeConverter_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuration_Broken_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDate_Broken_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testchar_EE8_FEATURES" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testFloat_Broken_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInteger_EE8_FEATURES" time="0.151" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDate_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntegerConverter_Broken_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateTimeConverter_Broken_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testChar_EE8_FEATURES" time="0.094" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testZoneOffset_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testShort_Broken_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetFloatConverter_Broken_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDurationConverter_Broken_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateConverter_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testZoneOffset_Broken_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testshort_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLongConverter_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testByte_Broken_EE8_FEATURES" time="0.107" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testlong_EE8_FEATURES" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURIConverterBroken_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInstant_EE8_FEATURES" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testdouble_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testChar_Broken_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURIConverter_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateConverter_Broken_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCharConverter_EE8_FEATURES" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetcharConverter_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetByteConverter_Broken_EE8_FEATURES" time="0.093" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetlongConverter_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInstant_Broken_EE8_FEATURES" time="0.042" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLong_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetTimeConverter_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateTimeConverter_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testNoDonaldConverterByDefault_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetBooleanConverter_EE8_FEATURES" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testBoolean_EE8_FEATURES" time="0.437" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDoubleConverter_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetTime_Broken_EE8_FEATURES" time="0.111" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testfloat_EE8_FEATURES" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetFloatConverter_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetDateTime_Broken_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLongConverter_Broken_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetDateTimeConverter_Broken_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuckConversionWithMultipleConverters_EE8_FEATURES" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetZoneOffsetConverter_Broken_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntegerConverter_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetShortConverter_Broken_EE8_FEATURES" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDateTime_Broken_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldConversionWithMultipleLambdaConverters_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURIConverter_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetDateTime_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetTimeConverter_Broken_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuration_EE8_FEATURES" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDouble_EE8_FEATURES" time="0.098" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDonaldConverterWithMultipleLambdaConverters_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testFloat_EE8_FEATURES" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetTime_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalTime_Broken_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURIConverterBroken_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetInstantConverter_Broken_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDateTime_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetConverterSerialization_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDonaldConverterWithLambdaConverter_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetshortConverter_EE8_FEATURES" time="0.032" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldConversionWithLambdaConverter_EE8_FEATURES" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetDateTimeConverter_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldNotConvertedByDefault_EE8_FEATURES" time="0.083" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="12" name="CustomConfigSourceTest" package="org.eclipse.microprofile.config.tck" tests="1" time="0.321" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConfigSourceTest" name="testConfigSourceProvider_EE8_FEATURES" time="0.321" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="13" name="CustomConverterTest" package="org.eclipse.microprofile.config.tck" tests="20" time="1.756" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetDoubleConverter_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testCharPrimitive_EE8_FEATURES" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testCharacter_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testLong_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testDouble_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testDoublePrimitive_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testBoolean_EE8_FEATURES" time="0.394" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetLongPrimitiveConverter_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetCharPrimitiveConverter_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetBooleanPrimitiveConverter_EE8_FEATURES" time="0.125" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testIntPrimitive_EE8_FEATURES" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetBooleanConverter_EE8_FEATURES" time="0.158" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testInteger_EE8_FEATURES" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testLongPrimitive_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetDoublePrimitiveConverter_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testBooleanPrimitive_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetCharacterConverter_EE8_FEATURES" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetIntegerConverter_EE8_FEATURES" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetLongConverter_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetIntPrimitiveConverter_EE8_FEATURES" time="0.068" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="14" name="ImplicitConverterTest" package="org.eclipse.microprofile.config.tck" tests="19" time="1.475" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParseJavaTime_EE8_FEATURES" time="0.042" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceParseBeforeConstructor_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringValueOfConverter_EE8_FEATURES" time="0.053" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceValueOfBeforeParseConverter_EE8_FEATURES" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterEnumValueOfConverter_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringCt_EE8_FEATURES" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringOfConverter_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParseJavaTimeInjection_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceValueOfBeforeParse_EE8_FEATURES" time="0.126" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringCtConverter_EE8_FEATURES" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterCharSequenceParseJavaTimeConverter_EE8_FEATURES" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceParseBeforeConstructorConverter_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringValueOf_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterCharSequenceParseConverter_EE8_FEATURES" time="0.379" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceOfBeforeValueOfConverter_EE8_FEATURES" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterEnumValueOf_EE8_FEATURES" time="0.041" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParse_EE8_FEATURES" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringOf_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceOfBeforeValueOf_EE8_FEATURES" time="0.075" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="15" name="PropertyExpressionsTest" package="org.eclipse.microprofile.config.tck" tests="16" time="1.276" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionEmpty_EE8_FEATURES" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="simpleExpression_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="expressionMissing_EE8_FEATURES" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="noExpression_EE8_FEATURES" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="multipleExpansions_EE8_FEATURES" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionComposed_EE8_FEATURES" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="multipleExpressions_EE8_FEATURES" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="escape_EE8_FEATURES" time="0.036" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="noExpressionComposed_EE8_FEATURES" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="infiniteExpansion_EE8_FEATURES" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionComposedEmpty_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpression_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="escapeBraces_EE8_FEATURES" time="0.039" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="withoutExpansion_EE8_FEATURES" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="arrayEscapes_EE8_FEATURES" time="0.495" />
+      <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="composedExpressions_EE8_FEATURES" time="0.065" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="16" name="WarPropertiesLocationTest" package="org.eclipse.microprofile.config.tck" tests="1" time="0.313" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.WarPropertiesLocationTest" name="testReadPropertyInWar_EE8_FEATURES" time="0.313" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="17" name="ConfigPropertiesMissingPropertyInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.008" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.ConfigPropertiesMissingPropertyInjectionTest" name="test_EE8_FEATURES" time="0.008" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="18" name="MissingConverterOnInstanceInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.009" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingConverterOnInstanceInjectionTest" name="test_EE8_FEATURES" time="0.009" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="19" name="MissingValueOnInstanceInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.004" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingValueOnInstanceInjectionTest" name="test_EE8_FEATURES" time="0.004" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="20" name="MissingValueOnObserverMethodInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.003" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingValueOnObserverMethodInjectionTest" name="test_EE8_FEATURES" time="0.003" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="21" name="WrongConverterOnInstanceInjectionTest" package="org.eclipse.microprofile.config.tck.broken" tests="1" time="0.010" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.broken.WrongConverterOnInstanceInjectionTest" name="test_EE8_FEATURES" time="0.010" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="22" name="DefaultConfigSourceOrdinalTest" package="org.eclipse.microprofile.config.tck.configsources" tests="2" time="0.408" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" name="testOrdinalForEnv_EE8_FEATURES" time="0.363" />
+      <testcase classname="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" name="testOrdinalForSystemProps_EE8_FEATURES" time="0.045" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="23" name="NullConvertersTest" package="org.eclipse.microprofile.config.tck.converters" tests="1" time="0.698" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.NullConvertersTest" name="nulls_EE8_FEATURES" time="0.698" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="24" name="ConvertedNullValueBrokenInjectionTest" package="org.eclipse.microprofile.config.tck.converters.convertToNull" tests="1" time="0.026" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueBrokenInjectionTest" name="test_EE8_FEATURES" time="0.026" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="25" name="ConvertedNullValueTest" package="org.eclipse.microprofile.config.tck.converters.convertToNull" tests="3" time="0.795" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testGetOptionalValue_EE8_FEATURES" time="0.117" />
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testGetValue_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testDefaultValueNotUsed_EE8_FEATURES" time="0.616" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="26" name="EmptyValuesTestProgrammaticLookup" package="org.eclipse.microprofile.config.tck.emptyvalue" tests="28" time="2.623" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetOptionalValue_EE8_FEATURES" time="0.089" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetOptionalValue_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetValue_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetValue_EE8_FEATURES" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetValueArray_EE8_FEATURES" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetValue_EE8_FEATURES" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetValueArray_EE8_FEATURES" time="0.142" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetValueArray_EE8_FEATURES" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetValueArray_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetOptionalValues_EE8_FEATURES" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetOptionalValue_EE8_FEATURES" time="0.607" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetValueArray_EE8_FEATURES" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetValueArray_EE8_FEATURES" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetValue_EE8_FEATURES" time="0.068" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetValueArray_EE8_FEATURES" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetValueArray_EE8_FEATURES" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetOptionalValueAsArrayOrList_EE8_FEATURES" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetValue_EE8_FEATURES" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetOptionalValue_EE8_FEATURES" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetValue_EE8_FEATURES" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetOptionalValues_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetValue_EE8_FEATURES" time="0.093" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetOptionalValues_EE8_FEATURES" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetValueArray_EE8_FEATURES" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetValue_EE8_FEATURES" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetValue_EE8_FEATURES" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetOptionalValue_EE8_FEATURES" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetOptionalValues_EE8_FEATURES" time="0.068" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="27" name="EmptyValuesTest" package="org.eclipse.microprofile.config.tck.emptyvalue" tests="1" time="0.003" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTest" name="test_EE8_FEATURES" time="0.003" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="28" name="ConfigPropertyFileProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.430" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.430" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="29" name="DevConfigProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.621" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.DevConfigProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.621" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="30" name="InvalidConfigProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.386" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.InvalidConfigProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.386" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="31" name="ProdProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.412" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.ProdProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.412" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="32" name="TestConfigProfileTest" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.340" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.TestConfigProfileTest" name="testConfigProfileWithDev_EE8_FEATURES" time="0.340" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21233823-n.fyre.ibm.com" id="33" name="TestCustomConfigProfile" package="org.eclipse.microprofile.config.tck.profile" tests="1" time="0.337" timestamp="28 Aug 2021 20:00:47 GMT">
+      <testcase classname="org.eclipse.microprofile.config.tck.profile.TestCustomConfigProfile" name="testConfigProfileWithDev_EE8_FEATURES" time="0.337" />
+  </testsuite>
+</testsuites>
 ----
