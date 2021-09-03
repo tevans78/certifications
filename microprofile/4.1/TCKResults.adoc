@@ -56,4 +56,3 @@ In order to certify against MicroProfile 4.1, an implementation must pass the TC
 * link:opentracing/2.0/TCKResults.html[MicroProfile OpenTracing 2.0 TCK Result]
 
 * link:restclient/2.0/TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
-
