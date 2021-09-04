@@ -7,7 +7,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 * Product Name, Version and download URL (if applicable):
 +
-https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/21.0.0.8-beta/openliberty-runtime-21.0.0.8-beta.zip[Open Liberty 21.0.0.8-beta]
+https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/21.0.0.8-beta/openliberty-runtime-21.0.0.8-beta.zip[Open Liberty 21.0.0.8-beta]
 
 * Specification Name, Version and download URL:
 +
