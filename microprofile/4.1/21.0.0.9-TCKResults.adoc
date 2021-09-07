@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for releases of MicroProfile 4.1.
 
-== Open Liberty 21.0.0.8-beta MicroProfile 4.1 Certification Summary
+== Open Liberty 21.0.0.9 MicroProfile 4.1 Certification Summary
 
 MicroProfile 4.1 consists of 8 MicroProfile Specifications and 5 Jakarta EE 8 specfications.  
 
@@ -35,24 +35,24 @@ MicroProfile 4.1 consists of 8 MicroProfile Specifications and 5 Jakarta EE 8 sp
 
 === Product Name, Version and download URL (if applicable):
 
-https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/21.0.0.8-beta/openliberty-runtime-21.0.0.8-beta.zip[Open Liberty 21.0.0.8-beta]
+https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/21.0.0.9/openliberty-runtime-21.0.0.9.zip[Open Liberty 21.0.0.9]
 
 
 In order to certify against MicroProfile 4.1, an implementation must pass the TCK tests for the eight included MicroProfile component specifications. Passing the TCKs for the five included Jakarta EE 8 specifications is optional.
 
 === MicroProfile Component Sepecification Certification Summary
-* link:config/2.0/TCKResults.html[MicroProfile Config 2.0 TCK Result]
+* link:config/2.0/21.0.0.9-TCKResults.html[MicroProfile Config 2.0 TCK Result]
 
-* link:faulttolerance/3.0/TCKResults.html[MicroProfile Fault Tolerance 3.0 TCK Result]
+* link:faulttolerance/3.0/21.0.0.9-TCKResults.html[MicroProfile Fault Tolerance 3.0 TCK Result]
 
-* link:health/3.1/TCKResults.html[MicroProfile Health 3.1 TCK Result]
+* link:health/3.1/21.0.0.9-TCKResults.html[MicroProfile Health 3.1 TCK Result]
 
-* link:mpjwt/1.2/TCKResults.html[MicroProfile JWT Authentication 1.2 TCK Result]
+* link:mpjwt/1.2/21.0.0.9-TCKResults.html[MicroProfile JWT Authentication 1.2 TCK Result]
 
-* link:metrics/3.0/TCKResults.html[MicroProfile Metrics 3.0 TCK Result]
+* link:metrics/3.0/21.0.0.9-TCKResults.html[MicroProfile Metrics 3.0 TCK Result]
 
-* link:openapi/2.0/TCKResults.html[MicroProfile OpenAPI 2.0 TCK Result]
+* link:openapi/2.0/21.0.0.9-TCKResults.html[MicroProfile OpenAPI 2.0 TCK Result]
 
-* link:opentracing/2.0/TCKResults.html[MicroProfile OpenTracing 2.0 TCK Result]
+* link:opentracing/2.0/21.0.0.9-TCKResults.html[MicroProfile OpenTracing 2.0 TCK Result]
 
-* link:restclient/2.0/TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
+* link:restclient/2.0/21.0.0.9-TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
