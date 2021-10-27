@@ -1,0 +1,528 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Interoperable JWT RBAC 2.0.
+
+== Open Liberty 21.0.0.12-beta - MicroProfile Interoperable JWT RBAC 2.0 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/21.0.0.12-beta/openliberty-runtime-21.0.0.12-beta.zip[Open Liberty 21.0.0.12-beta]
+
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.0-RC2/microprofile-jwt-auth-spec-2.0-RC2.html[MicroProfile Interoperable JWT RBAC 2.0]
+
+* Public URL of TCK Results Summary:
++
+link:21.0.0.12-beta-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8 and 11
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+RHEL 8
+
+Java 8 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="1" name="ECPublicKeyAsJWKLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.225" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsJWKLocationTest" name="testKeyAsLocation" time="0.225" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="2" name="ECPublicKeyAsPEMLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.167" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMLocationTest" name="testKeyAsLocationResource" time="0.167" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="3" name="ECPublicKeyAsPEMTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.122" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMTest" name="testKeyAsPEM" time="0.122" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="4" name="IssValidationFailTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="2.430" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.IssValidationFailTest" name="testNotRequiredIssMismatchFailure" time="2.430" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="5" name="IssValidationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="1.993" timestamp="2021-10-20T13:20:36 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.IssValidationTest" name="testRequiredIss" time="1.993" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="6" name="PublicKeyAsBase64JWKTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.242" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsBase64JWKTest" name="testKeyAsBase64JWK" time="0.242" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="7" name="PublicKeyAsFileLocationURLTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.229" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsFileLocationURLTest" name="testKeyAsLocationUrl" time="0.229" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="8" name="PublicKeyAsJWKLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.259" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationTest" name="testKeyAsLocation" time="0.259" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="9" name="PublicKeyAsJWKLocationURLTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="2" time="4.391" timestamp="2021-10-20T13:21:43 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest" name="validateLocationUrlContents" time="1.622" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest" name="testKeyAsLocationUrl" time="2.769" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="10" name="PublicKeyAsJWKSLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.209" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSLocationTest" name="testKeyAsLocation" time="0.209" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="11" name="PublicKeyAsJWKSTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.242" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSTest" name="testKeyAsJWKS" time="0.242" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="12" name="PublicKeyAsJWKTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.225" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKTest" name="testKeyAsJWK" time="0.225" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="13" name="PublicKeyAsPEMLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="3.562" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationTest" name="testKeyAsLocationResource" time="3.562" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="14" name="PublicKeyAsPEMLocationURLTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="2" time="0.608" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest" name="testKeyAsLocationUrl" time="0.441" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest" name="validateLocationUrlContents" time="0.167" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="15" name="PublicKeyAsPEMTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.205" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMTest" name="testKeyAsPEM" time="0.205" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="16" name="TokenAsCookieIgnoredTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="2" time="0.411" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.TokenAsCookieIgnoredTest" name="noTokenHeaderSetToCookie" time="0.254" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="19" name="PrivateKeyAsJWKSClasspathTest" package="org.eclipse.microprofile.jwt.tck.config.jwe" skipped="0" tests="1" time="0.148" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsJWKSClasspathTest" name="testKeyAsLocation" time="0.148" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="20" name="PrivateKeyAsPEMClasspathTest" package="org.eclipse.microprofile.jwt.tck.config.jwe" skipped="0" tests="1" time="0.207" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsPEMClasspathTest" name="testKeyAsLocationResource" time="0.207" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="21" name="ApplicationScopedInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="3" time="0.445" timestamp="2021-10-20T13:18:41 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest" name="verifyInjectedRawToken1Provider" time="0.192" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest" name="verifyInjectedRawTokenJwt" time="0.125" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest" name="verifyInjectedRawTokenClaimValue" time="0.128" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="22" name="AudArrayValidationTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="1.291" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudArrayValidationTest" name="testRequiredAudMatch" time="1.291" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="23" name="AudValidationBadAudTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.140" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationBadAudTest" name="testRequiredAudMismatchFailure" time="0.140" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="24" name="AudValidationMissingAudTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.067" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationMissingAudTest" name="testRequiredAudMissingFailure" time="0.067" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="25" name="AudValidationTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.215" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationTest" name="testRequiredAudMatch" time="0.215" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="26" name="ClaimValueInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="19" time="4.510" timestamp="2021-10-20T13:18:41 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedAudience" time="2.932" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedJTIStandard" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedIssuedAt" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedJTI" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomString" time="0.098" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedAuthTimeStandard" time="0.098" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomDouble" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedOptionalAuthTime" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedIssuedAtStandard" time="0.101" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedOptionalSubject" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedSubjectStandard" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedOptionalCustomMissing" time="0.068" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyIssuerClaim" time="0.112" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomBoolean" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomInteger" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedAudienceStandard" time="0.106" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedRawToken" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyIssuerStandardClaim" time="0.082" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="27" name="CookieTokenTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="5" time="0.453" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest" name="ignoreHeaderIfCookieSet" time="0.143" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedIssuedAt" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomString2" time="0.125" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedRawToken2" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedRawToken" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAudience" time="0.219" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAudience2" time="0.127" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomInteger" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomStringArray" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomIntegerArray" time="0.073" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedIssuedAt2" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomInteger2" time="0.127" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedJTI2" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyIssuerClaim2" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedJTI" time="0.064" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomString" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyIssuerClaim" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomDoubleArray" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomDouble2" time="0.114" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomDouble" time="0.090" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAuthTime" time="0.115" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="31" name="PrimitiveInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="11" time="0.773" timestamp="2021-10-20T13:18:41 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyIssuerClaim" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedIssuedAt" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedJTI" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedRawToken" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedUPN" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedGroups" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedExpiration" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedAudience" time="0.113" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedCustomBoolean" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedSUB" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedCustomString" time="0.059" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="32" name="PrincipalInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.082" timestamp="2021-10-20T13:18:41 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrincipalInjectionTest" name="verifyInjectedPrincipal" time="0.082" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="33" name="ProviderInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="21" time="1.180" timestamp="2021-10-20T13:18:41 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyIssuerClaim2" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomDouble" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomString" time="0.051" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomInteger2" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedIssuedAt" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomInteger" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedRawToken2" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedJTI2" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalSubject" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedJTI" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedRawToken" time="0.054" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyIssuerClaim" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalAuthTime" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomDouble2" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomString2" time="0.052" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalAuthTime2" time="0.049" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalSubject2" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalCustomMissing" time="0.048" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedAudience2" time="0.057" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedIssuedAt2" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedAudience" time="0.101" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="34" name="RequiredClaimsTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="11" time="1.116" timestamp="2021-10-20T13:20:36 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyIssuedAt" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyTokenWithIatOlderThanExp" time="0.195" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifySubClaim" time="0.070" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyOptionalAudience" time="0.076" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyIssuerClaim" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyExpiration" time="0.084" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyJTI" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyAudience" time="0.118" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyTokenWithoutName" time="0.155" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyUPN" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyTokenWithoutExpiration" time="0.115" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="35" name="RolesAllowedTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="15" time="1.045" timestamp="2021-10-20T13:18:41 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEcho2" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="getPrincipalClass" time="0.063" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoNoGroups" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callHeartbeat" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="getInjectedPrincipal" time="0.050" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEcho" time="0.179" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoSignEncryptToken" time="0.041" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="checkIsUserInRoleToken2" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="echoNeedsToken2Role" time="0.101" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoBASIC" time="0.033" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoNoAuth" time="0.027" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="echoWithToken2" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoSignToken" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="noTokenHeaderSetToCookie" time="0.092" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="36" name="RsaKeySignatureTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.136" timestamp="2021-10-20T13:20:01 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RsaKeySignatureTest" name="callEcho" time="0.136" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="37" name="UnsecuredPingTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="1.440" timestamp="2021-10-20T13:20:36 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.UnsecuredPingTest" name="callEchoNoAuth" time="1.440" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="echoNeedsToken2Role" time="0.112" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="getPrincipalClass" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoSignEncryptToken" time="0.055" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="checkIsUserInRole" time="0.039" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="checkIsUserInRoleToken2" time="0.127" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEcho" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoWithoutCty" time="0.108" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoBASIC" time="0.025" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callHeartbeat" time="0.017" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="getInjectedPrincipal" time="0.045" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoSignToken" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEcho2" time="0.043" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoNoAuth" time="0.023" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="39" name="TokenUtilsEncryptTest" package="org.eclipse.microprofile.jwt.tck.util" skipped="0" tests="8" time="1.082" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testExpGrace" time="0.032" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailAlgorithm" time="0.013" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailJustExpired" time="0.015" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailExpired" time="0.019" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testValidToken" time="0.014" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testValidateSignedToken" time="0.011" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailEncryption" time="0.964" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailIssuer" time="0.014" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="40" name="TokenUtilsSignEncryptTest" package="org.eclipse.microprofile.jwt.tck.util" skipped="0" tests="7" time="0.185" timestamp="2021-10-20T13:21:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testNestedSignedByECKeyVerifiedByRSKey" time="0.020" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testEncryptSignedClaimsWithoutCty" time="0.023" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testValidateSignedToken" time="0.011" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testValidateEncryptedOnlyToken" time="0.012" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testNestedSignedByRSKeyVerifiedByECKey" time="0.022" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testEncryptSignedClaims" time="0.025" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testEncryptECSignedClaims" time="0.072" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs01295859-n.fyre.ibm.com" id="41" name="TokenUtilsTest" package="org.eclipse.microprofile.jwt.tck.util" skipped="0" tests="18" time="1.815" timestamp="2021-10-20T13:20:36 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidTokenEC256" time="0.025" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailJustExpired" time="0.014" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailJustExpiredDeprecated" time="0.012" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testExpGraceDeprecated" time="0.016" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailIssuer" time="0.013" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailExpiredDeprecated" time="0.014" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidToken1024BitKeyLength" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailAlgorithmDeprecated" time="0.005" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailAlgorithm" time="0.009" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidTokenDeprecated" time="0.012" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailSignatureDeprecated" time="0.682" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailSignature" time="0.287" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testExpGrace" time="0.537" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testSignedByRSKeyVerifiedByECKey" time="0.013" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testSignedByECKeyVerifiedByRSKey" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidToken" time="0.012" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailExpired" time="0.026" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailIssuerDeprecated" time="0.012" />
+  </testsuite>
+</testsuites>
+----
+
+Java 11 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="1" name="ECPublicKeyAsJWKLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.283" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsJWKLocationTest" name="testKeyAsLocation" time="0.283" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="2" name="ECPublicKeyAsPEMLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.177" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMLocationTest" name="testKeyAsLocationResource" time="0.177" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="3" name="ECPublicKeyAsPEMTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.238" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMTest" name="testKeyAsPEM" time="0.238" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="4" name="IssValidationFailTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="1.294" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.IssValidationFailTest" name="testNotRequiredIssMismatchFailure" time="1.294" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="5" name="IssValidationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.875" timestamp="2021-10-22T14:43:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.IssValidationTest" name="testRequiredIss" time="0.875" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="6" name="PublicKeyAsBase64JWKTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.317" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsBase64JWKTest" name="testKeyAsBase64JWK" time="0.317" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="7" name="PublicKeyAsFileLocationURLTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.189" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsFileLocationURLTest" name="testKeyAsLocationUrl" time="0.189" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="8" name="PublicKeyAsJWKLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.143" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationTest" name="testKeyAsLocation" time="0.143" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="9" name="PublicKeyAsJWKLocationURLTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="2" time="2.789" timestamp="2021-10-22T14:44:15 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest" name="validateLocationUrlContents" time="1.071" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest" name="testKeyAsLocationUrl" time="1.718" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="10" name="PublicKeyAsJWKSLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.169" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSLocationTest" name="testKeyAsLocation" time="0.169" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="11" name="PublicKeyAsJWKSTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.150" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSTest" name="testKeyAsJWKS" time="0.150" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="12" name="PublicKeyAsJWKTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.202" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKTest" name="testKeyAsJWK" time="0.202" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="13" name="PublicKeyAsPEMLocationTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="1.827" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationTest" name="testKeyAsLocationResource" time="1.827" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="14" name="PublicKeyAsPEMLocationURLTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="2" time="0.598" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest" name="testKeyAsLocationUrl" time="0.428" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest" name="validateLocationUrlContents" time="0.170" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="15" name="PublicKeyAsPEMTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="1" time="0.345" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMTest" name="testKeyAsPEM" time="0.345" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="16" name="TokenAsCookieIgnoredTest" package="org.eclipse.microprofile.jwt.tck.config" skipped="0" tests="2" time="0.444" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.TokenAsCookieIgnoredTest" name="noTokenHeaderSetToCookie" time="0.262" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="19" name="PrivateKeyAsJWKSClasspathTest" package="org.eclipse.microprofile.jwt.tck.config.jwe" skipped="0" tests="1" time="0.125" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsJWKSClasspathTest" name="testKeyAsLocation" time="0.125" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="20" name="PrivateKeyAsPEMClasspathTest" package="org.eclipse.microprofile.jwt.tck.config.jwe" skipped="0" tests="1" time="0.160" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsPEMClasspathTest" name="testKeyAsLocationResource" time="0.160" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="21" name="ApplicationScopedInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="3" time="0.510" timestamp="2021-10-22T14:41:23 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest" name="verifyInjectedRawTokenClaimValue" time="0.148" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest" name="verifyInjectedRawTokenJwt" time="0.180" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest" name="verifyInjectedRawToken1Provider" time="0.182" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="22" name="AudArrayValidationTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.643" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudArrayValidationTest" name="testRequiredAudMatch" time="0.643" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="23" name="AudValidationBadAudTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.092" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationBadAudTest" name="testRequiredAudMismatchFailure" time="0.092" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="24" name="AudValidationMissingAudTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.132" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationMissingAudTest" name="testRequiredAudMissingFailure" time="0.132" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="25" name="AudValidationTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.177" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationTest" name="testRequiredAudMatch" time="0.177" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="26" name="ClaimValueInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="19" time="4.145" timestamp="2021-10-22T14:41:23 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedOptionalAuthTime" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedRawToken" time="0.139" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomString" time="0.108" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedAudience" time="2.053" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedJTI" time="0.102" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedRawTokenStandard" time="0.107" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedOptionalCustomMissing" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomInteger" time="0.115" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedIssuedAtStandard" time="0.111" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedAudienceStandard" time="0.116" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedOptionalSubject" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyIssuerStandardClaim" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedAuthTimeStandard" time="0.119" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedCustomBoolean" time="0.148" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedSubjectStandard" time="0.141" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedJTIStandard" time="0.105" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyIssuerClaim" time="0.175" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest" name="verifyInjectedIssuedAt" time="0.110" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="27" name="CookieTokenTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="5" time="0.524" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest" name="ignoreHeaderIfCookieSet" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedIssuedAt" time="0.081" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomStringArray" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomDoubleArray" time="0.106" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomString" time="0.112" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomDouble" time="0.104" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAuthTime2" time="0.103" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedJTI2" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedJTI" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAudience2" time="0.117" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedRawToken2" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAuthTime" time="0.092" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomInteger2" time="0.143" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomDouble2" time="0.137" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedAudience" time="0.148" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyIssuerClaim2" time="0.118" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedIssuedAt2" time="0.087" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomIntegerArray" time="0.103" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedRawToken" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyInjectedCustomString2" time="0.119" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest" name="verifyIssuerClaim" time="0.085" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="31" name="PrimitiveInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="11" time="1.048" timestamp="2021-10-22T14:41:23 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedAudience" time="0.135" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedRawToken" time="0.122" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedExpiration" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedCustomString" time="0.111" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedUPN" time="0.078" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedSUB" time="0.105" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedJTI" time="0.075" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyIssuerClaim" time="0.082" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedIssuedAt" time="0.074" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedCustomBoolean" time="0.100" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest" name="verifyInjectedGroups" time="0.069" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="32" name="PrincipalInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.105" timestamp="2021-10-22T14:41:23 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.PrincipalInjectionTest" name="verifyInjectedPrincipal" time="0.105" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="33" name="ProviderInjectionTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="21" time="1.510" timestamp="2021-10-22T14:41:23 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomInteger2" time="0.069" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomInteger" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyIssuerClaim" time="0.085" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalSubject2" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedJTI" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyIssuerClaim2" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalCustomMissing" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalSubject" time="0.129" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomString2" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedRawToken2" time="0.065" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomDouble" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedJTI2" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalAuthTime" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomString" time="0.068" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedIssuedAt" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedCustomDouble2" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedAudience" time="0.163" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedOptionalAuthTime2" time="0.061" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedAudience2" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedIssuedAt2" time="0.058" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest" name="verifyInjectedRawToken" time="0.067" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="34" name="RequiredClaimsTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="11" time="1.163" timestamp="2021-10-22T14:43:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyAudience" time="0.223" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifySubClaim" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyIssuerClaim" time="0.067" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyTokenWithoutExpiration" time="0.139" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyUPN" time="0.088" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyOptionalAudience" time="0.062" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyTokenWithIatOlderThanExp" time="0.145" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyExpiration" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyJTI" time="0.080" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyTokenWithoutName" time="0.104" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest" name="verifyIssuedAt" time="0.072" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="35" name="RolesAllowedTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="15" time="1.172" timestamp="2021-10-22T14:41:23 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="echoWithToken2" time="0.066" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="checkIsUserInRole" time="0.060" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoSignToken" time="0.046" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoNoAuth" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoSignEncryptToken" time="0.077" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoBASIC" time="0.040" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEchoNoGroups" time="0.116" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="checkIsUserInRoleToken2" time="0.086" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="echoNeedsToken2Role" time="0.097" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="getPrincipalClass" time="0.095" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEcho2" time="0.079" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callHeartbeat" time="0.025" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="noTokenHeaderSetToCookie" time="0.103" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest" name="callEcho" time="0.178" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="36" name="RsaKeySignatureTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.168" timestamp="2021-10-22T14:42:44 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.RsaKeySignatureTest" name="callEcho" time="0.168" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="37" name="UnsecuredPingTest" package="org.eclipse.microprofile.jwt.tck.container.jaxrs" skipped="0" tests="1" time="0.914" timestamp="2021-10-22T14:43:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.UnsecuredPingTest" name="callEchoNoAuth" time="0.914" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="getInjectedPrincipal" time="0.059" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callHeartbeat" time="0.021" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="checkIsUserInRole" time="0.071" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoNoAuth" time="0.037" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEcho" time="0.181" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoBASIC" time="0.030" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoSignToken" time="0.044" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="echoWithToken2" time="0.072" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="getPrincipalClass" time="0.083" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="checkIsUserInRoleToken2" time="0.096" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoSignEncryptToken" time="0.110" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEchoWithoutCty" time="0.056" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest" name="callEcho2" time="0.066" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="39" name="TokenUtilsEncryptTest" package="org.eclipse.microprofile.jwt.tck.util" skipped="0" tests="8" time="0.840" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testValidateSignedToken" time="0.014" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailIssuer" time="0.018" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailJustExpired" time="0.014" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailEncryption" time="0.709" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testExpGrace" time="0.024" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailAlgorithm" time="0.022" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testFailExpired" time="0.026" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest" name="testValidToken" time="0.013" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="40" name="TokenUtilsSignEncryptTest" package="org.eclipse.microprofile.jwt.tck.util" skipped="0" tests="7" time="0.151" timestamp="2021-10-22T14:43:53 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testEncryptSignedClaimsWithoutCty" time="0.023" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testEncryptECSignedClaims" time="0.034" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testNestedSignedByRSKeyVerifiedByECKey" time="0.023" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testEncryptSignedClaims" time="0.024" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testNestedSignedByECKeyVerifiedByRSKey" time="0.023" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testValidateSignedToken" time="0.012" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest" name="testValidateEncryptedOnlyToken" time="0.012" />
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406049-n.fyre.ibm.com" id="41" name="TokenUtilsTest" package="org.eclipse.microprofile.jwt.tck.util" skipped="0" tests="18" time="3.264" timestamp="2021-10-22T14:43:17 PDT">
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailJustExpiredDeprecated" time="0.005" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidToken1024BitKeyLength" time="0.047" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailExpired" time="0.027" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testSignedByECKeyVerifiedByRSKey" time="0.036" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testExpGraceDeprecated" time="0.006" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidTokenDeprecated" time="0.015" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailAlgorithmDeprecated" time="0.005" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailIssuer" time="0.005" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testSignedByRSKeyVerifiedByECKey" time="0.018" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailSignature" time="1.280" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailExpiredDeprecated" time="0.007" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidTokenEC256" time="0.025" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailAlgorithm" time="0.012" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailIssuerDeprecated" time="0.008" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testValidToken" time="0.016" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailSignatureDeprecated" time="1.609" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testFailJustExpired" time="0.004" />
+      <testcase classname="org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest" name="testExpGrace" time="0.139" />
+  </testsuite>
+</testsuites>
+----
