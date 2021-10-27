@@ -35,7 +35,7 @@ MicroProfile 4.0 consists of 8 MicroProfile Specifications and 4 Jakarta EE 8 sp
 Below are the TCK summaries for each specification.
 
 
-=== MicroProfile Component Sepecification Certification Summary
+=== MicroProfile Component Specification Certification Summary
 * link:https://openliberty.io/certifications/microprofile/4.0/config/2.0/TCKResults.html[MicroProfile Config 2.0 TCK Result]
 
 * link:https://openliberty.io/certifications/microprofile/4.0/faulttolerance/3.0/TCKResults.html[MicroProfile Fault Tolerance 3.0 TCK Result]
@@ -52,7 +52,7 @@ Below are the TCK summaries for each specification.
 
 * link:https://openliberty.io/certifications/microprofile/4.0/restclient/2.0/TCKResults.html[MicroProfile Rest Client 2.0 TCK Result]
 
-=== Four Jakarta EE 8 Sepecification Certification Summary
+=== Four Jakarta EE 8 Specification Certification Summary
 This link:https://openliberty.io/certifications/jakartaee/webprofile/8/20.0.0.3-TCKResults.html[Jakarta EE 8 TCK Summary] lists the TCK Results for the following 4 Jakarta EE 8 specifications.
 
 * Jakarta Contexts and Dependency Injection 2.0
