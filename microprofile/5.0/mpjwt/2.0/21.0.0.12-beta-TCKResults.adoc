@@ -11,7 +11,7 @@ https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/21.0.0.12
 
 * Specification Name, Version and download URL:
 +
-link:https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.0-RC2/microprofile-jwt-auth-spec-2.0-RC2.html[MicroProfile Interoperable JWT RBAC 2.0]
+link:https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.0-RC2/microprofile-jwt-auth-spec-2.0-RC2.html[MicroProfile Interoperable JWT RBAC 2.0 RC2]
 
 * Public URL of TCK Results Summary:
 +
