@@ -15,7 +15,7 @@ link:https://download.eclipse.org/microprofile/microprofile-config-3.0-RC5/micro
 
 * Public URL of TCK Results Summary:
 +
-link:TCKResults.html[TCK results summary]
+link:21.0.0.12-beta-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
