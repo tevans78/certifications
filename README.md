@@ -7,22 +7,22 @@ All TCK Results (all pages with `:page-layout: certification` to be exact) can b
 ## File Format
 The TCK Results will be asciidoc (<runtimeVersion>TCKResults.adoc) files.
 This format will allow for easy rendering onto the openliberty.io site.
-Shortly after PRs are merged into this repo, the results will be accessible via https://openliberty.io/certifications/...
 
 ## Directory Structure
-The following directory structure will be used to house these TCK Results:
+The URL structure on [openliberty.io/certifications/](https://openliberty.io/certifications/) directly matches the directory structure of this repo.
+The following URL/path structure is to be used for this repo:
 
-```https://openliberty.io/certifications/<spec>/<specVersion>/<optional:subSpec>/<optional:subSpecVersion>/<runtimeVersion>TCKResults```
-For example,
-```
-https://openliberty.io/certifications/jakartaee/8/webprofile/19.0.0.6-TCKResults.html
-https://openliberty.io/certifications/jakartaee/9.1/platform/21.0.0.2-beta-Java11-TCKResults.html
+```https://openliberty.io/certifications/<spec>/<specVersion>/<optional:subSpec>/<optional:subSpecVersion>/<runtimeVersion>-TCKResults```
 
-https://openliberty.io/certifications/microprofile/5.0/21.0.0.12-beta-TCKResults.html
-https://openliberty.io/certifications/microprofile/5.0/config/3.0/21.0.0.12-beta-TCKResults.html
+For example:
+> [certifications/jakartaee/8/webprofile/19.0.0.6-TCKResults.adoc](https://openliberty.io/certifications/jakartaee/8/webprofile/19.0.0.6-TCKResults.html)  
+> [certifications/jakartaee/9.1/platform/21.0.0.2-beta-Java11-TCKResults.adoc](https://openliberty.io/certifications/jakartaee/9.1/platform/21.0.0.2-beta-Java11-TCKResults.html)  
+>  
+> [certifications/microprofile/5.0/21.0.0.12-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/5.0/21.0.0.12-beta-TCKResults.html)  
+> [certifications/microprofile/5.0/config/3.0/21.0.0.12-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/5.0/config/3.0/21.0.0.12-beta-TCKResults.html)  
+>  
+> [certifications/microprofile/contextpropagation/ccr/1.2/21.0.0.3-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/contextpropagation/ccr/1.2/21.0.0.3-beta-TCKResults.html)
 
-https://openliberty.io/certifications/microprofile/restclient/ccr/2.0/TCKResults.html
-```
 ## TCKResults Content
 Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the content.
 
@@ -45,7 +45,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
 
 6. Request a code review.  The code review can be from anyone, however, you should consider including @mbroz2, @Emily-Jiang (for MicroProfile), @jhanders34 (for Jakarta EE), or @tevans78 (for MicroProfile/Jakarta EE).  Once the PR has been approved, merge it into `draft`.
 
-6. All the builds and deployments of non-prod sites are on IBM Cloud and build automatically whenever the a PR is merged into their respective branch. These builds are private and, therefore, their detailed build/deploy progress can't be tracked. However, if you have access to the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01G7N292RH), you can at least track when the builds start and finish.  
+6. All the builds and deployments of non-prod sites are on IBM Cloud and build automatically whenever a PR is merged into their respective branch. These builds are private and, therefore, their detailed build/deploy progress can't be tracked. However, if you have access to the [Slack channel](https://app.slack.com/client/T15GKHBT4/C01G7N292RH), you can at least track when the builds start and finish.  
 
 7. When the build is finished, check that the TCK result page renders correctly on either the [certifications-draft site](https://certifications-draft-openlibertyio.mybluemix.net/certifications) or the [full draft site](https://draft-openlibertyio.mybluemix.net/certifications).  
 
