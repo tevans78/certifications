@@ -1,0 +1,412 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for MicroProfile Context Propagation 1.3.
+
+== Open Liberty 21.0.0.12-beta - MicroProfile Context Propagation 1.3 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/21.0.0.12-beta/openliberty-runtime-21.0.0.12-beta.zip[Open Liberty 21.0.0.12-beta]
+
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-context-propagation-1.3-RC1/microprofile-context-propagation-spec-1.3-RC1.html[MicroProfile Context Propagation 1.3 RC1]
+
+* Public URL of TCK Results Summary:
++
+link:21.0.0.12-beta-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8 and 11
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+RHEL 8
+
+Java 8 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="1" name="ContextManagerTest" package="org.eclipse.microprofile.context.tck" tests="1" time="0.357" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.ContextManagerTest" name="builderForContextManagerIsProvided" time="0.357" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="2" name="MPConfigTest" package="org.eclipse.microprofile.context.tck" tests="7" time="0.587" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="beanInjected" time="0.341" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="explicitlySpecifyAllAttributesOfThreadContext" time="0.042" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="defaultContextPropagationForThreadContextViaMPConfig" time="0.028" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="explicitlySpecifiedPropagatedTakesPrecedenceOverDefaults" time="0.044" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="defaultMaxAsyncAndMaxQueuedForManagedExecutorViaMPConfig" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="defaultContextPropagationForManagedExecutorViaMPConfig" time="0.035" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="explicitlySpecifyMaxQueued5" time="0.056" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="3" name="ManagedExecutorTest" package="org.eclipse.microprofile.context.tck" tests="35" time="7.542" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="executedTaskRunsWithClearedContext" time="0.049" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="runAsyncStageAndDependentStagesRunWithContext" time="0.053" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxAsyncInvalidValues" time="0.034" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="threadContextHasSamePropagationSettings" time="0.036" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="clearUnspecifiedContexts" time="0.068" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="executedTaskRunsWithContext" time="0.056" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextControlsForManagedExecutorBuilder" time="0.072" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="untimedInvokeAnyRunsTasksWithContext" time="0.046" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="timedInvokeAllRunsTasksWithContext" time="0.049" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="builderForManagedExecutorIsProvided" time="0.409" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="copyCompletionStage" time="0.115" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="failedFutureDependentStagesRunWithContext" time="0.080" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="copyCompletableFuture" time="0.074" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="supplyAsyncStageAndDependentStagesRunWithContext" time="0.050" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="shutdownNowPreventsAdditionalSubmitsAndCancelsTasks" time="0.054" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="withDefaultExecutorServiceIsUsedDirectlyAndViaGetThreadContext" time="0.075" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="completedFutureDependentStagesRunWithContext" time="0.070" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="newIncompleteFutureDependentStagesRunWithContext" time="0.036" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualRunnableOverridesContextOfManagedExecutor" time="0.093" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="timedInvokeAnyRunsTaskWithContext" time="0.044" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="untimedInvokeAllRunsTasksWithContext" time="0.042" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxAsync2" time="5.057" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualConsumerAndBiFunctionOverrideContextOfManagedExecutor" time="0.078" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="failedStageDependentStagesRunWithContext" time="0.103" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualSuppplierAndBiConsumerOverrideContextOfManagedExecutor" time="0.067" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualFunctionOverridesContextOfManagedExecutor" time="0.081" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="propagateApplicationContext" time="0.036" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="submittedTasksRunWithContext" time="0.083" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxQueuedInvalidValues" time="0.040" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="shutdownPreventsAdditionalSubmits" time="0.056" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxQueued3" time="0.047" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="propagateTransactionContextJTA" time="0.039" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="completedStageDependentStagesRunWithContext" time="0.073" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="reuseManagedExecutorBuilder" time="0.089" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualCallableOverridesContextOfManagedExecutor" time="0.088" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="4" name="TckTest" package="org.eclipse.microprofile.context.tck" tests="1" time="0.466" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.TckTest" name="providerSet" time="0.466" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="5" name="ThreadContextTest" package="org.eclipse.microprofile.context.tck" tests="22" time="2.695" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="builderForThreadContextIsProvided" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="clearTransactionContextJTA" time="0.269" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualCallableRunsWithContext" time="0.055" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="reuseThreadContextBuilder" time="0.040" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="thirdPartyContextProvidersAreIncludedInThreadContext" time="0.097" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualBiConsumerRunsWithContext" time="0.093" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureDependentStageForcedCompletion" time="0.048" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualRunnableRunsWithContext" time="0.098" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withoutDefaultExecutorServiceContextCannotInvokeAsyncActions" time="1.129" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureDependentCompletionStagesRunWithContext" time="0.037" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureSwitchThreadContext" time="0.048" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="currentContextExecutorRunsWithContext" time="0.058" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextControlsForThreadContextBuilder" time="0.033" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withDefaultExecutorServiceContextCanInvokeAsyncActions" time="0.135" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualSupplierRunsWithContext" time="0.045" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="clearUnspecifiedContexts" time="0.094" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualFunctionRunsWithContext" time="0.052" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureDependentCompletableFuturesRunWithContext" time="0.081" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualBiFunctionRunsWithContext" time="0.076" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureMultipleThreadContexts" time="0.049" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualConsumerRunsWithContext" time="0.069" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="unchangedContextListDefaultsToEmpty" time="0.048" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="6" name="BasicCDITest" package="org.eclipse.microprofile.context.tck.cdi" tests="4" time="0.569" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="testVerifyInjection" time="0.033" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="testBasicExecutorUsable" time="0.043" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="applicationDefinesProducerOfThreadContext" time="0.445" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="applicationDefinesProducerUsingInjectedThreadContext" time="0.048" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="7" name="CDIContextTest" package="org.eclipse.microprofile.context.tck.cdi" tests="8" time="0.703" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDITCCtxPropagate" time="0.057" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxPropagatesConversationScopedBean" time="0.033" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxPropagatesRequestScopedBean" time="0.030" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDITCCtxClear" time="0.405" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxClearsRequestScopedBean" time="0.035" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxClearsSessionScopedBeans" time="0.059" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxPropagatesSessionScopedBean" time="0.040" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxClearsConversationScopedBeans" time="0.044" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21395871-n.fyre.ibm.com" id="8" name="JTACDITest" package="org.eclipse.microprofile.context.tck.cdi" tests="6" time="0.884" timestamp="20 Oct 2021 14:09:18 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testTransactionPropagation" time="0.090" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testAsyncTransaction" time="0.090" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testRunWithTxnOfExecutingThread" time="0.044" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testTransactionWithUT" time="0.472" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testConcurrentTransactionPropagation" time="0.121" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testTransaction" time="0.067" />
+
+  </testsuite>
+</testsuites>
+----
+
+Java 11 Test results:
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="1" name="ContextManagerTest" package="org.eclipse.microprofile.context.tck" tests="1" time="0.543" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.ContextManagerTest" name="builderForContextManagerIsProvided" time="0.543" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="2" name="MPConfigTest" package="org.eclipse.microprofile.context.tck" tests="7" time="0.678" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="defaultContextPropagationForThreadContextViaMPConfig" time="0.050" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="explicitlySpecifyAllAttributesOfThreadContext" time="0.057" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="beanInjected" time="0.355" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="defaultContextPropagationForManagedExecutorViaMPConfig" time="0.051" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="defaultMaxAsyncAndMaxQueuedForManagedExecutorViaMPConfig" time="0.075" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="explicitlySpecifiedPropagatedTakesPrecedenceOverDefaults" time="0.050" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.MPConfigTest" name="explicitlySpecifyMaxQueued5" time="0.040" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="3" name="ManagedExecutorTest" package="org.eclipse.microprofile.context.tck" tests="35" time="9.261" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="builderForManagedExecutorIsProvided" time="0.957" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="submittedTasksRunWithContext" time="0.047" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="timedInvokeAnyRunsTaskWithContext" time="0.047" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="withDefaultExecutorServiceIsUsedDirectlyAndViaGetThreadContext" time="0.064" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="shutdownNowPreventsAdditionalSubmitsAndCancelsTasks" time="0.541" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="untimedInvokeAllRunsTasksWithContext" time="0.045" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="runAsyncStageAndDependentStagesRunWithContext" time="0.063" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="clearUnspecifiedContexts" time="0.078" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="completedStageDependentStagesRunWithContext" time="0.085" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="threadContextHasSamePropagationSettings" time="0.040" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="executedTaskRunsWithClearedContext" time="0.076" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextControlsForManagedExecutorBuilder" time="0.046" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="reuseManagedExecutorBuilder" time="0.070" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="copyCompletionStage" time="0.058" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="failedFutureDependentStagesRunWithContext" time="0.101" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="supplyAsyncStageAndDependentStagesRunWithContext" time="0.068" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualCallableOverridesContextOfManagedExecutor" time="0.088" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="newIncompleteFutureDependentStagesRunWithContext" time="0.040" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="completedFutureDependentStagesRunWithContext" time="0.142" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="untimedInvokeAnyRunsTasksWithContext" time="0.044" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxAsyncInvalidValues" time="0.043" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxQueued3" time="0.048" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="propagateApplicationContext" time="0.042" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualConsumerAndBiFunctionOverrideContextOfManagedExecutor" time="0.079" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="shutdownPreventsAdditionalSubmits" time="0.558" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="executedTaskRunsWithContext" time="0.059" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="failedStageDependentStagesRunWithContext" time="0.123" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="propagateTransactionContextJTA" time="0.092" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="copyCompletableFuture" time="0.122" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualSuppplierAndBiConsumerOverrideContextOfManagedExecutor" time="0.098" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualFunctionOverridesContextOfManagedExecutor" time="0.070" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="contextOfContextualRunnableOverridesContextOfManagedExecutor" time="0.060" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxAsync2" time="5.081" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="timedInvokeAllRunsTasksWithContext" time="0.044" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ManagedExecutorTest" name="maxQueuedInvalidValues" time="0.042" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="4" name="TckTest" package="org.eclipse.microprofile.context.tck" tests="1" time="0.487" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.TckTest" name="providerSet" time="0.487" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="5" name="ThreadContextTest" package="org.eclipse.microprofile.context.tck" tests="22" time="2.656" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureSwitchThreadContext" time="0.043" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualBiConsumerRunsWithContext" time="0.103" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="builderForThreadContextIsProvided" time="0.069" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualCallableRunsWithContext" time="0.063" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="currentContextExecutorRunsWithContext" time="0.063" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualConsumerRunsWithContext" time="0.059" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualFunctionRunsWithContext" time="0.049" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualBiFunctionRunsWithContext" time="0.071" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="unchangedContextListDefaultsToEmpty" time="0.084" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureDependentCompletableFuturesRunWithContext" time="0.071" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="thirdPartyContextProvidersAreIncludedInThreadContext" time="0.075" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="clearUnspecifiedContexts" time="0.066" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextControlsForThreadContextBuilder" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureDependentStageForcedCompletion" time="0.052" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualRunnableRunsWithContext" time="0.076" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="reuseThreadContextBuilder" time="0.039" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withoutDefaultExecutorServiceContextCannotInvokeAsyncActions" time="0.898" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="contextualSupplierRunsWithContext" time="0.058" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withDefaultExecutorServiceContextCanInvokeAsyncActions" time="0.196" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="clearTransactionContextJTA" time="0.373" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureMultipleThreadContexts" time="0.056" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.ThreadContextTest" name="withContextCaptureDependentCompletionStagesRunWithContext" time="0.051" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="6" name="BasicCDITest" package="org.eclipse.microprofile.context.tck.cdi" tests="4" time="0.642" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="applicationDefinesProducerOfThreadContext" time="0.484" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="applicationDefinesProducerUsingInjectedThreadContext" time="0.043" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="testBasicExecutorUsable" time="0.061" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.BasicCDITest" name="testVerifyInjection" time="0.054" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="7" name="CDIContextTest" package="org.eclipse.microprofile.context.tck.cdi" tests="8" time="0.819" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxPropagatesRequestScopedBean" time="0.049" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxClearsConversationScopedBeans" time="0.047" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDITCCtxPropagate" time="0.053" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxClearsSessionScopedBeans" time="0.059" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxClearsRequestScopedBean" time="0.041" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDITCCtxClear" time="0.426" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxPropagatesSessionScopedBean" time="0.081" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.CDIContextTest" name="testCDIMECtxPropagatesConversationScopedBean" time="0.063" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ebcprs21406026-n.fyre.ibm.com" id="8" name="JTACDITest" package="org.eclipse.microprofile.context.tck.cdi" tests="6" time="1.047" timestamp="22 Oct 2021 15:09:45 GMT">
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testConcurrentTransactionPropagation" time="0.049" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testTransactionWithUT" time="0.725" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testTransaction" time="0.055" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testAsyncTransaction" time="0.096" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testTransactionPropagation" time="0.076" />
+
+      <testcase classname="org.eclipse.microprofile.context.tck.cdi.JTACDITest" name="testRunWithTxnOfExecutingThread" time="0.046" />
+
+  </testsuite>
+</testsuites>
+----
