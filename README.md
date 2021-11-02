@@ -12,7 +12,7 @@ Shortly after PRs are merged into this repo, the results will be accessible via 
 ## Directory Structure
 The following directory structure will be used to house these TCK Results:
 
-```https://openliberty.io/certifications/<spec/architecture>/<specVersion>/<optional: subSpec>/<optional: subSpecVersion>/<runtimeVersion>TCKResults```
+```https://openliberty.io/certifications/<spec>/<specVersion>/<optional:subSpec>/<optional:subSpecVersion>/<runtimeVersion>TCKResults```
 For example,
 ```
 https://openliberty.io/certifications/jakartaee/8/webprofile/19.0.0.6-TCKResults.html
