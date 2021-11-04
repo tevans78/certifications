@@ -21,7 +21,7 @@ For example:
 > [certifications/microprofile/5.0/21.0.0.12-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/5.0/21.0.0.12-beta-TCKResults.html)  
 > [certifications/microprofile/5.0/config/3.0/21.0.0.12-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/5.0/config/3.0/21.0.0.12-beta-TCKResults.html)  
 >  
-> [certifications/microprofile/contextpropagation/ccr/1.2/21.0.0.3-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/contextpropagation/ccr/1.2/21.0.0.3-beta-TCKResults.html)
+> [certifications/microprofile/contextpropagation/1.2/21.0.0.3-beta-TCKResults.adoc](https://openliberty.io/certifications/microprofile/contextpropagation/1.2/21.0.0.3-beta-TCKResults.html)
 
 ## TCKResults Content
 Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the content.
