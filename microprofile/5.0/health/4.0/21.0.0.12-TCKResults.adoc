@@ -1,0 +1,38 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Health 4.0.
+
+== Open Liberty 21.0.0.12- MicroProfile Health 4.0 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/21.0.0.12/openliberty-runtime-21.0.0.12.zip[Open Liberty 21.0.0.12]
+
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-health-4.0-RC3/microprofile-health-spec-4.0-RC3.html[MicroProfile Health 4.0 RC3]
+
+* Public URL of TCK Results Summary:
++
+link:21.0.0.12-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8 and 11
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+RHEL 8
+
+Java 8 Test results:
+
+[source,xml]
+----
+----
+
+Java 11 Test results:
+
+[source,xml]
+----
+----
