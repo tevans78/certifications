@@ -38,7 +38,8 @@ MicroProfile 5.0 consists of 8 MicroProfile Specifications and 5 Jakarta EE 9.1 
 https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1-beta/openliberty-runtime-22.0.0.1-beta.zip[Open Liberty 22.0.0.1-beta]
 
 
-Open Liberty 22.0.0.1-beta-beta provides compatible implementations for five of the eight MicroProfile 5.0 specifications.
+In order to certify against MicroProfile 5.0, an implementation must pass the TCK tests for the eight included MicroProfile component specifications. Passing the TCKs for the five included Jakarta EE 9.1 specifications is optional.
+
 
 === MicroProfile Component Specification Certification Summary
 * link:config/3.0/22.0.0.1-beta-TCKResults.html[MicroProfile Config 3.0 TCK Result]
