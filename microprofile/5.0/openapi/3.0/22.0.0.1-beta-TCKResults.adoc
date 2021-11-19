@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Open API 3.0.
 
-== Open Liberty 22.0.0.1-beta - MicroProfile Interoperable JWT RBAC 2.0 Certification Summary
+== Open Liberty 22.0.0.1-beta - MicroProfile MicroProfile Open API 3.0 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
