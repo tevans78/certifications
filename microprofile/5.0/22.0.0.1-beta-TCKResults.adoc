@@ -54,6 +54,6 @@ In order to certify against MicroProfile 5.0, an implementation must pass the TC
 
 * link:openapi/3.0/22.0.0.1-beta-TCKResults.html[MicroProfile OpenAPI 3.0 TCK Result]
 
-* link:opentracing/2.0/22.0.0.1-beta-TCKResults.html[MicroProfile OpenTracing 3.0 TCK Result]
+* link:opentracing/3.0/22.0.0.1-beta-TCKResults.html[MicroProfile OpenTracing 3.0 TCK Result]
 
 * link:restclient/2.0/22.0.0.1-beta-TCKResults.html[MicroProfile Rest Client 3.0 TCK Result]
