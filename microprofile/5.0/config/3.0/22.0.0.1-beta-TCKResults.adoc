@@ -19,8 +19,8 @@ link:22.0.0.1-beta-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
-JRE 1.8.0 Linux amd64-64-Bit Compressed References 20210824_12036 (JIT enabled, AOT enabled) OpenJ9
-
+JRE 1.8.0 Linux amd64-64-Bit Compressed References 20210728_193 (JIT enabled, AOT enabled) OpenJ9
+  
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
 RHEL 8 
