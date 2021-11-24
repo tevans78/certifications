@@ -1,7 +1,7 @@
 :page-layout: certification
 = MicroProfile 5.0 TCK Results Summary
 
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for releases of MicroProfile 5.0.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for MicroProfile 5.0.
 
 == Open Liberty 22.0.0.1-beta MicroProfile 5.0 Certification Summary
 
