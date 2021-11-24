@@ -1,0 +1,513 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile OpenTracing 3.0.
+
+== Open Liberty 22.0.0.1-beta - MicroProfile OpenTracing 3.0 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1-beta/openliberty-runtime-22.0.0.1-beta.zip[Open Liberty 22.0.0.1-beta]
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-opentracing-3.0-RC4/microprofile-opentracing-spec-3.0-RC4.html[MicroProfile OpenTracing 3.0-RC4]
+
+* Public URL of TCK Results Summary:
++
+link:22.0.0.1-beta-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 8: JRE 1.8.0 Linux amd64-64-Bit Compressed References 20210728_193 (JIT enabled, AOT enabled) OpenJ9 OMR JCL based on jdk8u302-b08
++
+Java 11: JRE 11 Linux amd64-64-Bit Compressed References 20210729_228 (JIT enabled, AOT enabled) OpenJ9 OMR based on jdk-11.0.12+7
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+RHEL 8
+
+Java 8 Test results:
+
+[source,xml]
+----
+Test suite: FATSuite2021-11-19T20:28:54
+Tests:3 Failures:0 Errors:0
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncher.launchOpentracingTck PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncherMicroProfile.launchOpentracingTckMP PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingRestClientTCKLauncher.launchOpentracingRestClientTck PASSED
+Test suite: ClientRegistrarTests19 Nov 2021 20:36:47 GMT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrar PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutor PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutorAsync PASSED
+Test suite: OpenTracingClassMethodNameClientTests19 Nov 2021 20:36:47 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotations PASSED
+Test suite: OpenTracingDefaultClientTests19 Nov 2021 20:36:47 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpansWithClientFailure PASSED
+Test suite: OpenTracingHTTPPathNameTests19 Nov 2021 20:36:47 GMT
+Tests:17 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testTwoSameParams PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testWildcard PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpans PASSED
+Test suite: OpenTracingSkipPatternTests19 Nov 2021 20:36:47 GMT
+Tests:10 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFooBar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFoo PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsBaseNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testOpenAPINotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsApplicationNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsVendorNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipSimple PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testExplicitlyTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testHealthNotTraced PASSED
+Test suite: OpenTracingMpRestClientTests19 Nov 2021 20:37:27 GMT
+Tests:5 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testClientNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMethodNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpansAsync PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests19 Nov 2021 20:36:47 GMT
+Tests:10 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFooBar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFoo PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsBaseNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testOpenAPINotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsApplicationNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsVendorNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipSimple PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testExplicitlyTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testHealthNotTraced PASSED
+Test suite: io.openliberty.microprofile.opentracing.2.0.internal_fat_tck FAT testsnull
+Tests:69 Failures:0 Errors:0
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncher.launchOpentracingTck PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncherMicroProfile.launchOpentracingTckMP PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingRestClientTCKLauncher.launchOpentracingRestClientTck PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrar PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutor PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutorAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testTwoSameParams PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testWildcard PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFooBar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFoo PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsBaseNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testOpenAPINotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsApplicationNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsVendorNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipSimple PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testExplicitlyTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testHealthNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testClientNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMethodNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpansAsync PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests19 Nov 2021 20:36:47 GMT
+Tests:17 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testTwoSameParams PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testWildcard PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpans PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests19 Nov 2021 20:36:47 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotations PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests19 Nov 2021 20:37:27 GMT
+Tests:5 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testClientNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMethodNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpansAsync PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests19 Nov 2021 20:36:47 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpansWithClientFailure PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests19 Nov 2021 20:36:47 GMT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrar PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutor PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutorAsync PASSED
+Test suite: io.openliberty.microprofile.opentracing.internal.tck.FATSuite2021-11-19T20:28:54
+Tests:3 Failures:0 Errors:0
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncher.launchOpentracingTck PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncherMicroProfile.launchOpentracingTckMP PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingRestClientTCKLauncher.launchOpentracingRestClientTck PASSED
+----
+
+Java 11 Test results:
+
+[source,xml]
+----
+Test suite: FATSuite2021-11-21T01:08:21
+Tests:3 Failures:0 Errors:0
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncher.launchOpentracingTck PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncherMicroProfile.launchOpentracingTckMP PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingRestClientTCKLauncher.launchOpentracingRestClientTck PASSED
+Test suite: ClientRegistrarTests21 Nov 2021 01:15:51 GMT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutorAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutor PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrar PASSED
+Test suite: OpenTracingClassMethodNameClientTests21 Nov 2021 01:15:51 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testLocalSpanHasParent PASSED
+Test suite: OpenTracingDefaultClientTests21 Nov 2021 01:15:51 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testError PASSED
+Test suite: OpenTracingHTTPPathNameTests21 Nov 2021 01:15:51 GMT
+Tests:17 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testTwoSameParams PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testWildcard PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpans PASSED
+Test suite: OpenTracingSkipPatternTests21 Nov 2021 01:15:51 GMT
+Tests:10 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFoo PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsApplicationNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testExplicitlyTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsBaseNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFooBar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipSimple PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testHealthNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsVendorNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testOpenAPINotTraced PASSED
+Test suite: OpenTracingMpRestClientTests21 Nov 2021 01:16:32 GMT
+Tests:5 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testClientNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMethodNotTraced PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests21 Nov 2021 01:15:51 GMT
+Tests:10 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFoo PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsApplicationNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testExplicitlyTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsBaseNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFooBar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipSimple PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testHealthNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsVendorNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testOpenAPINotTraced PASSED
+Test suite: io.openliberty.microprofile.opentracing.2.0.internal_fat_tck FAT testsnull
+Tests:69 Failures:0 Errors:0
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncher.launchOpentracingTck PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncherMicroProfile.launchOpentracingTckMP PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingRestClientTCKLauncher.launchOpentracingRestClientTck PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutorAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutor PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testTwoSameParams PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testWildcard PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFoo PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsApplicationNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testExplicitlyTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsBaseNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipFooBar PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testSkipSimple PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testHealthNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testMetricsVendorNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingSkipPatternTests.testOpenAPINotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testClientNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMethodNotTraced PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests21 Nov 2021 01:15:51 GMT
+Tests:17 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testTwoSameParams PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testWildcard PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingHTTPPathNameTests.testNestedSpans PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests21 Nov 2021 01:15:51 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testError PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingClassMethodNameClientTests.testLocalSpanHasParent PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests21 Nov 2021 01:16:32 GMT
+Tests:5 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testClientNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.rest.client.OpenTracingMpRestClientTests.testMethodNotTraced PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests21 Nov 2021 01:15:51 GMT
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotationException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testLocalSpanHasParent PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAnnotations PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testMultithreadedNestedSpansAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testAsyncLocalSpan PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testException PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testStandardTags PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testClassAndMethodOperationName PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNotTraced PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpansWithClientFailure PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testNestedSpans PASSED
+   org.eclipse.microprofile.opentracing.tck.OpenTracingDefaultClientTests.testError PASSED
+Test suite: org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests21 Nov 2021 01:15:51 GMT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutorAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarAsync PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrarExecutor PASSED
+   org.eclipse.microprofile.opentracing.tck.ClientRegistrarTests.testClientRegistrar PASSED
+Test suite: io.openliberty.microprofile.opentracing.internal.tck.FATSuite2021-11-21T01:08:21
+Tests:3 Failures:0 Errors:0
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncher.launchOpentracingTck PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingTCKLauncherMicroProfile.launchOpentracingTckMP PASSED
+   io.openliberty.microprofile.opentracing.internal.tck.OpentracingRestClientTCKLauncher.launchOpentracingRestClientTck PASSED
+----
