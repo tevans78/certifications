@@ -7,7 +7,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 * Product Name, Version and download URL (if applicable):
 +
-https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1-beta/openliberty-runtime-22.0.0.1-beta.zip[Open Liberty 22.0.0.1-beta]
+https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/22.0.0.1-beta/openliberty-runtime-22.0.0.1-beta.zip[Open Liberty 22.0.0.1-beta]
 * Specification Name, Version and download URL:
 +
 link:https://download.eclipse.org/microprofile/microprofile-open-api-3.0-RC5/microprofile-openapi-spec-3.0-RC5.html[MicroProfile Open API 3.0-RC5]
