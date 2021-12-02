@@ -43,7 +43,11 @@ https://download.eclipse.org/jakartaee/debugging/2.0/jakarta-debugging-tck-2.0.0
 
 * Java runtime used to run the implementation:
 +
-OpenJDK 8 + HotSpot (jdk8u252-b09)
+----
+openjdk version "1.8.0_252"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_252-b09)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.252-b09, mixed mode)
+----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
