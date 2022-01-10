@@ -1,16 +1,16 @@
 :page-layout: certification 
 = TCK Results
 
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Health 3.1.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Health 4.0.
 
-== Open Liberty 22.0.0.1 - MicroProfile Health 3.1 Certification Summary (Java 11)
+== Open Liberty 22.0.0.1 - MicroProfile Health 4.0 Certification Summary (Java 11)
 
 * Product Name, Version and download URL (if applicable):
 +
 https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1/openliberty-runtime-22.0.0.1.zip[Open Liberty 22.0.0.1]
 * Specification Name, Version and download URL:
 +
-link:https://download.eclipse.org/microprofile/microprofile-health-3.1/microprofile-health-3.1.html[MicroProfile Health 3.1]
+link:https://download.eclipse.org/microprofile/microprofile-health-4.0/microprofile-health-4.0.html[MicroProfile Health 4.0]
 
 * Public URL of TCK Results Summary:
 +
@@ -18,7 +18,7 @@ link:22.0.0.1-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
-Java 11: JRE 11 Linux amd64-64-Bit Compressed References 20211022_282 (JIT enabled, AOT enabled); based on jdk-11.0.13+8
+Java 11: JRE 11 Linux amd64-64-Bit Compressed References 20211022_282 (JIT enabled, AOT enabled); OpenJ9 based on jdk-11.0.13+8
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
@@ -28,72 +28,72 @@ Test results:
 
 [source,xml]
 ----
-Test suite: org.eclipse.microprofile.health.tck.JsonSchemaValidationTest 5 Jan 2022 07:07:41 GMT
+Test suite: org.eclipse.microprofile.health.tck.SingleLivenessFailedTest 2022-01-04T23:42:05 PST
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.JsonSchemaValidationTest.testPayloadJsonVerifiesWithTheSpecificationSchema Passed!
-Test suite: org.eclipse.microprofile.health.tck.EnforceQualifierTest 5 Jan 2022 07:07:41 GMT
+   org.eclipse.microprofile.health.tck.SingleLivenessFailedTest.testFailureResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleStartupFailedTest 2022-01-04T23:42:05 PST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingStartupResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingHealthResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.ConfigTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.ConfigTest.testEmptyReadinessWithConfig Passed!
+Test suite: org.eclipse.microprofile.health.tck.DelayedCheckTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.DelayedCheckTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest 2022-01-04T23:42:05 PST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulReadinessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.EnforceQualifierTest 2022-01-04T23:42:05 PST
 Tests:1 Failures:0 Errors:0
    org.eclipse.microprofile.health.tck.EnforceQualifierTest.testFailureResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest 5 Jan 2022 07:07:41 GMT
+Test suite: org.eclipse.microprofile.health.tck.CDIProducedProceduresTest 2022-01-04T23:42:05 PST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testFailureReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessStartupResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessfulLivenessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleStartupFailedTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleStartupFailedTest.testFailedResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest.testSuccessfulDelegateInvocation Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest 2022-01-04T23:42:05 PST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest.testFailureResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest 2022-01-04T23:42:05 PST
 Tests:2 Failures:0 Errors:0
    org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testSuccessfulLivenessResponsePayload Passed!
    org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testFailureResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest 5 Jan 2022 07:07:41 GMT
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulReadinessResponsePayload Passed!
-   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulLivenessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest.testSuccessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest.testSuccessfulDelegateInvocation Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleStartupFailedTest 5 Jan 2022 07:07:41 GMT
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulReadinessResponsePayload Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingStartupResponsePayload Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulLivenessResponsePayload Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingHealthResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleStartupFailedTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleStartupFailedTest.testFailedResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleReadinessFailedTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleReadinessFailedTest.testFailureResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.CDIProducedProceduresTest 5 Jan 2022 07:07:41 GMT
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessStartupResponsePayload Passed!
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testFailureReadinessResponsePayload Passed!
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessfulLivenessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest 5 Jan 2022 07:07:41 GMT
+Test suite: org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest 2022-01-04T23:42:05 PST
 Tests:1 Failures:0 Errors:0
    org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest.testSuccessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest 5 Jan 2022 07:07:41 GMT
+Test suite: org.eclipse.microprofile.health.tck.JsonSchemaValidationTest 2022-01-04T23:42:05 PST
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest.testFailureResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest.testSuccessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest.testSuccessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest.testSuccessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest 5 Jan 2022 07:07:41 GMT
+   org.eclipse.microprofile.health.tck.JsonSchemaValidationTest.testPayloadJsonVerifiesWithTheSpecificationSchema Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest 2022-01-04T23:42:05 PST
 Tests:2 Failures:0 Errors:0
    org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testSuccessfulReadinessResponsePayload Passed!
    org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testFailureLivenessResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleLivenessFailedTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleLivenessFailedTest.testFailureResponsePayload Passed!
-Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest 5 Jan 2022 07:07:41 GMT
+Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest 2022-01-04T23:42:05 PST
 Tests:1 Failures:0 Errors:0
    org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest.testValidateConcreteHealthCheckResponse Passed!
-Test suite: org.eclipse.microprofile.health.tck.ConfigTest 5 Jan 2022 07:07:41 GMT
+Test suite: org.eclipse.microprofile.health.tck.SingleReadinessFailedTest 2022-01-04T23:42:05 PST
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.ConfigTest.testEmptyReadinessWithConfig Passed!
-Test suite: org.eclipse.microprofile.health.tck.DelayedCheckTest 5 Jan 2022 07:07:41 GMT
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.DelayedCheckTest.testSuccessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.SingleReadinessFailedTest.testFailureResponsePayload Passed!
 ----
