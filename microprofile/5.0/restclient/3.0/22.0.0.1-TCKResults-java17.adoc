@@ -18,7 +18,8 @@ link:22.0.0.1-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
-Java 17: JRE 17 Linux amd64-64-Bit Compressed References 20211027_37 (JIT enabled, AOT enabled);  OpenJ9 based on jdk-17.0.1+12
+Java 17: IBM Semeru Runtime Open Edition (17.0.1+12)
+
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
