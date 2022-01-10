@@ -10,7 +10,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1/openliberty-runtime-22.0.0.1.zip[Open Liberty 22.0.0.1]
 * Specification Name, Version and download URL:
 +
-link:https://download.eclipse.org/microprofile/microprofile-config-3.0.1/microprofile-config-3.0.1.html[MicroProfile Config 3.0.1]
+link:https://download.eclipse.org/microprofile/microprofile-config-3.0.1/microprofile-config-spec-3.0.1.html[MicroProfile Config 3.0.1]
 
 * Public URL of TCK Results Summary:
 +
