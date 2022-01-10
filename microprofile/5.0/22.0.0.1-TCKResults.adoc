@@ -1,0 +1,59 @@
+:page-layout: certification
+= MicroProfile 5.0 TCK Results Summary
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for MicroProfile 5.0.
+
+== Open Liberty 22.0.0.1 MicroProfile 5.0 Certification Summary
+
+MicroProfile 5.0 consists of 8 MicroProfile Specifications and 5 Jakarta EE 9.1 specfications.  
+
+* MicroProfile Config 3.0
+
+* MicroProfile Fault Tolerance 4.0
+
+* MicroProfile Health 4.0
+
+* MicroProfile JWT Authentication 2.0
+
+* MicroProfile Metrics 4.0
+
+* MicroProfile OpenAPI 3.0
+
+* MicroProfile OpenTracing 3.0
+
+* MicroProfile Rest Client 3.0
+
+* Jakarta Contexts and Dependency Injection 3.0
+
+* Jakarta RESTful Web Services 3.0
+
+* Jakarta JSON Binding 2.0
+
+* Jakarta JSON Processing 2.0
+
+* Jakarta Annotations 2.0
+
+=== Product Name, Version and download URL (if applicable):
+
+https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1/openliberty-runtime-22.0.0.1.zip[Open Liberty 22.0.0.1]
+
+
+In order to certify against MicroProfile 5.0, an implementation must pass the TCK tests for the eight included MicroProfile component specifications. Passing the TCKs for the five included Jakarta EE 9.1 specifications is optional.
+
+
+=== MicroProfile Component Specification Certification Summary
+* link:config/3.0/22.0.0.1-TCKResults.html[MicroProfile Config 3.0 TCK Result]
+
+* link:faulttolerance/4.0/22.0.0.1-TCKResults.html[MicroProfile Fault Tolerance 4.0 TCK Result]
+
+* link:health/4.0/22.0.0.1-TCKResults.html[MicroProfile Health 4.0 TCK Result]
+
+* link:mpjwt/2.0/22.0.0.1-TCKResults.html[MicroProfile JWT Authentication 2.0 TCK Result]
+
+* link:metrics/4.0/22.0.0.1-TCKResults.html[MicroProfile Metrics 4.0 TCK Result]
+
+* link:openapi/3.0/22.0.0.1-TCKResults.html[MicroProfile OpenAPI 3.0 TCK Result]
+
+* link:opentracing/3.0/22.0.0.1-TCKResults.html[MicroProfile OpenTracing 3.0 TCK Result]
+
+* link:restclient/3.0/22.0.0.1-TCKResults.html[MicroProfile Rest Client 3.0 TCK Result]
