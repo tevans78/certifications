@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Metrics Rest 4.0.
 
-== Open Liberty 22.0.0.1 - MicroProfile Metrics Rest 4.0 Certification Summary 
+== Open Liberty 22.0.0.1 - MicroProfile Metrics Rest 4.0 Certification Summary (Java 11)
 
 * Product Name, Version and download URL (if applicable):
 +
@@ -14,11 +14,11 @@ link:https://download.eclipse.org/microprofile/microprofile-metrics-4.0/micropro
 
 * Public URL of TCK Results Summary:
 +
-link:22.0.0.1-TCKResults-java17.html[TCK results summary]
+link:22.0.0.1-java11-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
-Java 17: IBM Semeru Runtime Open Edition (17.0.1+12)
+Java 11: IBM Semeru Runtime Open Edition (11.0.13+8)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +

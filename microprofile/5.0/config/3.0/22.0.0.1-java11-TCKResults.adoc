@@ -14,7 +14,7 @@ link:https://download.eclipse.org/microprofile/microprofile-config-3.0.1/micropr
 
 * Public URL of TCK Results Summary:
 +
-link:22.0.0.1-TCKResults-java11.html[TCK results summary]
+link:22.0.0.1-java11-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
@@ -466,3 +466,4 @@ Tests:1 Failures:0 Errors:0
 Test suite: org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest 2022-01-04T20:17:19 PST
 Tests:1 Failures:0 Errors:0
    org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest.testConfigProfileWithDev Passed!
+----
