@@ -14,7 +14,7 @@ link:https://download.eclipse.org/microprofile/microprofile-open-api-3.0/micropr
 
 * Public URL of TCK Results Summary:
 +
-link:22.0.0.1-TCKResults-java17.html[TCK results summary]
+link:22.0.0.1-java17-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
