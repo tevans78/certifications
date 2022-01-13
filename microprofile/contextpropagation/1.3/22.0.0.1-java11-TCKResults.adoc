@@ -1,0 +1,132 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Context Propagation 1.3.
+
+== Open Liberty 22.0.0.1 - MicroProfile Context Propagation 1.3 Certification Summary (Java 11)
+
+* Product Name, Version and download URL (if applicable):
++
+https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1/openliberty-runtime-22.0.0.1.zip[Open Liberty 22.0.0.1]
+* Specification Name, Version and download URL:
++
+link:https://download.eclipse.org/microprofile/microprofile-context-propagation-1.3/microprofile-context-propagation-spec-1.3.html[MicroProfile Context Propagation 1.3]
+
+* Public URL of TCK Results Summary:
++
+link:22.0.0.1-java11-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+Java 11: IBM Semeru Runtime Open Edition (11.0.13+8)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux
+
+Test results:
+
+[source,xml]
+----
+Test suite: org.eclipse.microprofile.context.tck.MPConfigTest 4 Jan 2022 22:00:49 GMT
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.MPConfigTest.explicitlySpecifyAllAttributesOfThreadContext Passed!
+   org.eclipse.microprofile.context.tck.MPConfigTest.defaultContextPropagationForThreadContextViaMPConfig Passed!
+   org.eclipse.microprofile.context.tck.MPConfigTest.beanInjected Passed!
+   org.eclipse.microprofile.context.tck.MPConfigTest.defaultContextPropagationForManagedExecutorViaMPConfig Passed!
+   org.eclipse.microprofile.context.tck.MPConfigTest.defaultMaxAsyncAndMaxQueuedForManagedExecutorViaMPConfig Passed!
+   org.eclipse.microprofile.context.tck.MPConfigTest.explicitlySpecifyMaxQueued5 Passed!
+   org.eclipse.microprofile.context.tck.MPConfigTest.explicitlySpecifiedPropagatedTakesPrecedenceOverDefaults Passed!
+Test suite: org.eclipse.microprofile.context.tck.cdi.BasicCDITest 4 Jan 2022 22:00:49 GMT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.cdi.BasicCDITest.testBasicExecutorUsable Passed!
+   org.eclipse.microprofile.context.tck.cdi.BasicCDITest.testVerifyInjection Passed!
+   org.eclipse.microprofile.context.tck.cdi.BasicCDITest.applicationDefinesProducerOfThreadContext Passed!
+   org.eclipse.microprofile.context.tck.cdi.BasicCDITest.applicationDefinesProducerUsingInjectedThreadContext Passed!
+Test suite: org.eclipse.microprofile.context.tck.ManagedExecutorTest 4 Jan 2022 22:00:49 GMT
+Tests:35 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.failedStageDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.executedTaskRunsWithClearedContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.executedTaskRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.completedFutureDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.contextOfContextualFunctionOverridesContextOfManagedExecutor Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.builderForManagedExecutorIsProvided Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.threadContextHasSamePropagationSettings Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.timedInvokeAnyRunsTaskWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.maxAsyncInvalidValues Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.contextOfContextualSuppplierAndBiConsumerOverrideContextOfManagedExecutor Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.contextControlsForManagedExecutorBuilder Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.copyCompletableFuture Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.runAsyncStageAndDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.timedInvokeAllRunsTasksWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.untimedInvokeAnyRunsTasksWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.contextOfContextualCallableOverridesContextOfManagedExecutor Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.untimedInvokeAllRunsTasksWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.propagateTransactionContextJTA Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.reuseManagedExecutorBuilder Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.failedFutureDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.clearUnspecifiedContexts Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.supplyAsyncStageAndDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.completedStageDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.maxQueued3 Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.newIncompleteFutureDependentStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.maxQueuedInvalidValues Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.shutdownNowPreventsAdditionalSubmitsAndCancelsTasks Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.contextOfContextualConsumerAndBiFunctionOverrideContextOfManagedExecutor Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.withDefaultExecutorServiceIsUsedDirectlyAndViaGetThreadContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.copyCompletionStage Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.maxAsync2 Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.contextOfContextualRunnableOverridesContextOfManagedExecutor Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.shutdownPreventsAdditionalSubmits Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.submittedTasksRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ManagedExecutorTest.propagateApplicationContext Passed!
+Test suite: org.eclipse.microprofile.context.tck.cdi.CDIContextTest 4 Jan 2022 22:00:50 GMT
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDITCCtxClear Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDIMECtxClearsSessionScopedBeans Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDIMECtxPropagatesConversationScopedBean Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDIMECtxPropagatesRequestScopedBean Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDIMECtxClearsConversationScopedBeans Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDIMECtxClearsRequestScopedBean Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDIMECtxPropagatesSessionScopedBean Passed!
+   org.eclipse.microprofile.context.tck.cdi.CDIContextTest.testCDITCCtxPropagate Passed!
+Test suite: org.eclipse.microprofile.context.tck.TckTest 4 Jan 2022 22:00:50 GMT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.TckTest.providerSet Passed!
+Test suite: org.eclipse.microprofile.context.tck.ContextManagerTest 4 Jan 2022 22:00:50 GMT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.ContextManagerTest.builderForContextManagerIsProvided Passed!
+Test suite: org.eclipse.microprofile.context.tck.ThreadContextTest 4 Jan 2022 22:00:50 GMT
+Tests:22 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualCallableRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withContextCaptureDependentCompletionStagesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualRunnableRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.clearTransactionContextJTA Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualSupplierRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualBiFunctionRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.thirdPartyContextProvidersAreIncludedInThreadContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withContextCaptureDependentCompletableFuturesRunWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualBiConsumerRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualConsumerRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.builderForThreadContextIsProvided Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.currentContextExecutorRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withDefaultExecutorServiceContextCanInvokeAsyncActions Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withoutDefaultExecutorServiceContextCannotInvokeAsyncActions Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.reuseThreadContextBuilder Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextControlsForThreadContextBuilder Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withContextCaptureMultipleThreadContexts Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.contextualFunctionRunsWithContext Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.unchangedContextListDefaultsToEmpty Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withContextCaptureDependentStageForcedCompletion Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.clearUnspecifiedContexts Passed!
+   org.eclipse.microprofile.context.tck.ThreadContextTest.withContextCaptureSwitchThreadContext Passed!
+Test suite: org.eclipse.microprofile.context.tck.cdi.JTACDITest 4 Jan 2022 22:00:50 GMT
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.context.tck.cdi.JTACDITest.testTransactionWithUT Passed!
+   org.eclipse.microprofile.context.tck.cdi.JTACDITest.testAsyncTransaction Passed!
+   org.eclipse.microprofile.context.tck.cdi.JTACDITest.testTransaction Passed!
+   org.eclipse.microprofile.context.tck.cdi.JTACDITest.testTransactionPropagation Passed!
+   org.eclipse.microprofile.context.tck.cdi.JTACDITest.testRunWithTxnOfExecutingThread Passed!
+   org.eclipse.microprofile.context.tck.cdi.JTACDITest.testConcurrentTransactionPropagation Passed!
+
+----
