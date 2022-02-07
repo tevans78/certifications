@@ -41,7 +41,7 @@ https://repo1.maven.org/maven2/io/openliberty/openliberty-runtime/22.0.0.1/openl
 In order to certify against MicroProfile 5.0, an implementation must pass the TCK tests for the eight included MicroProfile component specifications. Passing the TCKs for the five included Jakarta EE 9.1 specifications is optional.
 
 
-=== MicroProfile Component Specification Certification Summary (Java 11)
+=== MicroProfile 5.0 Component Specification Certification Summary (Java 11)
 * link:config/3.0/22.0.0.1-java11-TCKResults.html[MicroProfile Config 3.0 TCK Result (Java 11)]
 * link:faulttolerance/4.0/22.0.0.1-java11-TCKResults.html[MicroProfile Fault Tolerance 4.0 TCK Result (Java 11)]
 * link:health/4.0/22.0.0.1-java11-TCKResults.html[MicroProfile Health 4.0 TCK Result (Java 11)]
@@ -51,7 +51,7 @@ In order to certify against MicroProfile 5.0, an implementation must pass the TC
 * link:opentracing/3.0/22.0.0.1-java11-TCKResults.html[MicroProfile OpenTracing 3.0 TCK Result (Java 11)]
 * link:restclient/3.0/22.0.0.1-java11-TCKResults.html[MicroProfile Rest Client 3.0 TCK Result (Java 11)]
 
-=== MicroProfile Component Specification Certification Summary (Java 17)
+=== MicroProfile 5.0 Component Specification Certification Summary (Java 17)
 * link:config/3.0/22.0.0.1-java17-TCKResults.html[MicroProfile Config 3.0 TCK Result (Java 17)]
 * link:faulttolerance/4.0/22.0.0.1-java17-TCKResults.html[MicroProfile Fault Tolerance 4.0 TCK Result (Java 17)]
 * link:health/4.0/22.0.0.1-java17-TCKResults.html[MicroProfile Health 4.0 TCK Result (Java 17)]
