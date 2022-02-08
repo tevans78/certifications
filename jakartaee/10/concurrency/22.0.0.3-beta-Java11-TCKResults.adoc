@@ -11,7 +11,7 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/20
 
 * Specification Name, Version and download URL:
 +
-link:https://jakarta.ee/specifications/Concurrency/3.0[Jakarta EE Concurrency 3.0]
+link:https://jakarta.ee/specifications/concurrency/3.0[Jakarta EE Concurrency 3.0]
 
 * TCK Version, digital SHA-256 fingerprint and download URL:
 +
@@ -30,7 +30,7 @@ IBM Semeru Runtime Open Edition (11.0.13+8)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
-Linux
+Linux RHEL 8
 
 Test results:
 
