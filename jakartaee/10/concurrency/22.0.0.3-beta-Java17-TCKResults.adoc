@@ -3,11 +3,11 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Concurrency.
 
-== Open Liberty 22.0.0.3 Beta - Jakarta EE Concurrency Certification Summary (Java 17)
+== Open Liberty 22.0.0.3-beta - Jakarta EE Concurrency Certification Summary (Java 17)
 
 * Product Name, Version and download URL (if applicable):
 +
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/2022-02-01_1901/openliberty-22.0.0.3-beta.zip[Open Liberty 22.0.0.3 Beta]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/2022-02-01_1901/openliberty-22.0.0.3-beta.zip[Open Liberty 22.0.0.3-beta]
 
 * Specification Name, Version and download URL:
 +
