@@ -18,7 +18,8 @@ link:22.0.0.4-beta-Java8-TCKResults.html[TCK results summary]
 
 * Java runtime used to run the implementation:
 +
-Java 8: OpenJDK Runtime Environment (1.8.0_252-b09
+Java 8: OpenJDK Runtime Environment (1.8.0_252-b09)
+
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
