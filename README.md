@@ -29,7 +29,7 @@ Reference the [sample TCKResults](./TCKResults.adoc) file for an example of the 
 # Instructions for making changes to this repo
 
 ## Authors: Creating & Updating TCK Results
-1. Clone the repo and create your feature branch off of the default `prod` branch. From the `prod` branch, run: `git branch -b branch_name`, where `branch_name` is a name you give your new branch.
+1. Clone the repo and create your feature branch off of the default `prod` branch. From the `prod` branch, run: `git checkout -b branch_name`, where `branch_name` is a name you give your new branch.
 
     Do _all_ your editing in this branch.
 
