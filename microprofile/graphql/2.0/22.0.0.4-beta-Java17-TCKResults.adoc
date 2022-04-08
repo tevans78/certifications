@@ -10,7 +10,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 https://repo1.maven.org/maven2/io/openliberty/beta/openliberty-runtime/22.0.0.4-beta/openliberty-runtime-22.0.0.4-beta.zip[Open Liberty 22.0.0.4-beta]
 * Specification Name, Version and download URL:
 +
-link:https://download.eclipse.org/microprofile/microprofile-graphql-2.0-RC3/microprofile-graphql-spec-2.0-RC3.html[MicroProfile GraphQL 2.0-RC3]
+link:https://github.com/eclipse/microprofile-graphql/releases/tag/2.0[MicroProfile GraphQL 2.0]
 
 * Public URL of TCK Results Summary:
 +
@@ -28,7 +28,7 @@ Test results:
 
 [source, text]
 ----
-Test suite: org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest 2022-03-02T17:06:44 CST
+Test suite: org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest 2022-04-07T05:49:50 UTC
 Tests:155 Failures:0 Errors:0
    org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testResponse Passed!
    org.eclipse.microprofile.graphql.tck.dynamic.SchemaDynamicValidityTest.testPartsOfSchema Passed!
