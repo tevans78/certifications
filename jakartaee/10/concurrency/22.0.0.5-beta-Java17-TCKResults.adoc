@@ -1,0 +1,279 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Concurrency.
+
+== Open Liberty 22.0.0.5-beta - Jakarta EE Concurrency Certification Summary (Java 17)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22.0.0.5-beta/openliberty-22.0.0.5-beta.zip[Open Liberty 22.0.0.5-beta]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/concurrency/3.0[Jakarta EE Concurrency 3.0]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://download.eclipse.org/ee4j/cu/jakartaee10/promoted/eftl/concurrency-tck-3.0.0.zip[Jakarta EE Concurrency 3.0 TCK], https://download.eclipse.org/ee4j/cu/jakartaee10/promoted/eftl/concurrency-tck-3.0.0.info[SHA-256]: `93fdfc808fff4e2fbd52883c7378b369d8ee81c87964ca8d3b6dfc20eb03e1d4`
+
+* Public URL of TCK Results Summary:
++
+link:22.0.0.5-beta-Java17-TCKResults.html[TCK results summary]
+
+* Java runtime used to run the implementation:
++
+----
+openjdk version "17" 2021-09-14
+OpenJDK Runtime Environment (build 17+35-2724)
+OpenJDK 64-Bit Server VM (build 17+35-2724, mixed mode, sharing)
+----
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Ubuntu (4.15.0-176-generic)
+
+Test results:
+
+----
+[INFO] Tests run: 160, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 304.538 s - in TestSuite
+----
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="4" name="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" time="0.477" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="AbortedExceptionNoArgTest" time="0.362"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="AbortedExceptionThrowableTest" time="0.048"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="AbortedExceptionStringThrowableTest" time="0.034"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.AbortedException.AbortedExceptionTests" name="AbortedExceptionStringTest" time="0.033"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="14" name="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" time="0.452" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithIntfsAndPropertiesAndInstanceIsNull" time="0.024"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithIntfAndProperties" time="0.023"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithIntfAndPropertiesAndIntfNoImplemented" time="0.023"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithIntfAndInstanceIsNull" time="0.027"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="GetExecutionProperties" time="0.018"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithMultiIntfsAndIntfNoImplemented" time="0.021"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithMultiIntfsAndProperties" time="0.026"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithMultiIntfsAndInstanceIsNull" time="0.041"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithIntf" time="0.140"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithMultiIntfsAndPropertiesAndIntfNoImplemented" time="0.021"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="GetExecutionPropertiesNoProxy" time="0.019"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithMultiIntfs" time="0.025"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithMultiIntfsAndPropertiesAndInstanceIsNull" time="0.020"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ContextService.ContextServiceTests" name="ContextServiceWithIntfAndIntfNoImplemented" time="0.024"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="4" name="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" time="9.161" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetResultRunnableTest" time="1.020"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetResultCallableTest" time="2.018"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetRunningTimeTest" time="4.022"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.LastExecution.LastExecutionTests" name="lastExecutionGetIdentityNameTest" time="2.101"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="1" name="ee.jakarta.tck.concurrent.api.ManageableThread.ManageableThreadTests" time="0.109" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManageableThread.ManageableThreadTests" name="isShutdown" time="0.109"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="10" name="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" time="0.455" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageRunnableTaskWithNullArg" time="0.020"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageCallableTaskWithTaskListener" time="0.019"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageRunnableTaskWithTaskListenerAndMap" time="0.017"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageRunnableTaskWithTaskListener" time="0.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageCallableTaskWithNullArg" time="0.021"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageRunnableTaskWithMapAndNullArg" time="0.026"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageCallableTaskWithTaskListenerAndMap" time="0.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="IsCurrentThreadShutdown" time="0.257"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="ManageCallableTaskWithMapAndNullArg" time="0.030"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedExecutors.ManagedExecutorsTests" name="IsCurrentThreadShutdown_ManageableThread" time="0.043"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="4" name="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" time="0.080" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="nullCallableScheduleProcessTest" time="0.026"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="normalScheduleProcess1Test" time="0.034"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="nullCommandScheduleProcessTest" time="0.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedScheduledExecutorService.ManagedScheduledExecutorServiceTests" name="normalScheduleProcess2Test" time="0.009"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="2" name="ee.jakarta.tck.concurrent.api.ManagedTask.ManagedTaskTests" time="0.153" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTask.ManagedTaskTests" name="GetExecutionProperties" time="0.131"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTask.ManagedTaskTests" name="GetManagedTaskListener" time="0.022"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="4" name="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" time="7.228" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="TaskDone" time="4.038"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="TaskSubmitted" time="1.032"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="TaskStarting" time="1.024"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.ManagedTaskListener.ManagedTaskListenerTests" name="TaskAborted" time="1.134"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="4" name="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" time="0.241" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="SkippedExceptionStringThrowableTest" time="0.029"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="SkippedExceptionThrowableTest" time="0.021"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="SkippedExceptionStringTest" time="0.029"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.SkippedException.SkippedExceptionTests" name="SkippedExceptionNoArgTest" time="0.162"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="2" name="ee.jakarta.tck.concurrent.api.Trigger.TriggerTests" time="46.159" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.api.Trigger.TriggerTests" name="triggerGetNextRunTimeTest" time="45.142"/>
+    <testcase classname="ee.jakarta.tck.concurrent.api.Trigger.TriggerTests" name="triggerSkipRunTest" time="1.017"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="16" name="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" time="0.763" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="2">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextualConsumer" time="0.010"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testJNDIContextAndCreateProxyInEJB" time="0.009"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextServiceDefinitionFromEJBAllAttributes" time="0.052"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextualFunction" time="0.021"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextualSupplier" time="0.024"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextServiceDefinitionWithThirdPartyContext" time="0.006"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testJNDIContextAndCreateProxyInServlet" time="0.014"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextServiceDefinitionDefaults" time="0.007"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testCopyWithContextCapture" time="0.005"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextServiceDefinitionAllAttributes" time="0.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testSecurityAndCreateProxyInServlet" time="0.019"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testSecurityPropagatedContext" time="0.532"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testClassloaderAndCreateProxyInServlet" time="0.043"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testContextServiceDefinitionFromEJBDefaults" time="0.010"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testSecurityUnchangedContext">
+      <skipped/>
+    </testcase> <!-- testSecurityUnchangedContext -->
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate.ContextPropagationTests" name="testSecurityClearedContext">
+      <skipped/>
+    </testcase> <!-- testSecurityClearedContext -->
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="2" name="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate_servlet.ContextPropagationServletTests" time="0.111" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate_servlet.ContextPropagationServletTests" name="testClassloaderInServlet" time="0.096"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.contextPropagate_servlet.ContextPropagationServletTests" name="testJNDIContextInServlet" time="0.015"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="5" name="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" time="1.760" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testSuspendAndRollback" time="0.026"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testSuspendAndCommit" time="0.071"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testDefaultAndCommit" time="1.592"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testTransactionOfExecuteThreadAndRollback" time="0.047"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ContextService.tx.TransactionTests" name="testTransactionOfExecuteThreadAndCommit" time="0.024"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="5" name="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" time="3.035" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testSubmit" time="0.004"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testInvokeAll" time="0.005"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testAtMostOnce" time="0.013"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testInvokeAny" time="0.006"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.inheritedapi.InheritedAPITests" name="testExecute" time="3.007"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="5" name="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPITests" time="0.190" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testAwaitTermination" time="0.118"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testShutdownNow" time="0.018"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testShutdown" time="0.017"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testIsTerminated" time="0.018"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testIsShutdown" time="0.019"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="5" name="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed_servlet.forbiddenapi.ForbiddenAPIServletTests" time="0.041" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed_servlet.forbiddenapi.ForbiddenAPIServletTests" name="testIsTerminated" time="0.004"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed_servlet.forbiddenapi.ForbiddenAPIServletTests" name="testShutdownNow" time="0.003"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed_servlet.forbiddenapi.ForbiddenAPIServletTests" name="testIsShutdown" time="0.006"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed_servlet.forbiddenapi.ForbiddenAPIServletTests" name="testAwaitTermination" time="0.020"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.managed_servlet.forbiddenapi.ForbiddenAPIServletTests" name="testShutdown" time="0.008"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="11" name="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" time="3.209" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testManagedExecutorDefinitionAllAttributes" time="1.006"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testAsyncCompletionStage" time="0.041"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testAsynchronousMethodReturnsCompletableFuture" time="1.010"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testIncompleteFuture" time="0.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testIncompleteFutureEJB" time="0.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testCopyCompletableFutureEJB" time="0.085"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testCompletedFuture" time="0.005"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testCopyCompletableFuture" time="0.006"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testAsynchronousMethodReturnsCompletionStage" time="1.016"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testAsynchronousMethodVoidReturnType" time="0.008"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.resourcedef.ManagedExecutorDefinitionTests" name="testManagedExecutorDefinitionDefaults" time="0.010"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="1" name="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.security.SecurityTests" time="0.030" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.security.SecurityTests" name="managedExecutorServiceAPISecurityTest" time="0.030"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="3" name="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" time="0.308" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" name="testCancelTransactionWithManagedExecutorService" time="0.272"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" name="testRollbackTransactionWithManagedExecutorService" time="0.019"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedExecutorService.tx.TransactionTests" name="testCommitTransactionWithManagedExecutorService" time="0.017"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="7" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" time="52.490" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiInvokeAny" time="3.027"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiSubmit" time="6.027"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiSchedule" time="6.039"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiExecute" time="0.275"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiScheduleAtFixedRate" time="16.064"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiScheduleWithFixedDelay" time="16.032"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi.InheritedAPITests" name="testApiInvokeAll" time="5.026"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="7" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" time="50.068" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiSubmit" time="6.006"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiExecute" time="0.013"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiScheduleWithFixedDelay" time="16.005"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiSchedule" time="4.012"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiScheduleAtFixedRate" time="16.007"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiInvokeAll" time="5.015"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.inheritedapi_servlet.InheritedAPIServletTests" name="testApiInvokeAny" time="3.010"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="5" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPITests" time="0.254" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testShutdownNow" time="0.033"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testIsShutdown" time="0.027"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testIsTerminated" time="0.025"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testShutdown" time="0.029"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi.ForbiddenAPITests" name="testAwaitTermination" time="0.140"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="5" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi_servlet.ForbiddenAPIServletTests" time="0.075" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi_servlet.ForbiddenAPIServletTests" name="testAwaitTermination" time="0.028"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi_servlet.ForbiddenAPIServletTests" name="testShutdown" time="0.009"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi_servlet.ForbiddenAPIServletTests" name="testShutdownNow" time="0.004"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi_servlet.ForbiddenAPIServletTests" name="testIsShutdown" time="0.007"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.managed.forbiddenapi_servlet.ForbiddenAPIServletTests" name="testIsTerminated" time="0.027"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="13" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" time="9.347" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testAsynchronousMethodWithMaxAsync3" time="1.011"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testScheduleWithCronTrigger" time="4.550"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testAsynchronousMethodRunsWithContext" time="0.048"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testIncompleteFutureMSE_EJB" time="1.140"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testManagedScheduledExecutorDefinitionAllAttributes_EJB" time="1.008"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testAsyncCompletionStageMSE" time="0.079"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testCompletedFutureMSE" time="0.016"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testScheduleWithZonedTrigger" time="0.010"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testManagedScheduledExecutorDefinitionDefaults_EJB" time="0.438"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testIncompleteFutureMSE" time="0.009"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testManagedScheduledExecutorDefinitionAllAttributes" time="1.009"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testNotAnAsynchronousMethod" time="0.016"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.resourcedef.ManagedScheduledExecutorDefinitionTests" name="testManagedScheduledExecutorDefinitionDefaults" time="0.013"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="1" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.security.SecurityTests" time="0.193" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.security.SecurityTests" name="managedScheduledExecutorServiceAPISecurityTest" time="0.193"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="3" name="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" time="0.249" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" name="testRollbackTransactionWithManagedScheduledExecutorService" time="0.226"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" name="testCancelTransactionWithManagedScheduledExecutorService" time="0.010"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedScheduledExecutorService.tx.TransactionTests" name="testCommitTransactionWithManagedScheduledExecutorService" time="0.013"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="2" name="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.apitests.APITests" time="1.031" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.apitests.APITests" name="interruptThreadApiTest" time="1.019"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.apitests.APITests" name="implementsManageableThreadInterfaceTest" time="0.012"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="2" name="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextTests" time="2.039" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextTests" name="jndiClassloaderPropagationTest" time="1.023"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context.ContextTests" name="jndiClassloaderPropagationWithSecurityTest" time="1.016"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="1" name="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context_servlet.ContextServletTests" time="1.031" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.context_servlet.ContextServletTests" name="jndiClassloaderPropagationTest" time="1.031"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="6" name="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" time="0.125" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" name="testManagedThreadFactoryDefinitionAllAttributes" time="0.023"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" name="testParallelStreamBackedByManagedThreadFactoryEJB" time="0.008"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" name="testParallelStreamBackedByManagedThreadFactory" time="0.019"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" name="testManagedThreadFactoryDefinitionDefaultsEJB" time="0.018"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" name="testManagedThreadFactoryDefinitionAllAttributesEJB" time="0.046"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.resourcedef.ManagedThreadFactoryDefinitionTests" name="testManagedThreadFactoryDefinitionDefaults" time="0.011"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="3" name="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" time="3.088" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" name="testRollbackTransactionWithManagedThreadFactory" time="1.013"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" name="testCommitTransactionWithManagedThreadFactory" time="1.005"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.ManagedThreadFactory.tx.TransactionTests" name="testCancelTransactionWithManagedThreadFactory" time="1.070"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="4" name="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorTests" time="2.053" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorTests" name="testDeploymentDescriptorDefinesManagedExecutor" time="1.008"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorTests" name="testDeploymentDescriptorDefinesManagedScheduledExecutor" time="1.012"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorTests" name="testDeploymentDescriptorDefinesManagedThreadFactory" time="0.009"/>
+    <testcase classname="ee.jakarta.tck.concurrent.spec.Platform.dd.DeploymentDescriptorTests" name="testDeploymentDescriptorDefinesContextService" time="0.024"/>
+  </testsuite>
+  <testsuite hostname="khalid1.fyre.ibm.com" failures="0" tests="1" name="ee.jakarta.tck.concurrent.spec.signature.SignatureTests" time="6.168" errors="0" timestamp="25 Apr 2022 19:18:23 GMT" skipped="0">
+    <testcase classname="ee.jakarta.tck.concurrent.spec.signature.SignatureTests" name="testSignatures" time="6.168"/>
+  </testsuite>
+</testsuites>
+----
