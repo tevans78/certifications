@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Open API 3.1-RC2.
 
-== Open Liberty 22.0.0.9-beta - MicroProfile Open API 3.1-RC2 Certification Summary (Java 11)
+== Open Liberty 22.0.0.9-beta - MicroProfile Open API 3.1-RC2 Certification Summary (Java 17)
 
 * Product Name, Version and download URL (if applicable):
 +
