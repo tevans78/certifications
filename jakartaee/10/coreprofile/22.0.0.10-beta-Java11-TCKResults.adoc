@@ -20,7 +20,7 @@ SHA-256: `702a84e3c6532fb0aad6a37443bf5e7fadbfb7cf0071271f3a1fdd10cab1229c`
 
 * Public URL of TCK Results Summary:
 +
-link:21.0.0.10-beta-Java11-TCKResults.html[TCK results summary]
+link:22.0.0.10-beta-Java11-TCKResults.html[TCK results summary]
 
 * Any Additional Specification Certification Requirements:
 +
