@@ -11,13 +11,13 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22
 
 * Specification Name, Version and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-rest-client-3.0.1/microprofile-rest-client-spec-3.0.1.html[MicroProfile Rest Client 3.0.1 Specification]
+https://github.com/eclipse/microprofile-rest-client/tree/3.0.1[MicroProfile Rest Client 3.0.1 Specification]
 
-* TCK Version, digital SHA-256 fingerprint and download URL:
+* (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-rest-client-3.0.1/microprofile-rest-client-tck-3.0.1.jar[MicroProfile Rest Client 3.0.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/rest/client/microprofile-rest-client-tck/3.0.1/microprofile-rest-client-tck-3.0.1.jar[MicroProfile Rest Client 3.0.1 TCK]
 +
-`1fac783e73780a40af0c41f9fd84ab38b266e1353ef12102f1b7ab8054ab2c5f`
+SHA-1: `ce82348123618c5c54f230a3dd29da195d3ef83d`
 
 * Public URL of TCK Results Summary:
 +
