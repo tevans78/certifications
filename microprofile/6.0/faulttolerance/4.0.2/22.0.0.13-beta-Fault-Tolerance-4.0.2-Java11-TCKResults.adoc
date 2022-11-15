@@ -11,13 +11,13 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22
 
 * Specification Name, Version and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-fault-tolerance-4.0.2/microprofile-fault-tolerance-spec-4.0.2.html[MicroProfile Fault Tolerance 4.0.2 Specification]
+https://github.com/eclipse/microprofile-fault-tolerance/tree/4.0.2[MicroProfile Fault Tolerance 4.0.2 Specification]
 
-* TCK Version, digital SHA-256 fingerprint and download URL:
+* (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-fault-tolerance-4.0.2/microprofile-fault-tolerance-tck-4.0.2.jar[MicroProfile Fault Tolerance 4.0.2 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-tck/4.0.2/microprofile-fault-tolerance-tck-4.0.2.jar[MicroProfile Fault Tolerance 4.0.2 TCK]
 +
-`cc7cfe7d24bb3f4971614b27a6702a6c07d8a91075f357da990fe51cefae531c`
+SHA-1: `222d94a6bca4f3274c5159e49f781a960c828228`
 
 * Public URL of TCK Results Summary:
 +

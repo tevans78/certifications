@@ -11,13 +11,13 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22
 
 * Specification Name, Version and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-health-4.0.1/microprofile-health-spec-4.0.1.html[MicroProfile Health 4.0.1 Specification]
+https://github.com/eclipse/microprofile-health/tree/4.0.1[MicroProfile Health 4.0.1 Specification]
 
-* TCK Version, digital SHA-256 fingerprint and download URL:
+* (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-health-4.0.1/microprofile-health-tck-4.0.1.jar[MicroProfile Health 4.0.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/health/microprofile-health-tck/4.0.1/microprofile-health-tck-4.0.1.jar[MicroProfile Health 4.0.1 TCK]
 +
-`3877b20e6a47223ef18609c427eeb4195d1ca78f19565ce6d8e71b5f80e3af8f`
+SHA-1: `0eb8df50272e27c93597ac98be94d60781556fc1`
 
 * Public URL of TCK Results Summary:
 +

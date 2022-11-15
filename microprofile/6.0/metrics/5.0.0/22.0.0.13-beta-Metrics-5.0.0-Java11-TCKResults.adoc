@@ -11,13 +11,21 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22
 
 * Specification Name, Version and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-metrics-5.0.0/microprofile-metrics-spec-5.0.0.html[MicroProfile Metrics 5.0.0 Specification]
+https://github.com/eclipse/microprofile-metrics/tree/5.0.0[MicroProfile Metrics 5.0.0 Specification]
 
-* TCK Version, digital SHA-256 fingerprint and download URL:
+* (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-metrics-5.0.0/microprofile-metrics-tck-5.0.0.jar[MicroProfile Metrics 5.0.0 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/metrics/microprofile-metrics-api-tck/5.0.0-RC4/microprofile-metrics-api-tck-5.0.0-RC4.jar[MicroProfile Metrics 5.0.0-RC4 API TCK]
 +
-`f9f7f949cf0754b9a8ecc9b65b0c8546c479914622beeae4614c0f1bd7754f6e`
+SHA-1: `a2d0046c23cc9c587914cfc0c97827cb40501810`
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/metrics/microprofile-metrics-optional-tck/5.0.0-RC4/microprofile-metrics-optional-tck-5.0.0-RC4.jar[MicroProfile Metrics 5.0.0-RC4 Optional TCK]
++
+SHA-1: `1e413eb074e1cac967e58f9b4313eaa1142828fc`
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/metrics/microprofile-metrics-rest-tck/5.0.0-RC4/microprofile-metrics-rest-tck-5.0.0-RC4.jar[MicroProfile Metrics 5.0.0-RC4 Rest TCK]
++
+SHA-1: `988837a30a57be381ae28638127cdbac01ce3da6`
 
 * Public URL of TCK Results Summary:
 +

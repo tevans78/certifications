@@ -11,13 +11,13 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22
 
 * Specification Name, Version and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.1/microprofile-jwt-auth-spec-2.1.html[MicroProfile JWT Auth 2.1 Specification]
+https://github.com/eclipse/microprofile-jwt-auth/tree/2.1[MicroProfile JWT Auth 2.1 Specification]
 
-* TCK Version, digital SHA-256 fingerprint and download URL:
+* (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-jwt-auth-2.1/microprofile-jwt-auth-tck-2.1.jar[MicroProfile JWT Auth 2.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/jwt/microprofile-jwt-auth-tck/2.1-RC6/microprofile-jwt-auth-tck-2.1-RC6.jar[MicroProfile JWT Auth 2.1-RC6 TCK]
 +
-`4f314938b3338d9d0c69303b24d2b0bcfaf262522a8403bc5c27ef04401b8965`
+SHA-1: `8e8d3d9ef99511464fcf4b6ca9c1277aca7b3a8d`
 
 * Public URL of TCK Results Summary:
 +

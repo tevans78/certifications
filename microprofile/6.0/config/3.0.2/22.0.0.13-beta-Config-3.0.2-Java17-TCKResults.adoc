@@ -11,13 +11,13 @@ https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/22
 
 * Specification Name, Version and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-config-3.0.2/microprofile-config-spec-3.0.2.html[MicroProfile Config 3.0.2 Specification]
+https://github.com/eclipse/microprofile-config/tree/3.0.2[MicroProfile Config 3.0.2 Specification]
 
-* TCK Version, digital SHA-256 fingerprint and download URL:
+* (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://download.eclipse.org/microprofile/microprofile-config-3.0.2/microprofile-config-tck-3.0.2.jar[MicroProfile Config 3.0.2 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/config/microprofile-config-tck/3.0.2/microprofile-config-tck-3.0.2.jar[MicroProfile Config 3.0.2 TCK]
 +
-`79958c019461ce5e98c00c873e10214a7c5d9350a984016df89f365f698a0d8b`
+SHA-1: `3529e10071cd128a1afcc15d6213d7611e523676`
 
 * Public URL of TCK Results Summary:
 +
