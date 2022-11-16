@@ -30,61 +30,60 @@ Java 11: IBM Semeru Runtime Certified Edition (11.0.16.1+1)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
-Linux
+Mac OS X
 
 Test results:
-
 [source, text]
 ----
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest 2022-11-09T08:18:09 PST
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest 2022-11-15T16:18:47 GMT
 Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanChild_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNameQuery_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanError_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNew_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.span_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanCurrent_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNew_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanError_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanChild_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest 2022-11-09T08:18:09 PST
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest 2022-11-15T16:18:47 GMT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanNameWithoutQueryString_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.span_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.TestApplication 2022-11-15T16:18:47 GMT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.TestApplication.rest_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest 2022-11-15T16:18:47 GMT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest.baggage_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest 2022-11-15T16:18:47 GMT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.span_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanNameWithoutQueryString_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest 2022-11-15T16:18:47 GMT
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanError_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanChild_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNew_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanCurrent_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNameQuery_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.span_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest 2022-11-15T16:18:47 GMT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanNameWithoutQueryString_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.span_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest 2022-11-15T16:18:47 GMT
 Tests:7 Failures:0 Errors:0
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.span_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanChild_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanCurrent_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanNameQuery_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanError_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanCurrent_EE10_FEATURES_MicroProfile_60 Passed!
    org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanNew_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest 2022-11-09T08:18:09 PST
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.span_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanNameWithoutQueryString_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest 2022-11-09T08:18:09 PST
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest.baggage_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.TestApplication 2022-11-09T08:18:09 PST
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.telemetry.tracing.tck.TestApplication.rest_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest 2022-11-09T08:18:09 PST
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest 2022-11-15T16:18:47 GMT
 Tests:1 Failures:0 Errors:0
    org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest.tracer_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest 2022-11-09T08:18:09 PST
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanNameWithoutQueryString_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.span_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest 2022-11-09T08:18:09 PST
-Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanChild_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNameQuery_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanError_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNew_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.span_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanCurrent_EE10_FEATURES_MicroProfile_60 Passed!
-Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest 2022-11-09T08:18:09 PST
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.span_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanName_EE10_FEATURES_MicroProfile_60 Passed!
-   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanNameWithoutQueryString_EE10_FEATURES_MicroProfile_60 Passed!
 ----
