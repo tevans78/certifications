@@ -1,6 +1,6 @@
 ## Steps to locally create a page of beta MicroProfile TCK results
 
-It is recommended to run the TCK using Semeru Certified Editions. 
+It is recommended to run the TCK using [Semeru Certified Editions](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/). 
 
 ### For Java 11 results:
 1. Extract the beta runtime somewhere.
