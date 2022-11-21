@@ -25,7 +25,7 @@ It is recommended to run the TCK using Semeru Certified Editions.
 It is important to check the server logs verify that the TCK actually ran on your server. Check the `emailable-report.html` to check that your passing tests do not also report exceptions. 
 
 ### For Java 17 results
-Change your Java version to 17 before running the server before running steps 1-5. 
+Change your Java version to 17 before running the server before running step 5. 
 Change the Java version back to 11 in the terminal for step 6 and run the TCK. The `messages.log` file in the server directory should show that the tests ran in Java 17. Be aware that the generated results will show the Java version used for the gradle command.
 
 ## Steps to publish a full set of MicroProfile TCK results
