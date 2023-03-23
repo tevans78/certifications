@@ -23,7 +23,7 @@ SHA-256: `2cea9daa4ef53657eaff9a1f801b56abc25c953dfe6dc50db21320e99dfcfafc`
 
 * Public URL of TCK Results Summary:
 +
-xref:23.0.0.3-MicroProfile-JWT-Auth-2.1-Java11-TCKResults.adoc[TCK results summary]
+xref:23.0.0.3-JWT-Auth-2.1-Java11-TCKResults.adoc[TCK results summary]
 
 
 * Java runtime used to run the implementation:
