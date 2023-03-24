@@ -27,7 +27,7 @@ MicroProfile 6.0 consists of 8 MicroProfile Specifications plus the Jakarta EE C
 
 === Product Name, Version and download URL (if applicable):
 
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.3/openliberty-23.0.0.3.zip[Open Liberty 23.0.0.3]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.3/openliberty-microProfile6-23.0.0.3.zip[Open Liberty 23.0.0.3]
 
 
 In order to certify against MicroProfile 6.0, an implementation must pass the TCK tests for the eight included MicroProfile component specifications, plus
