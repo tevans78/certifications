@@ -1,0 +1,410 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Open API 3.1
+
+== Open Liberty 23.0.0.10-beta - MicroProfile Open API 3.1 Certification Summary (Java 17)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/23.0.0.10-beta/openliberty-23.0.0.10-beta.zip[Open Liberty 23.0.0.10-beta]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-open-api/tree/3.1[MicroProfile Open API 3.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/openapi/microprofile-openapi-tck/3.1/microprofile-openapi-tck-3.1.jar[MicroProfile Open API 3.1 TCK]
++
+SHA-1: `3f6b0031b5c5563c060c29437f5e910f0b4a13f2`
++
+SHA-256: `1d04bb9f8a950a6ef1e2b53a8dc6b5d1722f1dfdf83f2d4720af281d123218bd`
+
+* Public URL of TCK Results Summary:
++
+xref:23.0.0.10-beta-MicroProfile-Open-API-3.1-Java17-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 17: IBM Semeru Runtime Open Edition (17.0.7+7)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux: Linux version 4.18.0-477.21.1.el8_8.ppc64le (mockbuild@ppc-061.build.eng.bos.redhat.com) (gcc version 8.5.0 20210514 (Red Hat 8.5.0-18) (GCC)) #1 SMP Thu Jul 20 08:49:34 EDT 2023
+
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeOnly 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeOnly.testPackageIncludeOnly Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeOnly.testPackageIncludeOnly Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASConfigSchemaTest 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASConfigSchemaTest.testSchemaConfigApplied Passed!
+   org.eclipse.microprofile.openapi.tck.OASConfigSchemaTest.testSchemaConfigApplied Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigExcludeOnly 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigExcludeOnly.testExcludeOnly Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigExcludeOnly.testExcludeOnly Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.PetStoreAppTest 2023-09-09T22:13:35 UTC
+Tests:21 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testOAuthFlow Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSecurityRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSecuritySchemes Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSchema Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSecurityRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testAPIResponseSchemaDefaultResponseCode Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testDefaultResponseType Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testRequestBodySchema Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testOAuthFlows Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testAPIResponseSchemaDefaultResponseCode Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testExtensionPlacement Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testAPIResponseSchema Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testExtensionPlacement Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSecuritySchemes Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testSchema Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testOAuthFlow Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testOAuthFlows Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testAPIResponseSchema Passed!
+   org.eclipse.microprofile.openapi.tck.PetStoreAppTest.testRequestBodySchema Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigExcludeMultiple 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigExcludeMultiple.testExcludeMultiple Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigExcludeMultiple.testExcludeMultiple Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASConfigWebInfTest 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASConfigWebInfTest.testScanClass Passed!
+   org.eclipse.microprofile.openapi.tck.OASConfigWebInfTest.testScanClass Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigIncludeOnly 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigIncludeOnly.testIncludeOnly Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigIncludeOnly.testIncludeOnly Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeOnly 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeOnly.testPackageExcludeOnly Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeOnly.testPackageExcludeOnly Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludesAroundInclude 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludesAroundInclude.testPackageExcludesAroundInclude Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludesAroundInclude.testPackageExcludesAroundInclude Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeMultiple 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeMultiple.testPackageIncludeMultiple Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeMultiple.testPackageIncludeMultiple Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest 2023-09-09T22:13:35 UTC
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest.customAbstractClassTest Passed!
+   org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest.extendedBaseInterfaceTest Passed!
+   org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest.baseInterfaceTest Passed!
+   org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest.nullValueTest Passed!
+   org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest.extendedInterfaceTest Passed!
+   org.eclipse.microprofile.openapi.tck.OASFactoryErrorTest.customClassTest Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.StaticDocumentTest 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.StaticDocumentTest.testStaticDocument Passed!
+   org.eclipse.microprofile.openapi.tck.StaticDocumentTest.testStaticDocument Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeClassExclude 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeClassExclude.testPackageIncludeClassExclude Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludeClassExclude.testPackageIncludeClassExclude Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationDisabledTest 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationDisabledTest.beanValidationScanningDisabledTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationDisabledTest.beanValidationScanningDisabledTest Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest 2023-09-09T22:13:35 UTC
+Tests:42 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.maxIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.defaultAndOtherGroupsTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notBlankStringTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.minIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.sizedStringTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.negativeIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notEmptyMapTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.positiveIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notBlankStringTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.negativeIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notEmptyListTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.minDecimalExclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notEmptyMapTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.maxDecimalExclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.parameterTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.positiveIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notEmptyStringTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.sizedMapTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.maxDecimalInclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.overridenBySchemaAnnotationTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.positiveOrZeroIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.minDecimalInclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.sizedListTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.maxDecimalExclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.negativeOrZeroIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.nonDefaultGroupTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.maxIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.minDecimalExclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.nonDefaultGroupTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.overridenBySchemaAnnotationTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.defaultAndOtherGroupsTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notEmptyListTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.maxDecimalInclusiveTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.negativeOrZeroIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.sizedMapTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.sizedListTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.notEmptyStringTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.parameterTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.minIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.sizedStringTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.positiveOrZeroIntTest Passed!
+   org.eclipse.microprofile.openapi.tck.beanvalidation.BeanValidationTest.minDecimalInclusiveTest Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.ModelReaderAppTest 2023-09-09T22:13:35 UTC
+Tests:42 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testOperationBookingResource Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testVersion Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testTagDeclarations Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testTagsInOperations Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSchema Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSecurityRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testContact Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testHeaderInComponents Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testOperationAvailabilityResource Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testHeaderInComponents Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSecuritySchemes Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testOperationAvailabilityResource Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testExternalDocumentation Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSecuritySchemes Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testInfo Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testServer Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testComponents Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testContentInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSecurityRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testAvailabilityGetParameter Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testOperationBookingResource Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testTagDeclarations Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testOperationAirlinesResource Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testTagsInOperations Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testAvailabilityGetParameter Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testVersion Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testServer Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testContentInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testExampleObject Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testExternalDocumentation Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testInfo Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testOperationAirlinesResource Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testComponents Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testSchema Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testLicense Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testContact Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testExampleObject Passed!
+   org.eclipse.microprofile.openapi.tck.ModelReaderAppTest.testLicense Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.AirlinesAppTest 2023-09-09T22:13:35 UTC
+Tests:110 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testLicense Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testComponents Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationBookingResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecuritySchemes Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExternalDocumentation Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testParameter Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testTagsInOperations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testHeaderInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExtensionParsing Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecurityRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExplode Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationAirlinesResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testEncodingResponses Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExceptionMappers Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecuirtyRequirementInCallback Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSchemaProperty Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testTagDeclarations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSchema Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testParameter Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExampleObject Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExternalDocumentation Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testCallbackAnnotations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentExampleAttribute Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExplode Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testCallbackOperationAnnotations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testComponents Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSchema Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRequestBodyAnnotations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testEncodingRequestBody Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRestClientNotPickedUp Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRefHeaderInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRequestBodyAnnotations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRefHeaderInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testDefaultParameterRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRefHeaderInEncoding Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testEncodingRequestBody Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testInfo Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testTagDeclarations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testDefaultParameterRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContact Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesDefault Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationAirlinesResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testVersion Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecurityRequirement Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSchemaPropertyValuesOverrideClassPropertyValues Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContact Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testLicense Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentExampleAttribute Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentInRequestBody Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesDefault Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSchemaPropertyValuesOverrideClassPropertyValues Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExampleObject Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testStaticFileDefinitions Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationReviewResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationReviewResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOAuthFlows Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOAuthFlows Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesTypeString Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentInRequestBody Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecuritySchemes Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentInParameter Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOpenAPIDefinitionExtension Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testLinkParameter Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesTypeString Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRestClientNotPickedUp Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testLinkParameter Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationUserResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testLink Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesFalse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testHeaderInEncoding Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOAuthFlow Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOpenAPIDefinitionExtension Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesFalse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testEncodingResponses Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testServer Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesTrue Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOAuthScope Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testStaticFileDefinitions Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExtensionParsing Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testHeaderInEncoding Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testServer Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testHeaderInComponents Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationBookingResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testCallbackAnnotations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testHeaderInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAPIResponses Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testExceptionMappers Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testTagsInOperations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOAuthScope Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAPIResponses Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentInAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testContentInParameter Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationAvailabilityResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testVersion Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testRefHeaderInEncoding Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAdditionalPropertiesTrue Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSecuirtyRequirementInCallback Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testSchemaProperty Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationAvailabilityResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testCallbackOperationAnnotations Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testLink Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOperationUserResource Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testInfo Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testHeaderInComponents Passed!
+   org.eclipse.microprofile.openapi.tck.AirlinesAppTest.testOAuthFlow Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludesAroundExcludes 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludesAroundExcludes.testPackageIncludesAroundExcludes Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageIncludesAroundExcludes.testPackageIncludesAroundExcludes Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeMultiple 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeMultiple.testPackageExcludeMultiple Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeMultiple.testPackageExcludeMultiple Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASConfigScanDisableTest 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASConfigScanDisableTest.testScanDisable Passed!
+   org.eclipse.microprofile.openapi.tck.OASConfigScanDisableTest.testScanDisable Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.ModelConstructionTest 2023-09-09T22:13:35 UTC
+Tests:30 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.pathsTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.xmlTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.serverVariableTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.contentTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.apiResponseTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.callbackTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.apiResponsesTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.headerTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.schemaTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.exampleTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.encodingTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.openAPITest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.parameterTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.mediaTypeTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.requestBodyTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.discriminatorTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.infoTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.pathItemTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.externalDocumentationTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.tagTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.oAuthFlowsTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.serverTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.linkTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.oAuthFlowTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.securitySchemeTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.securityRequirementTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.componentsTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.licenseTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.operationTest Passed!
+   org.eclipse.microprofile.openapi.tck.ModelConstructionTest.contactTest Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigIncludeMultiple 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigIncludeMultiple.testIncludeMultiple Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigIncludeMultiple.testIncludeMultiple Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.FilterTest 2023-09-09T22:13:35 UTC
+Tests:28 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterOpenAPI Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterTag Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterOperation Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterCallback Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterTag Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterServer Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterHeader Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterHeader Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterLink Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterPathItemAddOperation Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterRequestBody Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterParameter Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterPathItemEnsureOrder Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterAPIResponse Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterSecurityScheme Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterSchema Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterRequestBody Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterCallback Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterSchema Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterParameter Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterOperation Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterServer Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterLink Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterOpenAPI Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterPathItemAddOperation Passed!
+   org.eclipse.microprofile.openapi.tck.FilterTest.testFilterPathItemEnsureOrder Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeClassInclude 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeClassInclude.testPackageExcludeClassInclude Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPackageExcludeClassInclude.testPackageExcludeClassInclude Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASConfigServersTest 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASConfigServersTest.testServer Passed!
+   org.eclipse.microprofile.openapi.tck.OASConfigServersTest.testServer Passed!
+Test suite: org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPartialPackage 2023-09-09T22:13:35 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPartialPackage.testPartialPackage Passed!
+   org.eclipse.microprofile.openapi.tck.OASScanConfigTests$ScanConfigPartialPackage.testPartialPackage Passed!
+----
