@@ -1,5 +1,5 @@
 :page-layout: certification
-= TCK Results (DRAFT)
+= TCK Results
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Core Profile 10.
 
@@ -29,8 +29,8 @@ https://download.eclipse.org/jakartaee/annotations/2.1/jakarta-annotations-tck-2
 SHA-256: `8c2131d51c75cde4be74382f662519f9fd439f4ce4dd60832ed55b796e5f72f3`
 +
 Jakarta Contexts and Dependency Injection
-https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.9-dist.zip[cdi-tck-4.0.9-dist.zip],
-SHA-256: `3fc1db6a7578df561fd5a3bed4b26415c9cc8ae5ec0e6d907957fbdf5ff5e9f4`
+https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.11-dist.zip[cdi-tck-4.0.11-dist.zip],
+SHA-256: `dbb2e1240557bfd457322e84a9ecd74854f2580b3a5a1d36cd6e11e87683d33c`
 +
 Jakarta Dependency Injection
 https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[jakarta.inject-tck-2.0.2-bin.zip],
@@ -49,5 +49,103 @@ https://download.eclipse.org/jakartaee/restful-ws/3.1/jakarta-restful-ws-tck-3.1
 SHA-256: `8ff1e6ee4165ca5444cb181a4a70fcde94b9b3915cad948c7f1a029290b09773`
 
 
-* REPLACE WITH ACTUAL RESULTS
+* Java runtime used to run the implementation:
++
+----
+java version "11.0.15" 2022-04-19
+IBM Semeru Runtime Certified Edition 11.0.15.0 (build 11.0.15+10)
+Eclipse OpenJ9 VM 11.0.15.0 (build openj9-0.32.0, JRE 11 Linux amd64-64-Bit Compressed References 20220427_337 (JIT enabled, AOT enabled)
+OpenJ9   - 9a84ec34e
+OMR      - ab24b6666
+JCL      - da9a227f69 based on jdk-11.0.15+10)
+----
 
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Apache Derby, Linux, Ubuntu 18.04
+
+
+Test results:
+
+----
+
+Stage Name: Jakarta Core Profile TCK
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0:verify (verify) @ core-profile-tck-runner ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:52 min
+
+
+Stage Name: Jakarta Annotations TCK
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+[javatest.batch] PASSED........com/sun/ts/tests/signaturetest/caj/CAJSigTest.java#signatureTest
+[javatest.batch] 
+[javatest.batch] Total time = 22s
+
+
+Stage Name: Jakarta Contexts and Dependency Injection TCK
+[INFO] Tests run: 716, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 930.582 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 716, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/surefire-reports/sigtest/TEST-liberty-cdi-tck-runner-4.0.11.xml: 0 failures in /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/api-signature/cdi-api-jdk11.sig
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.578 s - in org.jboss.weld.langmodel.tck.LangModelTckTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: Jakarta Dependency Injection TCK
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.369 s - in weld.SampleBootstrapTCK
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: Jakarta JSON Binding TCK
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 295, Failures: 0, Errors: 0, Skipped: 5
+
+
+Stage Name: Jakarta JSON Processing TCK
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 179, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.619 s - in ee.jakarta.tck.jsonp.pluggability.jsonprovidertests.ClientTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: Jakarta RESTful Web Services TCK
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 2647, Failures: 0, Errors: 0, Skipped: 128
+[INFO] 
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0:verify (verify) @ jakarta-restful-ws-tck-runner ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 09:05 min
+
+----
