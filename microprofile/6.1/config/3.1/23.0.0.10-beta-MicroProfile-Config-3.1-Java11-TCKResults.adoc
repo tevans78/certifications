@@ -1,0 +1,487 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Config 3.1
+
+== Open Liberty 23.0.0.10-beta - MicroProfile Config 3.1 Certification Summary (Java 11)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/23.0.0.10-beta/openliberty-23.0.0.10-beta.zip[Open Liberty 23.0.0.10-beta]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-config/tree/3.1[MicroProfile Config 3.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1626/org/eclipse/microprofile/config/microprofile-config-tck/3.1/microprofile-config-tck-3.1.jar[MicroProfile Config 3.1 TCK]
++
+SHA-1: `d0579ab0f0f4f06e25161b60838834b3003b51d6`
++
+SHA-256: `1b7bde78c8fbd6a297cd6ed33aa98aca21cab82ec198fb8b0a3ac1747136b340`
+
+* Public URL of TCK Results Summary:
++
+xref:23.0.0.10-beta-MicroProfile-Config-3.1-Java17-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 11: IBM Semeru Runtime Open Edition (11.0.20.1+1)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Mac OS X: kern.version: Darwin Kernel Version 22.5.0: Thu Jun  8 22:22:22 PDT 2023; root:xnu-8796.121.3~7/RELEASE_X86_64
+
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest 2023-09-20T15:00:06 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest.testGetOptionalValue Passed!
+   org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest.testDefaultValueNotUsed Passed!
+   org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest.testGetValue Passed!
+Test suite: org.eclipse.microprofile.config.tck.PropertyExpressionsTest 2023-09-20T15:00:06 BST
+Tests:20 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.noExpressionButOptional Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.multipleExpansions Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.withoutExpansion Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.expressionMissing Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.simpleExpression Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.composedExpressions Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.noExpressionComposedButOptional Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.noExpression Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.arrayEscapes Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.defaultExpressionComposedEmpty Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.defaultExpression Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.escape Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.noExpressionComposed Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.defaultExpressionEmpty Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.noExpressionComposedButConfigValue Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.infiniteExpansion Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.multipleExpressions Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.defaultExpressionComposed Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.escapeBraces Passed!
+   org.eclipse.microprofile.config.tck.PropertyExpressionsTest.noExpressionButConfigValue Passed!
+Test suite: org.eclipse.microprofile.config.tck.ImplicitConverterTest 2023-09-20T15:00:06 BST
+Tests:19 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterCharSequenceParseJavaTimeConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterStringOf Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterSquenceValueOfBeforeParseConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterSquenceOfBeforeValueOf Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterStringValueOf Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterCharSequenceParseConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterStringOfConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterSquenceParseBeforeConstructor Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterSquenceValueOfBeforeParse Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterCharSequenceParse Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterStringCtConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterStringCt Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterCharSequenceParseJavaTimeInjection Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterSquenceParseBeforeConstructorConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterEnumValueOfConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterSquenceOfBeforeValueOfConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testGetImplicitConverterStringValueOfConverter Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterEnumValueOf Passed!
+   org.eclipse.microprofile.config.tck.ImplicitConverterTest.testImplicitConverterCharSequenceParseJavaTime Passed!
+Test suite: org.eclipse.microprofile.config.tck.ConfigProviderTest 2023-09-20T15:00:06 BST
+Tests:9 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testNonExistingConfigKey Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testNonExistingConfigKeyGet Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testJavaConfigPropertyFilesConfigSource Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testGetPropertyNames Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testEnvironmentConfigSource Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testInjectedConfigSerializable Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testGetConfigSources Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testPropertyConfigSource Passed!
+   org.eclipse.microprofile.config.tck.ConfigProviderTest.testDynamicValueInPropertyConfigSource Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest.testConfigProfileWithDev Passed!
+Test suite: org.eclipse.microprofile.config.tck.CustomConfigSourceTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.CustomConfigSourceTest.testConfigSourceProvider Passed!
+Test suite: org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest 2023-09-20T15:00:06 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest.testOrdinalForSystemProps Passed!
+   org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest.testOrdinalForEnv Passed!
+Test suite: org.eclipse.microprofile.config.tck.WarPropertiesLocationTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.WarPropertiesLocationTest.testReadPropertyInWar Passed!
+Test suite: org.eclipse.microprofile.config.tck.broken.MissingValueOnObserverMethodInjectionTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.broken.MissingValueOnObserverMethodInjectionTest.test Passed!
+Test suite: org.eclipse.microprofile.config.tck.ConfigPropertiesTest 2023-09-20T15:00:06 BST
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testConfigPropertiesNoPrefixOnBean Passed!
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testConfigPropertiesPlainInjection Passed!
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testNoConfigPropertiesAnnotationInjection Passed!
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testConfigPropertiesDefaultOnBean Passed!
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testConfigPropertiesNoPrefixOnBeanThenSupplyPrefix Passed!
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testConfigPropertiesWithPrefix Passed!
+   org.eclipse.microprofile.config.tck.ConfigPropertiesTest.testConfigPropertiesWithoutPrefix Passed!
+Test suite: org.eclipse.microprofile.config.tck.CDIPropertyNameMatchingTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.CDIPropertyNameMatchingTest.testPropertyFromEnvironmentVariables Passed!
+Test suite: org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest 2023-09-20T15:00:06 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest.testAutoDiscoveredConverterNotAddedAutomatically Passed!
+   org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest.testAutoDiscoveredConverterManuallyAdded Passed!
+   org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest.testAutoDiscoveredConfigureSources Passed!
+Test suite: org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup 2023-09-20T15:00:06 BST
+Tests:28 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testSpaceStringGetOptionalValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testMissingStringGetOptionalValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testFooBarStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testCommaBarStringGetOptionalValues Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testFooBarStringGetOptionalValues Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testCommaBarStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testSpaceStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testFooCommaStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testMissingStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testFooCommaStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testEmptyStringGetOptionalValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testFooCommaStringGetOptionalValues Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testFooBarStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testMissingStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testCommaStringGetOptionalValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testBackslashCommaStringGetOptionalValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testSpaceStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testBackslashCommaStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testEmptyStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testDoubleCommaStringGetOptionalValues Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testBackslashCommaStringGetOptionalValueAsArrayOrList Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testBackslashCommaStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testCommaStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testCommaStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testDoubleCommaStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testDoubleCommaStringGetValueArray Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testCommaBarStringGetValue Passed!
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup.testEmptyStringGetValue Passed!
+Test suite: org.eclipse.microprofile.config.tck.CDIPlainInjectionTest 2023-09-20T15:00:06 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.CDIPlainInjectionTest.injectedValuesAreEqualToProgrammaticValues Passed!
+   org.eclipse.microprofile.config.tck.CDIPlainInjectionTest.canInjectDefaultPropertyPath Passed!
+   org.eclipse.microprofile.config.tck.CDIPlainInjectionTest.canInjectSimpleValuesWhenDefined Passed!
+   org.eclipse.microprofile.config.tck.CDIPlainInjectionTest.canInjectDynamicValuesViaCdiProvider Passed!
+Test suite: org.eclipse.microprofile.config.tck.broken.MissingConverterOnInstanceInjectionTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.broken.MissingConverterOnInstanceInjectionTest.test Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.InvalidConfigProfileTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.InvalidConfigProfileTest.testConfigProfileWithDev Passed!
+Test suite: org.eclipse.microprofile.config.tck.converters.NullConvertersTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.converters.NullConvertersTest.nulls Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.OverrideConfigProfileTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.OverrideConfigProfileTest.testConfigProfileWithDevAndOverride Passed!
+Test suite: org.eclipse.microprofile.config.tck.ArrayConverterTest 2023-09-20T15:00:06 BST
+Tests:138 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetBooleanArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testInstantListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUrlArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalOffsetTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testStringArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetUriArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLongArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetIntArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetDateTimeArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateTimeListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUriArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetfloatArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetUrlArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetIntegerArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDoubleListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalTimeListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testFloatArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testInstantArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalStringListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalCustomTypeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testCustomTypeListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testIntegerArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLocalDateListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDurationListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testBooleanListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDurationListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetFloatArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetDateTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLocalTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLongListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalStringArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testbooleanListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalTimeArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalUrlArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLongSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testbooleanArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testInstantSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDoubleSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalFloatListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalOffsetDateTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalDurationArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLocalDateTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalInstantArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testInstantListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetLocalDateArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDoubleArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetInstantArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testIntegerListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalUriArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testCustomTypeArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLongListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetTimeListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUriListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testbooleanSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetlongArrayCoverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalUriListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testStringSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUriArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalFloatArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testdoubleArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLongArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDurationArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testIntSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testlongArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLocalDateTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testCustomTypeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateTimeSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testBooleanArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testIntArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testCustomTypeSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUriListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetbooleanArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalUrlListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetDateTimeListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUrlListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDurationSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testCustomTypeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalDoubleArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetDateTimeSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalOffsetDateTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testBooleanArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLongListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testURLSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetTimeArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalDateTimeArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalInstantListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testURLListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalCustomTypeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testFloatSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetDoubleArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testFloatArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetDateTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetLocalTimeArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testStringListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLocalTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalTimeListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testStringListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetOffsetDateTimeArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testfloatArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testFloatListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalIntegerArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetLongArrayCoverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetOffsetTimeArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDoubleListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalDurationListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetdoubleArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUrlArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLongArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalBooleanArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetLocalDateTimeArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testIntListInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalDoubleListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDurationArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalIntegerListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testUriSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalLocalDateArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalOffsetTimeArrayLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testStringArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testLocalTimeSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetStringArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testInstantArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetDurationArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testGetCustomTypeArrayConverter Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOptionalBooleanListLookupProgrammatically Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testOffsetTimeSetInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testDoubleArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testintArrayInjection Passed!
+   org.eclipse.microprofile.config.tck.ArrayConverterTest.testFloatListLookupProgrammatically Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.TestConfigProfileTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.TestConfigProfileTest.testConfigProfileWithDev Passed!
+Test suite: org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest 2023-09-20T15:00:06 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest.badExpansion Passed!
+   org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest.expressionNoDefault Passed!
+   org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest.expression Passed!
+Test suite: org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest 2023-09-20T15:00:06 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest.testOptionalInjection Passed!
+   org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest.testOptionalInjectionWithNoDefaultValueOrElseIsReturned Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.DevConfigProfileTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.DevConfigProfileTest.testConfigProfileWithDev Passed!
+Test suite: org.eclipse.microprofile.config.tck.ConfigValueTest 2023-09-20T15:00:06 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ConfigValueTest.configValueInjection Passed!
+   org.eclipse.microprofile.config.tck.ConfigValueTest.configValueEmpty Passed!
+   org.eclipse.microprofile.config.tck.ConfigValueTest.configValue Passed!
+Test suite: org.eclipse.microprofile.config.tck.broken.ConfigPropertiesMissingPropertyInjectionTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.broken.ConfigPropertiesMissingPropertyInjectionTest.test Passed!
+Test suite: org.eclipse.microprofile.config.tck.CustomConverterTest 2023-09-20T15:00:06 BST
+Tests:20 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testInteger Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testIntPrimitive Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testLong Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetLongPrimitiveConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetCharacterConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetDoublePrimitiveConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetIntPrimitiveConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testDoublePrimitive Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetDoubleConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetLongConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testBoolean Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testLongPrimitive Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testBooleanPrimitive Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testCharacter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetBooleanConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetBooleanPrimitiveConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetCharPrimitiveConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testDouble Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testGetIntegerConverter Passed!
+   org.eclipse.microprofile.config.tck.CustomConverterTest.testCharPrimitive Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.TestCustomConfigProfile 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.TestCustomConfigProfile.testConfigProfileWithDev Passed!
+Test suite: org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTest.test Passed!
+Test suite: org.eclipse.microprofile.config.tck.ClassConverterTest 2023-09-20T15:00:06 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ClassConverterTest.testGetClassConverter Passed!
+   org.eclipse.microprofile.config.tck.ClassConverterTest.testClassConverterWithLookup Passed!
+   org.eclipse.microprofile.config.tck.ClassConverterTest.testConverterForClassLoadedInBean Passed!
+Test suite: org.eclipse.microprofile.config.tck.broken.MissingValueOnInstanceInjectionTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.broken.MissingValueOnInstanceInjectionTest.test Passed!
+Test suite: org.eclipse.microprofile.config.tck.ConverterTest 2023-09-20T15:00:06 BST
+Tests:96 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetFloatConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetbyteConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetlongConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetfloatConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDurationConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testbyte Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLocalTime Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLocalDate_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testNoDonaldConverterByDefault Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testInstant Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testZoneOffset Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLocalDateConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetOffsetTimeConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testInteger Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDouble Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetOffsetDateTimeConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetIntegerConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testOffsetDateTime_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDuration Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLocalDateTimeConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetShortConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testfloat Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDuckConverterWithMultipleConverters Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetcharConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testZoneOffset_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testFloat Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testchar Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDoubleConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDurationCoverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDonaldConversionWithLambdaConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetCustomConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLong Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testShort_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDoubleConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLong_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDonaldConversionWithMultipleLambdaConverters Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testshort Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetURLConverterBroken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDuration_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetOffsetDateTimeConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testBoolean Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLocalTimeConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDonaldNotConvertedByDefault Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLocalDateConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetshortConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDuckConversionWithMultipleConverters Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testURLConverterBroken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLocalDate Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetCharConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testlong Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLocalTime_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testURIConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetConverterSerialization Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testdouble Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testByte Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testURLConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetShortConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testByte_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetFloatConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLongConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testOffsetDateTime Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLocalDateTime Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDonaldConverterWithLambdaConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetIntConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetByteConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetURIConverterBroken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testChar Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetBooleanConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetDonaldConverterWithMultipleLambdaConverters Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testURIConverterBroken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetdoubleConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testOffsetTime_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testLocalDateTime_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testDouble_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetInstantConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetOffsetTimeConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetURIConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testShort Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetURLConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetIntegerConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testInstant_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetInstantConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetZoneOffsetConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testInteger_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetCharConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testFloat_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetByteConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetZoneOffsetConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testCustomConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLongConverter_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testConverterSerialization Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLocalDateTimeConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testGetLocalTimeConverter Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testOffsetTime Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testChar_Broken Passed!
+   org.eclipse.microprofile.config.tck.ConverterTest.testInt Passed!
+Test suite: org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueBrokenInjectionTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueBrokenInjectionTest.test Passed!
+Test suite: org.eclipse.microprofile.config.tck.profile.ProdProfileTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.profile.ProdProfileTest.testConfigProfileWithDev Passed!
+Test suite: org.eclipse.microprofile.config.tck.broken.WrongConverterOnInstanceInjectionTest 2023-09-20T15:00:06 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.config.tck.broken.WrongConverterOnInstanceInjectionTest.test Passed!
+----
