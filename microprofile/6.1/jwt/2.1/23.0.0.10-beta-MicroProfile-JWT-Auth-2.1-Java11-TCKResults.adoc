@@ -1,0 +1,331 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile JWT Auth 2.1
+
+== Open Liberty 23.0.0.10-beta - MicroProfile JWT Auth 2.1 Certification Summary (Java 11)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/beta/23.0.0.10-beta/openliberty-23.0.0.10-beta.zip[Open Liberty 23.0.0.10-beta]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-jwt-auth/tree/2.1[MicroProfile JWT Auth 2.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/jwt/microprofile-jwt-auth-tck/2.1/microprofile-jwt-auth-tck-2.1.jar[MicroProfile JWT Auth 2.1 TCK]
++
+SHA-1: `ccb29d4d588628fa46c61c85499284ab9b22bee1`
++
+SHA-256: `2cea9daa4ef53657eaff9a1f801b56abc25c953dfe6dc50db21320e99dfcfafc`
+
+* Public URL of TCK Results Summary:
++
+xref:23.0.0.10-beta-MicroProfile-JWT-Auth-2.1-Java11-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 11: IBM Semeru Runtime Open Edition (11.0.19+7)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux: Linux version 4.18.0-477.21.1.el8_8.ppc64le (mockbuild@ppc-061.build.eng.bos.redhat.com) (gcc version 8.5.0 20210514 (Red Hat 8.5.0-18) (GCC)) #1 SMP Thu Jul 20 08:49:34 EDT 2023
+
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest 2023-09-09T07:49:50 UTC
+Tests:15 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEchoBASIC Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEchoNoAuth Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEchoSignEncryptToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.echoNeedsToken2Role Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.getPrincipalClass Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEchoSignToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.echoWithToken2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.noTokenHeaderSetToCookie Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.checkIsUserInRole Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEcho Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.getInjectedPrincipal Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEchoNoGroups Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callEcho2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.callHeartbeat Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RolesAllowedTest.checkIsUserInRoleToken2 Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.InvalidTokenTest 2023-09-09T07:49:50 UTC
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.InvalidTokenTest.callEchoBadIssuer Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.InvalidTokenTest.callEchoBadSignerAlg Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.InvalidTokenTest.callEchoExpiredToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.InvalidTokenTest.callEchoBadSigner Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest 2023-09-09T07:49:50 UTC
+Tests:21 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedOptionalAuthTime Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedJTI Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedIssuedAt2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedCustomString2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedAudience Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedCustomInteger2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedCustomInteger Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedCustomDouble2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedRawToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyIssuerClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedJTI2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedOptionalSubject Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedCustomString Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedRawToken2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedOptionalAuthTime2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedAudience2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyIssuerClaim2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedCustomDouble Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedOptionalCustomMissing Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedOptionalSubject2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ProviderInjectionTest.verifyInjectedIssuedAt Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.DecryptKeyAlgorithmDefaultTest 2023-09-09T07:49:50 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.DecryptKeyAlgorithmDefaultTest.callEchoRsaOaep Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.DecryptKeyAlgorithmDefaultTest.callEchoRsaOaep256 Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest 2023-09-09T07:49:50 UTC
+Tests:19 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedCustomInteger Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedCustomBoolean Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedSubjectStandard Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedOptionalCustomMissing Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedRawTokenStandard Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedJTI Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedCustomString Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedOptionalAuthTime Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyIssuerStandardClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedIssuedAt Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedAudience Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedJTIStandard Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyIssuerClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedIssuedAtStandard Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedAudienceStandard Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedOptionalSubject Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedCustomDouble Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedAuthTimeStandard Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ClaimValueInjectionTest.verifyInjectedRawToken Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest 2023-09-09T07:49:50 UTC
+Tests:14 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEchoSignEncryptToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEchoSignToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.checkIsUserInRole Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.getInjectedPrincipal Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEchoBASIC Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.echoNeedsToken2Role Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.echoWithToken2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.checkIsUserInRoleToken2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEchoNoAuth Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEcho2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.getPrincipalClass Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEchoRsaOaep Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callHeartbeat Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptTest.callEchoWithoutCty Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest 2023-09-09T07:49:50 UTC
+Tests:21 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomStringArray Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomDouble2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomInteger Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedIssuedAt2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomDouble Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedAuthTime2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedAuthTime Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomIntegerArray Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomString Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedAudience2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyIssuerClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedRawToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomInteger2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomString2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedAudience Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedCustomDoubleArray Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyIssuerClaim2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedRawToken2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedIssuedAt Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedJTI2 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.JsonValueInjectionTest.verifyInjectedJTI Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.TokenAgeTest 2023-09-09T07:49:50 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.TokenAgeTest.callEchoAgedToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.TokenAgeTest.callEchoValidToken Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest 2023-09-09T07:49:50 UTC
+Tests:11 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedIssuedAt Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedGroups Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedRawToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedCustomString Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedUPN Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyIssuerClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedCustomBoolean Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedSUB Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedAudience Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedJTI Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrimitiveInjectionTest.verifyInjectedExpiration Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptRsaOaepTest 2023-09-09T07:49:50 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptRsaOaepTest.callEchoRsaOaep256 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptRsaOaepTest.callEchoRsaOaep Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest 2023-09-09T07:49:50 UTC
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest.verifyInjectedRawTokenJwt Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest.verifyInjectedRawTokenClaimValue Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.ApplicationScopedInjectionTest.verifyInjectedRawToken1Provider Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.PrincipalInjectionTest 2023-09-09T07:49:50 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.PrincipalInjectionTest.verifyInjectedPrincipal Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptRsaOaep256Test 2023-09-09T07:49:50 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptRsaOaep256Test.callEchoRsaOaep256 Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.jwe.RolesAllowedSignEncryptRsaOaep256Test.callEchoRsaOaep Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.TokenAsCookieIgnoredTest 2023-09-09T07:50:59 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.TokenAsCookieIgnoredTest.validJwt Passed!
+   org.eclipse.microprofile.jwt.tck.config.TokenAsCookieIgnoredTest.noTokenHeaderSetToCookie Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsJWKSClasspathTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsJWKSClasspathTest.testKeyAsLocation Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.EmptyTokenTest 2023-09-09T07:50:59 UTC
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.EmptyTokenTest.validToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.EmptyTokenTest.emptyToken Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.EmptyTokenTest.invalidToken Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.TokenAsCookieTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.TokenAsCookieTest.validJwt Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationTest.testKeyAsLocation Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsJWKClasspathTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsJWKClasspathTest.testKeyAsLocation Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsPEMClasspathTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.jwe.PrivateKeyAsPEMClasspathTest.testKeyAsLocationResource Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSTest.testKeyAsJWKS Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest 2023-09-09T07:50:59 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest.validateLocationUrlContents Passed!
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationURLTest.testKeyAsLocationUrl Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMLocationTest.testKeyAsLocationResource Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsJWKLocationTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsJWKLocationTest.testKeyAsLocation Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsPEMTest.testKeyAsPEM Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.RsaKeySignatureTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RsaKeySignatureTest.callEcho Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSLocationTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKSLocationTest.testKeyAsLocation Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMLocationTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMLocationTest.testKeyAsLocationResource Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsFileLocationURLTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsFileLocationURLTest.testKeyAsLocationUrl Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest 2023-09-09T07:50:59 UTC
+Tests:5 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest.expiredCookie Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest.wrongCookieName Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest.validCookieJwt Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest.ignoreHeaderIfCookieSet Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.CookieTokenTest.emptyCookie Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.ECPublicKeyAsPEMTest.testKeyAsPEM Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKTest.testKeyAsJWK Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsBase64JWKTest 2023-09-09T07:50:59 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsBase64JWKTest.testKeyAsBase64JWK Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.UnsecuredPingTest 2023-09-09T07:51:27 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.UnsecuredPingTest.callEchoNoAuth Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.IssValidationTest 2023-09-09T07:51:27 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.IssValidationTest.testRequiredIss Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest 2023-09-09T07:51:27 UTC
+Tests:18 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testValidToken Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailAlgorithm Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testSignedByECKeyVerifiedByRSKey Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailJustExpired Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailSignatureDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailJustExpiredDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testSignedByRSKeyVerifiedByECKey Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testValidTokenDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailIssuer Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testValidTokenEC256 Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testExpGraceDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testValidToken1024BitKeyLength Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testExpGrace Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailAlgorithmDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailExpiredDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailIssuerDeprecated Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailSignature Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsTest.testFailExpired Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest 2023-09-09T07:51:27 UTC
+Tests:11 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyTokenWithIatOlderThanExp Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyOptionalAudience Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyIssuerClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyTokenWithoutExpiration Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyTokenWithoutName Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifySubClaim Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyExpiration Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyJTI Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyUPN Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyAudience Passed!
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.RequiredClaimsTest.verifyIssuedAt Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationBadAudTest 2023-09-09T07:52:00 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationBadAudTest.testRequiredAudMismatchFailure Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.IssValidationFailTest 2023-09-09T07:52:00 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.IssValidationFailTest.testNotRequiredIssMismatchFailure Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest 2023-09-09T07:52:00 UTC
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testNestedSignedByECKeyVerifiedByRSKey Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testEncryptSignedClaims Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testEncryptSignedClaimsWithRsaOaep256 Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testNestedSignedByRSKeyVerifiedByECKey Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testEncryptECSignedClaims Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testEncryptSignedClaimsWithoutCty Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testValidateSignedToken Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsSignEncryptTest.testValidateEncryptedOnlyToken Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationMissingAudTest 2023-09-09T07:52:00 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationMissingAudTest.testRequiredAudMissingFailure Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.AudArrayValidationTest 2023-09-09T07:52:00 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.AudArrayValidationTest.testRequiredAudMatch Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationTest 2023-09-09T07:52:00 UTC
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.container.jaxrs.AudValidationTest.testRequiredAudMatch Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest 2023-09-09T07:52:00 UTC
+Tests:9 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testFailExpired Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testValidateSignedToken Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testFailAlgorithm Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testFailJustExpired Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testExpGrace Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testFailIssuer Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testValidTokenWithRSAOAEP Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testFailEncryption Passed!
+   org.eclipse.microprofile.jwt.tck.util.TokenUtilsEncryptTest.testValidTokenWithRsaOaep256 Passed!
+Test suite: org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest 2023-09-09T07:52:21 UTC
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest.validateLocationUrlContents Passed!
+   org.eclipse.microprofile.jwt.tck.config.PublicKeyAsJWKLocationURLTest.testKeyAsLocationUrl Passed!
+----
