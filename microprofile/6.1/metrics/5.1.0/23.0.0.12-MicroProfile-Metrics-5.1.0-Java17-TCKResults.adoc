@@ -1,0 +1,324 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Metrics 5.1.0
+
+== Open Liberty 23.0.0.12 - MicroProfile Metrics 5.1.0 Certification Summary (Java 17)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.12/openliberty-23.0.0.12.zip[Open Liberty 23.0.0.12]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-metrics/tree/5.1.0[MicroProfile Metrics 5.1.0 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/metrics/microprofile-metrics-api-tck/5.1.0/microprofile-metrics-api-tck-5.1.0.jar[MicroProfile Metrics 5.1.0 API TCK]
++
+SHA-1: `4829875de2609e1d53830e30b23797f50e8b3ceb`
++
+SHA-256: `53e172d5fe64b915dab44150fcd8d0d7bf3bda90bbe4d81ca58f211f675ce880`
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/metrics/microprofile-metrics-rest-tck/5.1.0/microprofile-metrics-rest-tck-5.1.0.jar[MicroProfile Metrics 5.1.0 Rest TCK]
++
+SHA-1: `8c5e233369bc27e5dc664817be160a8d1b89460c`
++
+SHA-256: `11c94d8c5c3ad3008aaa711ca7917deb14b8cf6de61004cc1cc46d225dc51601`
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/metrics/microprofile-metrics-optional-tck/5.1.0/microprofile-metrics-optional-tck-5.1.0.jar[MicroProfile Metrics 5.1.0 Optional TCK]
++
+SHA-1: `8aee39423824d8b034d4eaee17a54142ac73995e`
++
+SHA-256: `67861a2d9368397aeee9b28fb4c34398838fa8328274651b6a289417ea517e17`
+
+* Public URL of TCK Results Summary:
++
+xref:23.0.0.12-MicroProfile-Metrics-5.1.0-Java17-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 17: IBM Semeru Runtime Open Edition (17.0.8.1+1)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Mac OS X: kern.version: Darwin Kernel Version 23.0.0: Fri Sep 15 14:42:42 PDT 2023; root:xnu-10002.1.13~1/RELEASE_X86_64
+
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest.histogramTagFieldRegistered Passed!
+   org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest.updateHistogramTagField Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.config.BadHistogramTimerConfigTest null
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.config.BadHistogramTimerConfigTest.checkBadTimerPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.BadHistogramTimerConfigTest.checkBadTimerBuckets Passed!
+   org.eclipse.microprofile.metrics.tck.config.BadHistogramTimerConfigTest.checkBadHistogramPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.BadHistogramTimerConfigTest.checkBadHistogramBuckets Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest.gaugesCalledWithDefaultValues Passed!
+   org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest.callGaugesAfterSetterCalls Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest.overloadedTimedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest.callOverloadedTimedMethodOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.tags.TimedTagMethodBeanTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.tags.TimedTagMethodBeanTest.timedTagMethodRegistered Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.tags.TimerTagFieldBeanTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.tags.TimerTagFieldBeanTest.timersTagFieldRegistered Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest null
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest.timedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest.extendedTimedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest.callTimedMethodOnce Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest.callExtendedTimedMethodOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.test.MpMetricTest null
+Tests:23 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testTextPlainResponseContentType Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testRequestPathReturn404 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testBadScopeReturn404 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testSetupApplicationMetrics Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testApplicationMetricsPrometheus Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testMetricNameAcrossScopes Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testApplicationTagPromMetrics Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testApplicationTimerUnitPromMetrics Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testApplicationHistogramUnitBytesPromMetrics Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testApplicationHistogramUnitNonePromMetrics Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testPromMetrics405NotGET Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testNonStandardUnitsPromMetrics Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testSetupPromNoBadCharsInNames Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testPromNoBadCharsInNames Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testAccept1 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testAccept2 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testAccept3 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testAccept4 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testAccept5 Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testNoAcceptHeader Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testCustomUnitAppendToGaugeName Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testCustomUnitForCounter Passed!
+   org.eclipse.microprofile.metrics.test.MpMetricTest.testMultipleTaggedMetricsProm Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.MetricRegistryTest null
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.MetricRegistryTest.nameTest Passed!
+   org.eclipse.microprofile.metrics.tck.MetricRegistryTest.removeTest Passed!
+   org.eclipse.microprofile.metrics.tck.MetricRegistryTest.useExistingMetaDataTest Passed!
+   org.eclipse.microprofile.metrics.tck.MetricRegistryTest.testMetricRegistryScope Passed!
+   org.eclipse.microprofile.metrics.tck.MetricRegistryTest.testMetricRegistryScopeDeprecatedRegistryType Passed!
+   org.eclipse.microprofile.metrics.tck.MetricRegistryTest.testMetricRegistryEquivalence Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest null
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkHistogramCustomBucketsCustomPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkHistogramCustomPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkHistogramNoPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkHistogramCustomBucketsDefaultPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkPrecedenceHistogram Passed!
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkHistogramCustomBucketsNoPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.HistogramConfigFieldBeanTest.checkPrecedenceOverrideHistogram Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest null
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest.countedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest.metricInjectionIntoTest Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest.callCountedMethodOnce Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest.removeCounterFromRegistry Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest.timedMethodsNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest.callTimedMethodsOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest.timedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest.callTimedMethodOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest.metricsMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest.callMetricsMethodOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest.testWithMetadata Passed!
+   org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest.testPlainAnnotation Passed!
+Test suite: org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest.testTimer Passed!
+   org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest.testCounter Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest null
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest.timedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest.callTimedMethodOnce Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest.removeTimerFromRegistry Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.TimedConstructorBeanTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.TimedConstructorBeanTest.timedConstructorCalled Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.TimerFieldBeanTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.TimerFieldBeanTest.timerFieldsWithDefaultNamingConvention Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest.histogramFieldRegistered Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest.updateHistogramField Passed!
+Test suite: org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest null
+Tests:19 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testSimpleRESTGet Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testSimpleRESTGetExplicit Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testSimpleRESTOptions Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testSimpleRESTHead Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testSimpleRESTPut Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testSimpleRESTPost Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testDeleteNoParam Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetSingleParams Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetContextParams Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetListParam Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetMultiParam Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetNameObject Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetAsync Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testPostMultiParam Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testForNonZeroValues Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetMappedArithException Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testPostMappedArithException Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testGetUnmappedArithException Passed!
+   org.eclipse.microprofile.metrics.test.optional.MpMetricOptionalTest.testPostUnmappedArithException Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest null
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest.timedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest.callTimedMethodOnce Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest.removeTimerFromRegistry Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest.gaugeCalledWithDefaultValue Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest.callGaugeAfterSetterCall Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest null
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest.timedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest.extendedTimedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest.callTimedMethodOnce Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest.callExtendedTimedMethodOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest.counterFieldRegistered Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest.incrementCounterField Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest null
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkTimerCustomBucketsCustomPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkTimerCustomBucketsDefaultPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkTimerNoPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkPrecedenceTimer Passed!
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkPrecedenceOverrideTimer Passed!
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkTimerCustomBucketsNoPercentiles Passed!
+   org.eclipse.microprofile.metrics.tck.config.TimerConfigFieldBeanTest.checkTimerCustomPercentiles Passed!
+Test suite: org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest null
+Tests:22 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testAnnotatedTimerCustomPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testAnnotatedTimerNoPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testAnnotatedTimerCustomBucketsDefaultPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testAnnotatedTimerCustomBucketsCustomPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testAnnotatedTimerCustomBucketsNoPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testSetupApplicationMetrics Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerCustomPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerNoPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerCustomBucketsDefaultPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerCustomBucketsCustomPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerCustomBucketsNoPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramCustomPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramNoPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramCustomBucketsDefaultPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramCustomBucketsCustomPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramCustomBucketsNoPercentile Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerBadPercentiles Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramBadPercentiles Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerBadBuckets Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramBadBuckets Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testHistogramPrecedence Passed!
+   org.eclipse.microprofile.metrics.test.HistogramTimerConfigurationTest.testTimerPrecedence Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.tags.TagsTest null
+Tests:10 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.simpleTagTest Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.lastTagValueTest Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.counterTagsTest Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.timerTagsTest Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.histogramTagsTest Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.nonMatchingTagTest Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.nonMatchingTagTest2 Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.nonMatchingTagTest3 Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.illegalMpScopeTag Passed!
+   org.eclipse.microprofile.metrics.tck.tags.TagsTest.illegalMpAppTag Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest.gaugeTagCalledWithDefaultValue Passed!
+   org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest.callGaugeTagAfterSetterCall Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.CounterTest null
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.CounterTest.getCountTest Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CounterTest.incrementTest Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CounterTest.incrementLongTest Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest.counterTagMethodsRegistered Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest.countedTagMethodNotCalledYet Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsConstructorBeanTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsConstructorBeanTest.metricsConstructorCalled Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.MetricFilterTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.MetricFilterTest.theAllFilterMatchesAllMetrics Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.DefaultNameMetricMethodBeanTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.DefaultNameMetricMethodBeanTest.metricMethodsWithDefaultNamingConvention Passed!
+Test suite: org.eclipse.microprofile.metrics.test.ReusedMetricsTest null
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.test.ReusedMetricsTest.setA Passed!
+   org.eclipse.microprofile.metrics.test.ReusedMetricsTest.testSharedCounter Passed!
+   org.eclipse.microprofile.metrics.test.ReusedMetricsTest.setB Passed!
+   org.eclipse.microprofile.metrics.test.ReusedMetricsTest.testSharedCounterAgain Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.MetricIDTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.MetricIDTest.removalTest Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest.counterTagFieldsRegistered Passed!
+   org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest.incrementCounterTagFields Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest.gaugeCalledWithDefaultValue Passed!
+   org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest.callGaugeAfterSetterCall Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.GaugeTest null
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.GaugeTest.testManualGauge Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest.timedMethodNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest.callTimedMethodOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.HistogramTest null
+Tests:13 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSum Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testCount Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshot99thPercentile Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshotMax Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshot98thPercentile Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshot50thPercentile Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshotMean Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshotSize Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshot95thPercentile Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testMetricRegistry Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshotPercentileValuesPresent Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshot999thPercentile Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.HistogramTest.testSnapshot75thPercentile Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest.timedMethodsNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest.callTimedMethodsOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest.countedMethodsNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest.callCountedMethodsOnce Passed!
+Test suite: org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest null
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest.timedMethodsNotCalledYet Passed!
+   org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest.callTimedMethodsOnce Passed!
+----

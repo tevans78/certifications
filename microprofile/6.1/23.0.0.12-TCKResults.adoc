@@ -1,0 +1,57 @@
+:page-layout: certification
+= MicroProfile 6.1 TCK Results Summary
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the MicroProfile TCK results for MicroProfile 6.1.
+
+== Open Liberty 23.0.0.12 MicroProfile 6.1 Certification Summary
+
+MicroProfile 6.1 consists of 8 MicroProfile Specifications plus the Jakarta EE Core Profile 10.0 specfication.
+
+* MicroProfile Config 3.1
+
+* MicroProfile Fault Tolerance 4.0
+
+* MicroProfile Health 4.0
+
+* MicroProfile JWT Authentication 2.1
+
+* MicroProfile Metrics 5.1
+
+* MicroProfile OpenAPI 3.1
+
+* MicroProfile Rest Client 3.0
+
+* MicroProfile Telemetry 1.1
+
+* Jakarta EE Core Profile 10.0
+
+=== Product Name, Version and download URL (if applicable):
+
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.12/openliberty-23.0.0.12.zip[Open Liberty 23.0.0.12]
+
+
+In order to certify against MicroProfile 6.1, an implementation must pass the TCK tests for the eight included MicroProfile component specifications, plus
+the Jakarta EE Core Profile 10.0 TCK.
+
+
+=== MicroProfile 6.1 Component Specification Certification Summary (Java 11)
+* xref:config/3.1/23.0.0.12-MicroProfile-Config-3.1-Java11-TCKResults.adoc[MicroProfile Config 3.1 TCK Result (Java 11)]
+* xref:faulttolerance/4.0.2/23.0.0.12-MicroProfile-Fault-Tolerance-4.0.2-Java11-TCKResults.adoc[MicroProfile Fault Tolerance 4.0 TCK Result (Java 11)]
+* xref:health/4.0.1/23.0.0.12-MicroProfile-Health-4.0.1-Java11-TCKResults.adoc[MicroProfile Health 4.0 TCK Result (Java 11)]
+* xref:jwt/2.1/23.0.0.12-MicroProfile-JWT-Auth-2.1-Java11-TCKResults.adoc[MicroProfile JWT Authentication 2.1 TCK Result (Java 11)]
+* xref:metrics/5.1.0/23.0.0.12-MicroProfile-Metrics-5.1.0-Java11-TCKResults.adoc[MicroProfile Metrics 5.1 TCK Result (Java 11)]
+* xref:openapi/3.1/23.0.0.12-MicroProfile-Open-API-3.1.1-Java11-TCKResults.adoc[MicroProfile OpenAPI 3.1 TCK Result (Java 11)]
+* xref:restclient/3.0.1/23.0.0.12-MicroProfile-Rest-Client-3.0.1-Java11-TCKResults.adoc[MicroProfile Rest Client 3.0 TCK Result (Java 11)]
+* xref:telemetry/1.1/23.0.0.12-MicroProfile-Telemetry-1.1-Java11-TCKResults.adoc[MicroProfile Telemetry 1.1 TCK Result (Java 11)]
+* xref:../../jakartaee/10/coreprofile/23.0.0.12-Java11-TCKResults.adoc[Jakarta EE Core Profile 10.0 TCK Result (Java 11)]
+
+=== MicroProfile 6.1 Component Specification Certification Summary (Java 17)
+* xref:config/3.1/23.0.0.12-MicroProfile-Config-3.1-Java17-TCKResults.adoc[MicroProfile Config 3.1 TCK Result (Java 17)]
+* xref:faulttolerance/4.0.2/23.0.0.12-MicroProfile-Fault-Tolerance-4.0.2-Java17-TCKResults.adoc[MicroProfile Fault Tolerance 4.0 TCK Result (Java 17)]
+* xref:health/4.0.1/23.0.0.12-MicroProfile-Health-4.0.1-Java17-TCKResults.adoc[MicroProfile Health 4.0 TCK Result (Java 17)]
+* xref:jwt/2.1/23.0.0.12-MicroProfile-JWT-Auth-2.1-Java17-TCKResults.adoc[MicroProfile JWT Authentication 2.1 TCK Result (Java 17)]
+* xref:metrics/5.1.0/23.0.0.12-MicroProfile-Metrics-5.1.0-Java17-TCKResults.adoc[MicroProfile Metrics 5.1 TCK Result (Java 17)]
+* xref:openapi/3.1/23.0.0.12-MicroProfile-Open-API-3.1.1-Java17-TCKResults.adoc[MicroProfile OpenAPI 3.1 TCK Result (Java 17)]
+* xref:restclient/3.0.1/23.0.0.12-MicroProfile-Rest-Client-3.0.1-Java17-TCKResults.adoc[MicroProfile Rest Client 3.0 TCK Result (Java 17)]
+* xref:telemetry/1.1/23.0.0.12-MicroProfile-Telemetry-1.1-Java17-TCKResults.adoc[MicroProfile Telemetry 1.1 TCK Result (Java 17)]
+* xref:../../jakartaee/10/coreprofile/23.0.0.12-Java17-TCKResults.adoc[Jakarta EE Core Profile 10.0 TCK Result (Java 17)]
