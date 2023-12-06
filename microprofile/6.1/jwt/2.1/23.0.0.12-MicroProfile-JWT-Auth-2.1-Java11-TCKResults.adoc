@@ -15,7 +15,7 @@ https://github.com/eclipse/microprofile-jwt-auth/tree/2.1[MicroProfile JWT Auth 
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/jwt-auth/microprofile-jwt-auth-tck/2.1/microprofile-jwt-auth-tck-2.1.jar[MicroProfile JWT Auth 2.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/jwt/microprofile-jwt-auth-tck/2.1/microprofile-jwt-auth-tck-2.1.jar[MicroProfile JWT Auth 2.1 TCK]
 +
 SHA-1: `ccb29d4d588628fa46c61c85499284ab9b22bee1`
 +
