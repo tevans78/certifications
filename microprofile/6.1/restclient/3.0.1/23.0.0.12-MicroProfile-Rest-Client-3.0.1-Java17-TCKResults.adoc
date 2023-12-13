@@ -40,684 +40,344 @@ Test results:
 ----
 Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest 2023-12-01T11:53:36 UTC
 Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifier_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifier_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifierCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifierCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifier_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithoutHostnameAndNoVerifier_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifierCDI_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifierCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifierCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithoutHostnameAndNoVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifierCDI Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedFromConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSingletonScoped_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedWhenAnnotated_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSingletonScoped Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedWhenAnnotated Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest 2023-12-01T11:53:36 UTC
 Tests:8 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Follows_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Follows_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Follows_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Follows_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testHasDependentScopedByDefault_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testInvokesGetOperationWithCDIBean_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest 2023-12-01T12:06:06 UTC
-Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureFromClasspathCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignature_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignature_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignature_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignatureCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignatureCDI_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Follows Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testExecutorService_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testNullExecutorServiceThrowsIllegalArgumentException_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testAsyncInvocationInterceptorProvider_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testInterfaceMethodWithCompletionStageObjectReturnIsInvokedAsynchronously_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.SubResourceTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.SubResourceTest.canInvokeMethodOnSubResourceInterface_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testExecutorService Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testNullExecutorServiceThrowsIllegalArgumentException Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testAsyncInvocationInterceptorProvider Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testInterfaceMethodWithCompletionStageObjectReturnIsInvokedAsynchronously Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldFailedMutualSslWithoutSslContext_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldSucceedMutualSslWithValidSslContext_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testCanCallStaticLoader_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testLastBaseUriOrBaseUrlCallWins_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testIllegalStateExceptionThrownWhenNoBaseUriOrUrlSpecified_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPostExecutes_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPutExecutes_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetSingleExecutesForBothClients_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetExecutesForBothClients_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldFailedMutualSslWithoutSslContext Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldSucceedMutualSslWithValidSslContext Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPutOperationWithAnnotatedProviders_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPostOperationWithAnnotatedProviders_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPutOperationWithAnnotatedProviders Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPostOperationWithAnnotatedProviders Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ClientReuseTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ClientReuseTest.shouldReuseClientAfterFailure_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientReuseTest.shouldReuseClientAfterFailure Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest.testClientHeadersFactoryInvoked_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest 2023-12-01T12:06:06 UTC
-Tests:11 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithPathParamAnnotationButNoURITemplate_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMultipleHTTPMethodAnnotations_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMissingMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMethodWithInvalidSignature_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMismatchedPathParameter_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtMethodLevel_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtTypeLevel_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest.testClientHeadersFactoryInvoked Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testInvokesGetOperationWithCDIBean_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testHasDependentScopedByDefault_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest.testGetExecutionWithBuiltClient_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScoped_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedFromConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedWhenAnnotated_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testInvokesGetOperationWithCDIBean Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testHasDependentScopedByDefault Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest.testConfigKeyUsedForUri_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest.testConfigKeyUsedForUri Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.explicitMultiPair_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.commaSeparated_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.defaultStyleIsMultiPair_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.arrayPairs_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InvokedMethodTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokedMethodTest.testRequestFilterReturnsMethodInvoked_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest 2023-12-01T12:06:06 UTC
-Tests:8 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Default_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.explicitMultiPair Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.commaSeparated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.defaultStyleIsMultiPair Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.arrayPairs Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest 2023-12-01T11:53:36 UTC
 Tests:6 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaAnnotation_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfigWithConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfig_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfig_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaAnnotation_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfigWithConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfigWithConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfig Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfig Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfigWithConfigKey Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScoped_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedWhenAnnotated_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedFromConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScoped Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedFromConfigKey Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testInvokesGetOperationWithCDIBean_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testHasDependentScopedByDefault_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldSucceedMutualSslWithValidSslContext_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldFailedMutualSslWithoutSslContext_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest 2023-12-01T12:06:06 UTC
-Tests:8 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Follows_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Default_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Follows_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedWhenAnnotated_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedFromConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScoped_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest.testNoExceptionThrownWhenDisabledDuringBuild_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testNullExecutorServiceThrowsIllegalArgumentException_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testAsyncInvocationInterceptorProvider_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testExecutorService_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testInterfaceMethodWithCompletionStageObjectReturnIsInvokedAsynchronously_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testCanSeePrivatePropertiesViaContextResolver_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testGetExecutesForBothClients_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithTwoRegisteredProviders_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithOneRegisteredProvider_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testInvokesGetOperationWithCDIBean Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testHasDependentScopedByDefault Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ProxyServerTest 2023-12-01T11:53:36 UTC
 Tests:5 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber1_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testProxy_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber2_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testNullHostName_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest 2023-12-01T12:06:06 UTC
-Tests:6 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfigWithConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaAnnotation_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfigWithConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfig_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaAnnotation_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfig_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest.testRegistrarInvoked_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testInvokesGetOperationWithCDIBean_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testHasDependentScopedByDefault_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_ContentType_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_Accept_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSingletonScoped_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedWhenAnnotated_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedFromConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber1 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testProxy Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber2 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testNullHostName Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testConnectTimeout_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testReadTimeout_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testConnectTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testReadTimeout Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InvokedMethodTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokedMethodTest.testRequestFilterReturnsMethodInvoked_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InheritanceTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeOverriddenMethodOnChildInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnChildInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnBaseInterface_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokedMethodTest.testRequestFilterReturnsMethodInvoked Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testMPConfigURIOverridesBaseUriInRegisterRestClientAnnotation_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testBaseUriInRegisterRestClientAnnotation_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testURItakesPrecedenceOverURL_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest.testClientHeadersFactoryInvoked_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.CloseTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseableClose_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsAutoCloseable_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsCloseable_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterAutoCloseableClose_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ProxyServerTest 2023-12-01T12:06:06 UTC
-Tests:5 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber2_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber1_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testProxy_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testNullHostName_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testMPConfigURIOverridesBaseUriInRegisterRestClientAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testBaseUriInRegisterRestClientAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testURItakesPrecedenceOverURL Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.explicitMultiPair_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.arrayPairs_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.commaSeparated_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.defaultStyleIsMultiPair_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.explicitMultiPair Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.arrayPairs Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.commaSeparated Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.defaultStyleIsMultiPair Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideProviderAnnotationOnBuilder_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideInterfaceAndProviderAnnotationOnBuilder_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideProviderAnnotationOnBuilder Passed!
+   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideInterfaceAndProviderAnnotationOnBuilder Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedFromConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScoped_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedWhenAnnotated_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest 2023-12-01T12:06:06 UTC
-Tests:6 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testNamedEventSse_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testCommentOnlySse_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_InboundSseEvent_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_JsonObject_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_String_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testServerClosesConnection_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testFullyQualifiedClassnamePropTakesPrecedenceOverConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testConfigKeyUsedForUri_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScoped Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedWhenAnnotated Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest.invokesUserDefinedHttpMethod_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.explicitMultiPair_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.commaSeparated_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.defaultStyleIsMultiPair_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.arrayPairs_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPutOperationWithRegisteredProviders_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPostOperationWithRegisteredProviders_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest.invokesUserDefinedHttpMethod Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testConnectTimeout_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testReadTimeout_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest 2023-12-01T12:06:06 UTC
-Tests:38 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_maySupportMultiSubscribe_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportAPendingElementCountUpToLongMaxValue_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_boundedDepthOfOnNextAndRequestRecursion_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher3MustProduceAStreamOfExactly3Elements_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec309_requestNegativeNumberMaySignalIllegalArgumentExceptionWithSpecificMessage_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec110_rejectASubscriptionRequestIfTheSameSubscriberSubscribesTwice_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestZeroMustSignalIllegalArgumentException_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestNegativeNumberMustSignalIllegalArgumentException_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_registeredSubscribersMustReceiveOnNextOrOnCompleteSignals_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec106_mustConsiderSubscriptionCancelledAfterOnErrorOrOnCompleteHasBeenCalled_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec302_mustAllowSynchronousRequestCallsFromOnNextAndOnSubscribe_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_subscribeThrowNPEOnNullSubscriber_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec107_mustNotEmitFurtherSignalsOnceOnCompleteHasBeenSignalled_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustNotSignalOnErrorWhenPendingAboveLongMaxValue_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingOneByOne_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec105_emptyStreamMustTerminateBySignallingOnComplete_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec305_cancelMustNotSynchronouslyPerformHeavyComputation_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec312_cancelMustMakeThePublisherToEventuallyStopSignaling_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec102_maySignalLessThanRequestedAndTerminateSubscription_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mayRejectCallsToSubscribeIfPublisherIsUnableOrUnwillingToServeThemRejectionMustTriggerOnErrorAfterOnSubscribe_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec109_subscribeShouldNotThrowNonFatalThrowable_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec313_cancelMustMakeThePublisherEventuallyDropAllReferencesToTheSubscriber_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher1MustProduceAStreamOfExactly1Element_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfrontAndCompleteAsExpected_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec104_mustSignalOnErrorWhenFails_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mustIssueOnSubscribeForNonNullSubscriber_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec105_mustSignalOnCompleteWhenFiniteStreamTerminates_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec107_mustNotEmitFurtherSignalsOnceOnErrorHasBeenSignalled_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec307_afterSubscriptionIsCancelledAdditionalCancelationsMustBeNops_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.stochastic_spec103_mustSignalOnMethodsSequentially_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportACumulativePendingElementCountUpToLongMaxValue_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec108_possiblyCanceledSubscriptionShouldNotReceiveOnErrorOrOnCompleteSignals_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec303_mustNotAllowUnboundedRecursion_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec101_subscriptionRequestMustResultInTheCorrectNumberOfProducedElements_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec306_afterSubscriptionIsCancelledRequestMustBeNops_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec304_requestShouldNotPerformHeavyComputations_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_maxElementsFromPublisher_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfront_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testConnectTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testReadTimeout Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testReadTimeout_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testConnectTimeout_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.defaultStyleIsMultiPair_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.explicitMultiPair_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.commaSeparated_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.arrayPairs_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.RestClientListenerTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.RestClientListenerTest.testRestClientListenerInvoked_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testReadTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testConnectTimeout Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InheritanceTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnBaseInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeOverriddenMethodOnChildInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnChildInterface_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideInterfaceAndProviderAnnotationOnBuilder_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideProviderAnnotationOnBuilder_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnBaseInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeOverriddenMethodOnChildInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnChildInterface Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testPropagationOfResponseDetailsFromDefaultMapper_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testLowerPriorityMapperTakesPrecedenceFromDefault_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testNoExceptionThrownWhenDisabledDuringBuild_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testExceptionThrownWhenPropertySetToFalse_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testPropagationOfResponseDetailsFromDefaultMapper Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testLowerPriorityMapperTakesPrecedenceFromDefault Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testNoExceptionThrownWhenDisabledDuringBuild Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testExceptionThrownWhenPropertySetToFalse Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithTwoRegisteredProviders_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithOneRegisteredProvider_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithTwoRegisteredProviders Passed!
+   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithOneRegisteredProvider Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest 2023-12-01T11:53:36 UTC
 Tests:8 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstanceWithPriority_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterProvidersWithPriority_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClassWithPriorities_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClass_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.testPropertiesRegistered_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstance_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstanceWithPriorities_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstance_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testConnectTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testReadTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest.testCallsTwoProvidersWithTwoRegisteredProvider_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstanceWithPriority Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterProvidersWithPriority Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClassWithPriorities Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClass Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.testPropertiesRegistered Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstance Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstanceWithPriorities Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstance Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest 2023-12-01T11:53:36 UTC
 Tests:11 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMismatchedPathParameter_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMissingMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtMethodLevel_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtTypeLevel_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMethodWithInvalidSignature_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMultipleHTTPMethodAnnotations_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithPathParamAnnotationButNoURITemplate_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMismatchedPathParameter Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMissingMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtMethodLevel Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtTypeLevel Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMethodWithInvalidSignature Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMultipleHTTPMethodAnnotations Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithPathParamAnnotationButNoURITemplate Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnInterface Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest 2023-12-01T11:53:36 UTC
 Tests:8 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Follows_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Follows_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Follows_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Default_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Follows_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ClientReuseTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ClientReuseTest.shouldReuseClientAfterFailure_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testInstanceProviderSpecifiedViaRestClientBuilderDoesNotUseCDIManagedProvider_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedInMPConfig_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaAnnotation_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaRestClientBuilder_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Follows Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPostOperationWithRegisteredProviders_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPutOperationWithRegisteredProviders_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest 2023-12-01T12:06:06 UTC
-Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifier_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifier_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifier_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithoutHostnameAndNoVerifier_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifierCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifierCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifierCDI_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPostOperationWithRegisteredProviders Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPutOperationWithRegisteredProviders Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest.testCallsTwoProvidersWithTwoRegisteredProvider_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest.testCallsTwoProvidersWithTwoRegisteredProvider Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorNotInvokedWhenNoAnnotationApplied_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorInvoked_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest 2023-12-01T12:06:06 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testExceptionThrownWhenPropertySetToFalse_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testLowerPriorityMapperTakesPrecedenceFromDefault_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testPropagationOfResponseDetailsFromDefaultMapper_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testNoExceptionThrownWhenDisabledDuringBuild_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest 2023-12-01T12:06:06 UTC
-Tests:14 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderSentWhenInvokingComputeMethodFromSeparateClass_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExceptionInRequiredComputeMethodThrowsClientErrorException_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderNotSentWhenExceptionThrownAndRequiredIsFalse_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethod_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderInterfaceExplicit_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScoped_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedWhenAnnotated_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedFromConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorNotInvokedWhenNoAnnotationApplied Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorInvoked Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testConfigKeyUsedForUri_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testFullyQualifiedClassnamePropTakesPrecedenceOverConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testConfigKeyUsedForUri Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testFullyQualifiedClassnamePropTakesPrecedenceOverConfigKey Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest.testClientHeadersFactoryInvoked_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest.testClientHeadersFactoryInvoked Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnMethod Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaRestClientBuilder_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedInMPConfig_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaAnnotation_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testInstanceProviderSpecifiedViaRestClientBuilderDoesNotUseCDIManagedProvider_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaRestClientBuilder Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedInMPConfig Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testInstanceProviderSpecifiedViaRestClientBuilderDoesNotUseCDIManagedProvider Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaBuilder_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaCDI_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaBuilder Passed!
+   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaCDI Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedFromConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedWhenAnnotated_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScoped_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest 2023-12-01T12:06:06 UTC
-Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystoreCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystore_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreFromResourceCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystoreCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystore_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystore_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScoped Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest 2023-12-01T11:53:36 UTC
 Tests:6 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testNamedEventSse_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_JsonObject_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testCommentOnlySse_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testServerClosesConnection_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_String_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_InboundSseEvent_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testNamedEventSse Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_JsonObject Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testCommentOnlySse Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testServerClosesConnection Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_String Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_InboundSseEvent Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.RestClientListenerTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.RestClientListenerTest.testRestClientListenerInvoked_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.RestClientListenerTest.testRestClientListenerInvoked Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest 2023-12-01T11:53:36 UTC
 Tests:38 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher1MustProduceAStreamOfExactly1Element_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mayRejectCallsToSubscribeIfPublisherIsUnableOrUnwillingToServeThemRejectionMustTriggerOnErrorAfterOnSubscribe_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfront_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.stochastic_spec103_mustSignalOnMethodsSequentially_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_maySupportMultiSubscribe_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_registeredSubscribersMustReceiveOnNextOrOnCompleteSignals_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec303_mustNotAllowUnboundedRecursion_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec106_mustConsiderSubscriptionCancelledAfterOnErrorOrOnCompleteHasBeenCalled_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_boundedDepthOfOnNextAndRequestRecursion_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestZeroMustSignalIllegalArgumentException_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec307_afterSubscriptionIsCancelledAdditionalCancelationsMustBeNops_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec313_cancelMustMakeThePublisherEventuallyDropAllReferencesToTheSubscriber_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec104_mustSignalOnErrorWhenFails_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mustIssueOnSubscribeForNonNullSubscriber_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_subscribeThrowNPEOnNullSubscriber_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestNegativeNumberMustSignalIllegalArgumentException_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec306_afterSubscriptionIsCancelledRequestMustBeNops_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec108_possiblyCanceledSubscriptionShouldNotReceiveOnErrorOrOnCompleteSignals_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec107_mustNotEmitFurtherSignalsOnceOnErrorHasBeenSignalled_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec305_cancelMustNotSynchronouslyPerformHeavyComputation_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec309_requestNegativeNumberMaySignalIllegalArgumentExceptionWithSpecificMessage_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec304_requestShouldNotPerformHeavyComputations_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec105_mustSignalOnCompleteWhenFiniteStreamTerminates_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfrontAndCompleteAsExpected_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec102_maySignalLessThanRequestedAndTerminateSubscription_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingOneByOne_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec101_subscriptionRequestMustResultInTheCorrectNumberOfProducedElements_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec110_rejectASubscriptionRequestIfTheSameSubscriberSubscribesTwice_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec302_mustAllowSynchronousRequestCallsFromOnNextAndOnSubscribe_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_maxElementsFromPublisher_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec105_emptyStreamMustTerminateBySignallingOnComplete_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec109_subscribeShouldNotThrowNonFatalThrowable_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustNotSignalOnErrorWhenPendingAboveLongMaxValue_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportACumulativePendingElementCountUpToLongMaxValue_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher3MustProduceAStreamOfExactly3Elements_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec107_mustNotEmitFurtherSignalsOnceOnCompleteHasBeenSignalled_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportAPendingElementCountUpToLongMaxValue_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec312_cancelMustMakeThePublisherToEventuallyStopSignaling_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher1MustProduceAStreamOfExactly1Element Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mayRejectCallsToSubscribeIfPublisherIsUnableOrUnwillingToServeThemRejectionMustTriggerOnErrorAfterOnSubscribe Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfront Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.stochastic_spec103_mustSignalOnMethodsSequentially Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_maySupportMultiSubscribe Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_registeredSubscribersMustReceiveOnNextOrOnCompleteSignals Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec303_mustNotAllowUnboundedRecursion Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec106_mustConsiderSubscriptionCancelledAfterOnErrorOrOnCompleteHasBeenCalled Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_boundedDepthOfOnNextAndRequestRecursion Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestZeroMustSignalIllegalArgumentException Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec307_afterSubscriptionIsCancelledAdditionalCancelationsMustBeNops Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec313_cancelMustMakeThePublisherEventuallyDropAllReferencesToTheSubscriber Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec104_mustSignalOnErrorWhenFails Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mustIssueOnSubscribeForNonNullSubscriber Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_subscribeThrowNPEOnNullSubscriber Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestNegativeNumberMustSignalIllegalArgumentException Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec306_afterSubscriptionIsCancelledRequestMustBeNops Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec108_possiblyCanceledSubscriptionShouldNotReceiveOnErrorOrOnCompleteSignals Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec107_mustNotEmitFurtherSignalsOnceOnErrorHasBeenSignalled Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec305_cancelMustNotSynchronouslyPerformHeavyComputation Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec309_requestNegativeNumberMaySignalIllegalArgumentExceptionWithSpecificMessage Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec304_requestShouldNotPerformHeavyComputations Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec105_mustSignalOnCompleteWhenFiniteStreamTerminates Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfrontAndCompleteAsExpected Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec102_maySignalLessThanRequestedAndTerminateSubscription Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingOneByOne Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec101_subscriptionRequestMustResultInTheCorrectNumberOfProducedElements Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec110_rejectASubscriptionRequestIfTheSameSubscriberSubscribesTwice Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec302_mustAllowSynchronousRequestCallsFromOnNextAndOnSubscribe Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_maxElementsFromPublisher Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec105_emptyStreamMustTerminateBySignallingOnComplete Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec109_subscribeShouldNotThrowNonFatalThrowable Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustNotSignalOnErrorWhenPendingAboveLongMaxValue Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportACumulativePendingElementCountUpToLongMaxValue Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher3MustProduceAStreamOfExactly3Elements Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec107_mustNotEmitFurtherSignalsOnceOnCompleteHasBeenSignalled Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportAPendingElementCountUpToLongMaxValue Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec312_cancelMustMakeThePublisherToEventuallyStopSignaling Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest.testProxy_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPostOperationWithAnnotatedProviders_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPutOperationWithAnnotatedProviders_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testMPConfigURIOverridesBaseUriInRegisterRestClientAnnotation_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testBaseUriInRegisterRestClientAnnotation_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testURItakesPrecedenceOverURL_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest.testProxy Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest 2023-12-01T11:53:36 UTC
 Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystore_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystoreCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystoreCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystore_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreFromResourceCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystore_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystore Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystoreCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystoreCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystore Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreFromResourceCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystore Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testConnectTimeout_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testReadTimeout_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testConnectTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testReadTimeout Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testCanCallStaticLoader_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testLastBaseUriOrBaseUrlCallWins_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testIllegalStateExceptionThrownWhenNoBaseUriOrUrlSpecified_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testCanCallStaticLoader Passed!
+   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testLastBaseUriOrBaseUrlCallWins Passed!
+   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testIllegalStateExceptionThrownWhenNoBaseUriOrUrlSpecified Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest 2023-12-01T11:53:36 UTC
 Tests:7 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignature_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignature_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureFromClasspathCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignatureCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignatureCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureCDI_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignature_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest.testProxy_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignature Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignature Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureFromClasspathCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignatureCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignatureCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignature Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_ContentType_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_Accept_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testReadTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testConnectTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest.testClientHeadersFactoryInvoked_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_ContentType Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_Accept Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest 2023-12-01T11:53:36 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedFromConfigKey_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedWhenAnnotated_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScoped_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScoped Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest 2023-12-01T11:53:36 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testCanSeePrivatePropertiesViaContextResolver_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testGetExecutesForBothClients_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.BeanParamTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.BeanParamTest.sendsParamsSpecifiedInBeanParam_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest 2023-12-01T12:06:06 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScoped_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedWhenAnnotated_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedFromConfigKey_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testCanSeePrivatePropertiesViaContextResolver Passed!
+   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testGetExecutesForBothClients Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.SubResourceTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.SubResourceTest.canInvokeMethodOnSubResourceInterface_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testReadTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testConnectTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest.testConfigKeyUsedForUri_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.SubResourceTest.canInvokeMethodOnSubResourceInterface Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetSingleExecutesForBothClients_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPutExecutes_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPostExecutes_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetExecutesForBothClients_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaCDI_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaBuilder_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest 2023-12-01T12:06:06 UTC
-Tests:8 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClassWithPriorities_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClass_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.testPropertiesRegistered_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstance_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstance_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstanceWithPriority_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstanceWithPriorities_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterProvidersWithPriority_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetSingleExecutesForBothClients Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPutExecutes Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPostExecutes Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetExecutesForBothClients Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest.testRegistrarInvoked_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorInvoked_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorNotInvokedWhenNoAnnotationApplied_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest.testRegistrarInvoked Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest 2023-12-01T11:53:36 UTC
 Tests:14 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderSentWhenInvokingComputeMethodFromSeparateClass_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderInterfaceExplicit_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderNotSentWhenExceptionThrownAndRequiredIsFalse_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethod_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExceptionInRequiredComputeMethodThrowsClientErrorException_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderSentWhenInvokingComputeMethodFromSeparateClass Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderInterfaceExplicit Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderNotSentWhenExceptionThrownAndRequiredIsFalse Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExceptionInRequiredComputeMethodThrowsClientErrorException Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.CloseTest 2023-12-01T11:53:36 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsAutoCloseable_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseableClose_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterAutoCloseableClose_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsCloseable_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsAutoCloseable Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseableClose Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterAutoCloseableClose Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsCloseable Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest.testGetExecutionWithBuiltClient_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest.testGetExecutionWithBuiltClient Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest.testNoExceptionThrownWhenDisabledDuringBuild_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest 2023-12-01T12:06:06 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest.invokesUserDefinedHttpMethod_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest.testNoExceptionThrownWhenDisabledDuringBuild Passed!
 Test suite: org.eclipse.microprofile.rest.client.tck.BeanParamTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.BeanParamTest.sendsParamsSpecifiedInBeanParam_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest 2023-12-01T12:06:06 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testReadTimeout_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testConnectTimeout_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.rest.client.tck.BeanParamTest.sendsParamsSpecifiedInBeanParam Passed!
+
 ----

@@ -40,138 +40,70 @@ Test results:
 ----
 Test suite: org.eclipse.microprofile.health.tck.JsonSchemaValidationTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.JsonSchemaValidationTest.testPayloadJsonVerifiesWithTheSpecificationSchema_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.JsonSchemaValidationTest.testPayloadJsonVerifiesWithTheSpecificationSchema Passed!
 Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest.testSuccessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest.testSuccessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.SingleReadinessFailedTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleReadinessFailedTest.testFailureResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.EnforceQualifierTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.EnforceQualifierTest.testFailureResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest 2023-12-02T03:20:52 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testFailureLivenessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testSuccessfulReadinessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest 2023-12-02T03:20:52 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testSuccessfulLivenessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testFailureResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest 2023-12-02T03:20:52 UTC
-Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulReadinessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulLivenessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.DelayedCheckTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.DelayedCheckTest.testSuccessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.JsonSchemaValidationTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.JsonSchemaValidationTest.testPayloadJsonVerifiesWithTheSpecificationSchema_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.ConfigTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.ConfigTest.testEmptyReadinessWithConfig_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.SingleReadinessFailedTest.testFailureResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest 2023-12-02T03:20:00 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testSuccessfulLivenessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testFailureResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testSuccessfulLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testFailureResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest.testSuccessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest.testSuccessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest 2023-12-02T03:20:00 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testSuccessfulReadinessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testFailureLivenessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest.testFailureResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest.testSuccessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testSuccessfulReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testFailureLivenessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.EnforceQualifierTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.EnforceQualifierTest.testFailureResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest.testSuccessfulDelegateInvocation_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.EnforceQualifierTest.testFailureResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest.testSuccessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleLivenessFailedTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleLivenessFailedTest.testFailureResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest.testSuccessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.ConfigTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.ConfigTest.testEmptyReadinessWithConfig_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest.testValidateConcreteHealthCheckResponse_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.ConfigTest.testEmptyReadinessWithConfig Passed!
 Test suite: org.eclipse.microprofile.health.tck.SingleLivenessFailedTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleLivenessFailedTest.testFailureResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest.testSuccessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.CDIProducedProceduresTest 2023-12-02T03:20:52 UTC
-Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessfulLivenessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testFailureReadinessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessStartupResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleStartupFailedTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleStartupFailedTest.testFailedResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.SingleLivenessFailedTest.testFailureResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.MultipleStartupFailedTest 2023-12-02T03:20:00 UTC
 Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingStartupResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulLivenessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingHealthResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulReadinessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest.testSuccessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingStartupResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingHealthResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulReadinessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest.testFailureResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest.testFailureResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.CDIProducedProceduresTest 2023-12-02T03:20:00 UTC
 Tests:3 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessStartupResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessfulLivenessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testFailureReadinessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessStartupResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessfulLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testFailureReadinessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest.testSuccessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.MultipleStartupFailedTest 2023-12-02T03:20:52 UTC
-Tests:4 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulLivenessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulReadinessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingStartupResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingHealthResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest.testSuccessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.DelayedCheckTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.DelayedCheckTest.testSuccessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.DelayedCheckTest.testSuccessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.SingleStartupFailedTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleStartupFailedTest.testFailedResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest.testSuccessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest.testSuccessResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
-Test suite: org.eclipse.microprofile.health.tck.SingleReadinessFailedTest 2023-12-02T03:20:52 UTC
-Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleReadinessFailedTest.testFailureResponsePayload_EE9_FEATURES_MicroProfile_50 Passed!
+   org.eclipse.microprofile.health.tck.SingleStartupFailedTest.testFailedResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest.testSuccessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest.testSuccessResponsePayload Passed!
 Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest.testValidateConcreteHealthCheckResponse_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest.testValidateConcreteHealthCheckResponse Passed!
 Test suite: org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest 2023-12-02T03:20:00 UTC
 Tests:1 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest.testSuccessfulDelegateInvocation_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest.testSuccessfulDelegateInvocation Passed!
 Test suite: org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest 2023-12-02T03:20:00 UTC
 Tests:2 Failures:0 Errors:0
-   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulReadinessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
-   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulLivenessResponsePayload_EE10_FEATURES_MicroProfile_61 Passed!
+   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulLivenessResponsePayload Passed!
 ----
