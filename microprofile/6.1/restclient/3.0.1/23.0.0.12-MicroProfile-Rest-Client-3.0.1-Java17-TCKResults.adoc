@@ -379,5 +379,4 @@ Tests:1 Failures:0 Errors:0
 Test suite: org.eclipse.microprofile.rest.client.tck.BeanParamTest 2023-12-01T11:53:36 UTC
 Tests:1 Failures:0 Errors:0
    org.eclipse.microprofile.rest.client.tck.BeanParamTest.sendsParamsSpecifiedInBeanParam Passed!
-
 ----
